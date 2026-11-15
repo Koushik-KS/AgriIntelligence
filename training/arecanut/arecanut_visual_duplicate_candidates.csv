@@ -1,0 +1,33 @@
+path_1,class_1,path_2,class_2,hash_distance
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(1).jpeg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(11).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(1).jpeg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(12).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(11).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(12).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(13).jpeg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(5).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(13).jpeg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(6).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(14).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(15).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(16).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(17).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(18).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(19).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(2).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(3).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(20).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(21).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(22).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(23).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(24).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(25).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(26).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(27).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(28).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(29).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(30).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(31).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(32).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(33).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(36).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(37).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(38).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(39).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(40).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(41).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(42).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(43).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(44).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(45).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(46).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(47).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(48).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(49).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(5).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(6).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(8).jpg,HEALTHY LEAF,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(9).jpg,HEALTHY LEAF,0
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.22e962eda424b79e99125f7ea854ed1e.jpg,BUD ROT,dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.5fa7b0955bae93a977cecbe85450ff1c.jpg,BUD ROT,4
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.f4cc8e7d111197bfcb1358e8754025cc.jpg,BUD ROT,dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.d00bf67ace31c9e37844e7808f2526c1.jpg,BUD ROT,2
+dataset\Arecanut\Disease\RING SPOT\images (3).jpg,RING SPOT,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.04f75e51dfe95ed7dde2edf568c83f2b.jpg,RING SPOT,0
+dataset\Arecanut\Disease\RING SPOT\images.jpg,RING SPOT,dataset\Arecanut\Disease\RING SPOT\Ring_Spot.jpg,RING SPOT,0
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.3225f6fbf0e6c883df4400d3864ebc73.jpg,RING SPOT,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.50a5c511ee89f7e9a59efa4ec8e5f17f.jpg,RING SPOT,0
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.4bd8e5e68b606e813459ca5428b0ce22.jpg,RING SPOT,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.68644f3118d0c03f49921fa8ddc98817.jpg,RING SPOT,0
+dataset\Arecanut\Disease\RING SPOT\OIP (2).jpg,RING SPOT,dataset\Arecanut\Disease\RING SPOT\OIP (9).jpg,RING SPOT,4

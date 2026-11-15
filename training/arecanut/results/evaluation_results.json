@@ -1,0 +1,84 @@
+{
+    "model": "MobileNetV2",
+    "image_size": [
+        224,
+        224
+    ],
+    "batch_size": 16,
+    "test_loss": 0.9609072804450989,
+    "test_accuracy": 0.7307692170143127,
+    "accuracy_score": 0.7307692307692307,
+    "classes": [
+        "BUD ROT",
+        "RING SPOT",
+        "YELLOW LEAF",
+        "HEALTHY LEAF"
+    ],
+    "classification_report": {
+        "BUD ROT": {
+            "precision": 0.875,
+            "recall": 1.0,
+            "f1-score": 0.9333333333333333,
+            "support": 7.0
+        },
+        "RING SPOT": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 6.0
+        },
+        "YELLOW LEAF": {
+            "precision": 1.0,
+            "recall": 0.2857142857142857,
+            "f1-score": 0.4444444444444444,
+            "support": 7.0
+        },
+        "HEALTHY LEAF": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 6.0
+        },
+        "accuracy": 0.7307692307692307,
+        "macro avg": {
+            "precision": 0.84375,
+            "recall": 0.738095238095238,
+            "f1-score": 0.711111111111111,
+            "support": 26.0
+        },
+        "weighted avg": {
+            "precision": 0.8509615384615384,
+            "recall": 0.7307692307692307,
+            "f1-score": 0.7094017094017093,
+            "support": 26.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            7,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            6,
+            0,
+            0
+        ],
+        [
+            1,
+            4,
+            2,
+            0
+        ],
+        [
+            0,
+            2,
+            0,
+            4
+        ]
+    ],
+    "test_image_count": 26,
+    "seed": 42
+}

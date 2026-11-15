@@ -1,0 +1,5 @@
+class,image_1,image_2,ssim,dimensions_1,dimensions_2,file_size_1,file_size_2,same_sha256,same_dimensions,same_pixels
+KOLEROGA,MahaliKoleroga (214).jpg,MahaliKoleroga (217).jpg,1.0,"(3060, 4080)","(3060, 4080)",1228663,1228663,True,True,True
+KOLEROGA,MahaliKoleroga (223).jpg,MahaliKoleroga (226).jpg,1.0,"(3060, 4080)","(3060, 4080)",1253362,1253362,True,True,True
+RING SPOT,IMG_20221230_125452_jpg.rf.4bd8e5e68b606e813459ca5428b0ce22.jpg,IMG_20221230_125452_jpg.rf.68644f3118d0c03f49921fa8ddc98817.jpg,0.9999,"(640, 640)","(640, 640)",52367,52380,False,True,False
+RING SPOT,IMG_20221230_124722_jpg.rf.3225f6fbf0e6c883df4400d3864ebc73.jpg,IMG_20221230_124722_jpg.rf.50a5c511ee89f7e9a59efa4ec8e5f17f.jpg,0.9996,"(640, 640)","(640, 640)",91209,91170,False,True,False

@@ -1,0 +1,89 @@
+{
+    "experiment": "MobileNetV2 fine-tuning",
+    "baseline_model": "D:\\databse\\Miniproject\\training\\arecanut\\results\\arecanut_mobilenetv2.keras",
+    "fine_tuned_model": "D:\\databse\\Miniproject\\training\\arecanut\\results\\arecanut_mobilenetv2_finetuned.keras",
+    "image_size": [
+        224,
+        224
+    ],
+    "batch_size": 16,
+    "epochs_requested": 15,
+    "learning_rate": 1e-05,
+    "unfrozen_layers": 30,
+    "test_loss": 0.386890709400177,
+    "test_accuracy": 0.8461538553237915,
+    "accuracy_score": 0.8461538461538461,
+    "classes": [
+        "BUD ROT",
+        "RING SPOT",
+        "YELLOW LEAF",
+        "HEALTHY LEAF"
+    ],
+    "classification_report": {
+        "BUD ROT": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+        },
+        "RING SPOT": {
+            "precision": 0.6,
+            "recall": 1.0,
+            "f1-score": 0.75,
+            "support": 6.0
+        },
+        "YELLOW LEAF": {
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "f1-score": 0.7272727272727273,
+            "support": 7.0
+        },
+        "HEALTHY LEAF": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.9090909090909091,
+            "support": 6.0
+        },
+        "accuracy": 0.8461538461538461,
+        "macro avg": {
+            "precision": 0.9,
+            "recall": 0.8511904761904762,
+            "f1-score": 0.8465909090909092,
+            "support": 26.0
+        },
+        "weighted avg": {
+            "precision": 0.9076923076923078,
+            "recall": 0.8461538461538461,
+            "f1-score": 0.8479020979020978,
+            "support": 26.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            7,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            6,
+            0,
+            0
+        ],
+        [
+            0,
+            3,
+            4,
+            0
+        ],
+        [
+            0,
+            1,
+            0,
+            5
+        ]
+    ],
+    "test_image_count": 26,
+    "seed": 42
+}
