@@ -15,9 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 BASE_DIR = Path(__file__).resolve().parent
 
-MODEL_PATH = (
-    BASE_DIR / "results" / "ginger_mobilenetv2.keras"
-)
+MODEL_PATH = BASE_DIR / "results" / "ginger_mobilenetv2.keras"
 
 
 # ---------------- SETTINGS ----------------
@@ -62,7 +60,6 @@ app.add_middleware(
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
-
 
 model = None
 
@@ -179,8 +176,8 @@ async def predict_ginger(
                     method="bilinear",
                 )
 
-                image_array = (
-                    image_array.numpy().astype(np.float32)
+                image_array = image_array.numpy().astype(
+                    np.float32
                 )
 
         except UnidentifiedImageError:
@@ -209,8 +206,15 @@ async def predict_ginger(
             verbose=0,
         )[0]
 
+        predictions = np.asarray(
+            predictions,
+            dtype=np.float64,
+        )
+
+        # Validate model output.
         if (
-            len(predictions) != len(CLASS_NAMES)
+            predictions.ndim != 1
+            or len(predictions) != len(CLASS_NAMES)
             or not np.all(np.isfinite(predictions))
         ):
             raise HTTPException(
@@ -218,23 +222,56 @@ async def predict_ginger(
                 detail="The model returned invalid prediction output.",
             )
 
+        # Softmax probabilities must be between 0 and 1.
+        if np.any(predictions < 0) or np.any(predictions > 1):
+            raise HTTPException(
+                status_code=500,
+                detail="Model probabilities are outside the valid range.",
+            )
+
+        probability_sum = float(np.sum(predictions))
+
+        if (
+            not np.isfinite(probability_sum)
+            or probability_sum <= 0
+            or not np.isclose(
+                probability_sum,
+                1.0,
+                atol=0.01,
+            )
+        ):
+            raise HTTPException(
+                status_code=500,
+                detail="Model probabilities do not sum to approximately 1.",
+            )
+
+        # Normalize minor floating-point differences.
+        predictions = predictions / probability_sum
+
         best_index = int(np.argmax(predictions))
+
+        # Convert probabilities to percentages.
+        percentage_values = predictions * 100
+
+        probabilities = {
+            name: round(
+                float(percentage_values[index]),
+                4
+            )
+            for index, name in enumerate(CLASS_NAMES)
+        }
+
+        confidence = round(
+            float(percentage_values[best_index]),
+            2
+        )
 
         return {
             "success": True,
             "crop": "Ginger",
             "predicted_class": CLASS_NAMES[best_index],
-            "confidence": round(
-                float(predictions[best_index]) * 100,
-                2
-            ),
-            "probabilities": {
-                name: round(
-                    float(predictions[index]) * 100,
-                    4
-                )
-                for index, name in enumerate(CLASS_NAMES)
-            },
+            "confidence": confidence,
+            "probabilities": probabilities,
             "warning": (
                 "Prediction is experimental and must be verified. "
                 "Confidence is not a confirmed diagnosis."
