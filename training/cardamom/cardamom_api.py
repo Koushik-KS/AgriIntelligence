@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # ---------------- PATHS ----------------
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "results" / "cardamom_mobilenetv2.keras"
+MODEL_PATH = BASE_DIR / "results" / "cardamom_mobilenetv2_finetuned.keras"
 
 
 # ---------------- SETTINGS ----------------
