@@ -1,0 +1,52 @@
+{
+    "experiment": "MobileNetV2 small fine-tuning",
+    "original_model": "D:\\databse\\Miniproject\\training\\cardamom\\results\\cardamom_mobilenetv2.keras",
+    "fine_tuned_model": "D:\\databse\\Miniproject\\training\\cardamom\\results\\cardamom_mobilenetv2_finetuned.keras",
+    "epochs_requested": 5,
+    "learning_rate": 1e-05,
+    "unfreeze_last_layers": 20,
+    "batch_normalization_frozen": true,
+    "training_image_count": 1207,
+    "validation_image_count": 259,
+    "validation_loss": 0.07947136461734772,
+    "validation_accuracy": 0.9845559597015381,
+    "validation_accuracy_percent": 98.46,
+    "class_weights": {
+        "0": 0.7355271176112127,
+        "1": 2.052721088435374,
+        "2": 0.8670977011494253
+    },
+    "test_split_used": false,
+    "history": {
+        "accuracy": [
+            0.9734879732131958,
+            0.9701740145683289,
+            0.9751449823379517,
+            0.9834299683570862
+        ],
+        "loss": [
+            0.07833320647478104,
+            0.06737319380044937,
+            0.05446319282054901,
+            0.04464873671531677
+        ],
+        "val_accuracy": [
+            0.9729729890823364,
+            0.9845559597015381,
+            0.915057897567749,
+            0.9652509689331055
+        ],
+        "val_loss": [
+            0.10475920885801315,
+            0.07947136461734772,
+            0.207295224070549,
+            0.11263022571802139
+        ],
+        "learning_rate": [
+            9.999999747378752e-06,
+            9.999999747378752e-06,
+            9.999999747378752e-06,
+            1.9999999949504854e-06
+        ]
+    }
+}

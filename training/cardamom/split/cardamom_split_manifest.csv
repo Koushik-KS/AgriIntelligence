@@ -1,0 +1,1725 @@
+class_name,split,group_id,image_path
+HEALTHY,train,HEALTHY_PAIR_2,dataset\Cardamom\Healthy\Healthy_1000\Healthy (571).jpg
+HEALTHY,train,HEALTHY_PAIR_2,dataset\Cardamom\Healthy\Healthy_1000\Healthy (572).jpg
+HEALTHY,train,HEALTHY_PAIR_3,dataset\Cardamom\Healthy\Healthy_1000\Healthy (431).jpg
+HEALTHY,train,HEALTHY_PAIR_3,dataset\Cardamom\Healthy\Healthy_1000\Healthy (432).jpg
+HEALTHY,train,HEALTHY_PAIR_1,dataset\Cardamom\Healthy\Healthy_1000\Healthy (298).jpg
+HEALTHY,train,HEALTHY_PAIR_1,dataset\Cardamom\Healthy\Healthy_1000\Healthy (299).jpg
+HEALTHY,train,HEALTHY_PAIR_5,dataset\Cardamom\Healthy\Healthy_1000\Healthy (610).jpg
+HEALTHY,train,HEALTHY_PAIR_5,dataset\Cardamom\Healthy\Healthy_1000\Healthy (611).jpg
+HEALTHY,train,HEALTHY_PAIR_4,dataset\Cardamom\Healthy\Healthy_1000\Healthy (446).jpg
+HEALTHY,train,HEALTHY_PAIR_4,dataset\Cardamom\Healthy\Healthy_1000\Healthy (447).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (570).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (570).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (302).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (302).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (513).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (513).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (694).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (694).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (400).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (400).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (269).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (269).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (924).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (924).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (514).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (514).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (468).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (468).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (621).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (621).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (562).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (562).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (578).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (578).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (515).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (515).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (374).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (374).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (638).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (638).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (707).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (707).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (702).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (702).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (923).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (923).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (476).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (476).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (905).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (905).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (448).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (448).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (917).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (917).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (475).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (475).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (833).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (833).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (787).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (787).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (359).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (359).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (588).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (588).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (561).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (561).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (537).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (537).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (390).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (390).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (668).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (668).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (689).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (689).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (177).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (177).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (408).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (408).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (401).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (401).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (629).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (629).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (383).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (383).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (859).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (859).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (739).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (739).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (566).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (566).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (463).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (463).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (983).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (983).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (819).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (819).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (453).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (453).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (823).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (823).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (681).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (681).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (149).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (149).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (207).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (207).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (778).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (778).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (217).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (217).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (721).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (721).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (241).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (241).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (912).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (912).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (145).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (145).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (933).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (933).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (948).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (948).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (507).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (507).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (895).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (895).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (594).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (594).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (831).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (831).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (695).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (695).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (260).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (260).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (442).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (442).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (144).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (144).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (762).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (762).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (937).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (937).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (808).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (808).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (133).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (133).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (591).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (591).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (280).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (280).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (773).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (773).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (671).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (671).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (590).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (590).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (623).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (623).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (310).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (310).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (749).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (749).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (235).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (235).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (403).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (403).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (790).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (790).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (858).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (858).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (200).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (200).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (585).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (585).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (909).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (909).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (886).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (886).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (153).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (153).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (387).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (387).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (459).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (459).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (146).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (146).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (843).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (843).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (896).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (896).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (712).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (712).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (840).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (840).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (620).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (620).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (686).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (686).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (347).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (347).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (395).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (395).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (727).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (727).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (921).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (921).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (286).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (286).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (635).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (635).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (911).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (911).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (278).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (278).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (541).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (541).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (527).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (527).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (484).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (484).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (834).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (834).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (946).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (946).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (504).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (504).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (549).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (549).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (384).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (384).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (717).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (717).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (195).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (195).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (736).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (736).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (410).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (410).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (616).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (616).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (944).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (944).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (677).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (677).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (608).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (608).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (786).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (786).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (887).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (887).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (918).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (918).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (381).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (381).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (723).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (723).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (926).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (926).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (795).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (795).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (645).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (645).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (532).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (532).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (685).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (685).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (705).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (705).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (141).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (141).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (758).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (758).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (552).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (552).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (708).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (708).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (732).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (732).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (815).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (815).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (866).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (866).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (360).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (360).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (720).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (720).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (753).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (753).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (547).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (547).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (152).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (152).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (730).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (730).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (211).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (211).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (648).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (648).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (660).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (660).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (709).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (709).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (838).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (838).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (653).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (653).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (348).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (348).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (596).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (596).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (438).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (438).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (774).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (774).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (985).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (985).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (746).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (746).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (505).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (505).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (929).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (929).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (440).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (440).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (669).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (669).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (334).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (334).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (666).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (666).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (806).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (806).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (855).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (855).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (394).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (394).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (641).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (641).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (322).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (322).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (423).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (423).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (213).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (213).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (523).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (523).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (350).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (350).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (632).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (632).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (339).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (339).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (422).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (422).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (738).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (738).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (881).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (881).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (362).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (362).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (742).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (742).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (506).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (506).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (867).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (867).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (770).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (770).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (674).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (674).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (931).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (931).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (848).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (848).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (876).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (876).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (665).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (665).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (522).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (522).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (326).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (326).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (342).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (342).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (449).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (449).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (220).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (220).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (233).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (233).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (829).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (829).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (966).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (966).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (792).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (792).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (582).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (582).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (502).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (502).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (842).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (842).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (880).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (880).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (661).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (661).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (528).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (528).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (861).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (861).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (474).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (474).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (628).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (628).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (614).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (614).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (226).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (226).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (357).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (357).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (642).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (642).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (311).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (311).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (524).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (524).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (940).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (940).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (745).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (745).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (618).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (618).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (637).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (637).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (750).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (750).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (844).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (844).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (954).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (954).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (798).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (798).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (227).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (227).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (477).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (477).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (569).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (569).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (545).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (545).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (769).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (769).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (801).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (801).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (402).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (402).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (657).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (657).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (174).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (174).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (277).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (277).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (480).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (480).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (372).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (372).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (841).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (841).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (803).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (803).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (771).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (771).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (789).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (789).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (519).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (519).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (218).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (218).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (398).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (398).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (451).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (451).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (785).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (785).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (826).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (826).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (922).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (922).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (850).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (850).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (605).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (605).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (382).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (382).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (813).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (813).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (617).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (617).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (327).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (327).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (577).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (577).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (567).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (567).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (737).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (737).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (358).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (358).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (411).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (411).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (317).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (317).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (609).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (609).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (904).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (904).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (365).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (365).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (492).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (492).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (417).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (417).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (878).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (878).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (976).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (976).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (860).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (860).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (425).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (425).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (599).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (599).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (783).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (783).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (699).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (699).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (670).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (670).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (898).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (898).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (419).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (419).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (368).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (368).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (631).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (631).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (612).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (612).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (240).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (240).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (658).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (658).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (715).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (715).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (828).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (828).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (748).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (748).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (741).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (741).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (734).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (734).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (633).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (633).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (478).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (478).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (820).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (820).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (636).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (636).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (902).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (902).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (340).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (340).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (802).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (802).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (407).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (407).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (509).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (509).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (473).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (473).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (970).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (970).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (651).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (651).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (386).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (386).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (433).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (433).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (533).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (533).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (793).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (793).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (910).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (910).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (539).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (539).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (672).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (672).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (606).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (606).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (150).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (150).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (800).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (800).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (885).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (885).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (520).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (520).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (680).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (680).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (814).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (814).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (518).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (518).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (627).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (627).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (873).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (873).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (378).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (378).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (414).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (414).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (540).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (540).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (816).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (816).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (323).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (323).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (825).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (825).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (389).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (389).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (845).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (845).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (303).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (303).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (320).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (320).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (452).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (452).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (956).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (956).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (405).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (405).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (752).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (752).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (919).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (919).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (346).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (346).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (420).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (420).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (581).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (581).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (285).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (285).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (148).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (148).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (421).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (421).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (284).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (284).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (275).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (275).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (331).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (331).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (916).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (916).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (663).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (663).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (418).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (418).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (498).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (498).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (391).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (391).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (229).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (229).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (934).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (934).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (598).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (598).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (393).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (393).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (664).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (664).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (396).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (396).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (367).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (367).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (782).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (782).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (893).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (893).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (963).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (963).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (265).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (265).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (756).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (756).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (903).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (903).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (625).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (625).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (154).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (154).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (491).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (491).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (267).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (267).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (565).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (565).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (209).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (209).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (890).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (890).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (939).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (939).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (499).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (499).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (962).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (962).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (574).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (574).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (494).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (494).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (437).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (437).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (273).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (273).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (344).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (344).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (538).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (538).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (243).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (243).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (729).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (729).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (718).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (718).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (173).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (173).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (862).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (862).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (710).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (710).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (604).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (604).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (222).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (222).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (193).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (193).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (804).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (804).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (899).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (899).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (470).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (470).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (851).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (851).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (536).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (536).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (563).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (563).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (654).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (654).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (901).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (901).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (703).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (703).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (312).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (312).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (521).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (521).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (354).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (354).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (349).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (349).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (701).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (701).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (613).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (613).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (593).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (593).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (231).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (231).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy1.jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy1.jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (728).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (728).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (246).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (246).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (230).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (230).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (551).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (551).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (644).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (644).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (495).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (495).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (553).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (553).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (639).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (639).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (938).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (938).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (546).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (546).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (525).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (525).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (364).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (364).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (573).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (573).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (490).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (490).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (863).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (863).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (682).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (682).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (355).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (355).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (399).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (399).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (335).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (335).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (722).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (722).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (388).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (388).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (952).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (952).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (835).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (835).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (471).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (471).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (316).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (316).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (487).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (487).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (640).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (640).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (827).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (827).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (500).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (500).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (530).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (530).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (208).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (208).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (775).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (775).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (555).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (555).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (716).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (716).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (579).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (579).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (343).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (343).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (501).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (501).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (908).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (908).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (162).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (162).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (336).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (336).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (416).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (416).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (557).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (557).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (206).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (206).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (216).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (216).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (809).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (809).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (936).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (936).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (511).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (511).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (370).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (370).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (489).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (489).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (196).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (196).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (297).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (297).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (941).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (941).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (713).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (713).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (568).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (568).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (443).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (443).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (688).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (688).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (127).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (127).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (978).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (978).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (656).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (656).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (767).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (767).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (454).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (454).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (228).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (228).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (268).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (268).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (768).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (768).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (353).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (353).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (925).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (925).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (559).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (559).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (301).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (301).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (634).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (634).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (655).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (655).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (404).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (404).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (460).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (460).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (429).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (429).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (455).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (455).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (550).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (550).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (889).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (889).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (143).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (143).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (168).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (168).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (441).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (441).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (676).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (676).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (849).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (849).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (415).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (415).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (647).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (647).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (379).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (379).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (341).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (341).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (248).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (248).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (961).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (961).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (236).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (236).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (584).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (584).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (714).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (714).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (757).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (757).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (595).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (595).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (967).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (967).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (733).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (733).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (894).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (894).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (371).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (371).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (988).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (988).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (935).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (935).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (780).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (780).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (693).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (693).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (607).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (607).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (951).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (951).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (319).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (319).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (719).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (719).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (892).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (892).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (811).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (811).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (481).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (481).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (464).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (464).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (356).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (356).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (619).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (619).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (534).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (534).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (244).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (244).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (535).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (535).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (234).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (234).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (784).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (784).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (601).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (601).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (984).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (984).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (913).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (913).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (877).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (877).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (424).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (424).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (376).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (376).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (678).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (678).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (308).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (308).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (508).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (508).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (221).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (221).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (805).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (805).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (857).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (857).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (271).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (271).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (763).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (763).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (482).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (482).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (580).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (580).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (292).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (292).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (430).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (430).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (560).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (560).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (373).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (373).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (817).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (817).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (643).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (643).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (879).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (879).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (788).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (788).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (731).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (731).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (293).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (293).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (646).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (646).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (772).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (772).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (309).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (309).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (439).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (439).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (973).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (973).jpg
+HEALTHY,train,UNIQUE_HEALTHY_Healthy (868).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (868).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (959).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (959).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (597).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (597).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (363).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (363).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (884).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (884).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (332).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (332).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (554).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (554).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (836).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (836).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (510).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (510).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (679).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (679).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (675).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (675).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (503).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (503).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (330).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (330).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (201).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (201).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (981).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (981).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (472).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (472).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (799).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (799).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (846).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (846).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (987).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (987).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (791).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (791).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (589).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (589).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (747).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (747).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (270).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (270).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (960).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (960).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (587).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (587).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (796).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (796).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (975).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (975).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (870).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (870).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (744).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (744).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (871).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (871).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (428).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (428).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (761).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (761).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (971).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (971).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (751).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (751).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (467).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (467).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (397).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (397).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (957).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (957).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (466).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (466).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (626).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (626).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (232).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (232).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (797).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (797).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (942).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (942).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (630).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (630).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (698).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (698).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (807).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (807).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (740).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (740).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (888).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (888).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (237).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (237).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (958).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (958).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (558).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (558).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (465).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (465).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (743).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (743).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (865).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (865).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (822).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (822).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (754).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (754).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (776).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (776).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (338).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (338).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (711).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (711).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (882).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (882).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (457).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (457).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (839).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (839).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (543).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (543).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (766).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (766).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (856).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (856).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (517).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (517).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (392).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (392).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (139).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (139).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (659).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (659).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (950).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (950).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (325).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (325).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (469).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (469).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (853).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (853).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (242).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (242).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (953).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (953).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (225).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (225).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (735).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (735).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (927).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (927).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (652).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (652).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (765).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (765).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (982).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (982).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (683).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (683).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (725).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (725).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (794).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (794).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (486).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (486).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (986).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (986).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (544).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (544).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (869).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (869).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (687).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (687).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (760).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (760).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (837).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (837).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (485).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (485).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (576).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (576).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (586).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (586).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (949).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (949).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (969).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (969).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (444).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (444).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (250).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (250).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (583).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (583).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (512).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (512).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (600).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (600).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (684).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (684).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (832).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (832).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (300).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (300).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (980).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (980).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (369).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (369).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (974).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (974).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (142).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (142).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (673).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (673).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (977).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (977).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (947).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (947).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (194).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (194).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (450).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (450).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (197).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (197).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (818).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (818).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (972).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (972).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (968).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (968).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (462).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (462).jpg
+HEALTHY,validation,UNIQUE_HEALTHY_Healthy (185).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (185).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (140).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (140).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (724).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (724).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (542).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (542).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (412).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (412).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (691).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (691).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (945).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (945).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (479).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (479).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (548).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (548).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (529).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (529).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (696).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (696).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (238).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (238).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (821).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (821).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (516).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (516).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (649).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (649).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (690).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (690).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (650).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (650).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (456).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (456).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (697).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (697).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (198).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (198).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (920).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (920).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (361).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (361).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (461).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (461).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (915).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (915).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (704).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (704).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (875).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (875).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (615).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (615).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (409).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (409).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (276).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (276).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (810).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (810).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (706).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (706).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (380).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (380).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (151).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (151).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (667).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (667).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (897).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (897).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (854).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (854).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (907).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (907).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (318).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (318).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (239).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (239).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (692).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (692).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (575).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (575).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (295).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (295).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (764).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (764).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (345).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (345).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (497).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (497).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (777).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (777).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (247).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (247).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (253).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (253).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (781).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (781).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (852).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (852).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (333).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (333).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (662).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (662).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (531).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (531).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (883).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (883).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (874).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (874).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (700).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (700).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (759).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (759).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (279).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (279).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (458).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (458).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (526).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (526).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (159).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (159).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (119).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (119).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (375).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (375).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (964).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (964).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (314).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (314).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (726).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (726).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (914).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (914).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (930).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (930).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (979).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (979).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (147).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (147).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (755).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (755).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (603).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (603).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (824).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (824).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (366).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (366).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (289).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (289).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (351).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (351).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (622).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (622).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (812).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (812).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (965).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (965).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (483).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (483).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (872).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (872).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (427).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (427).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (426).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (426).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (624).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (624).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (445).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (445).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (435).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (435).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (488).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (488).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (377).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (377).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (385).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (385).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (257).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (257).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (900).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (900).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (592).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (592).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (864).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (864).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (943).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (943).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (272).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (272).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (891).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (891).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (406).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (406).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (847).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (847).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (779).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (779).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (337).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (337).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (219).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (219).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (564).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (564).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (602).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (602).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (556).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (556).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (955).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (955).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (928).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (928).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (496).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (496).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (436).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (436).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (932).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (932).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (413).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (413).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (830).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (830).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (434).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (434).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (199).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (199).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (283).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (283).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (906).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (906).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (352).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (352).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (493).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (493).jpg
+HEALTHY,test,UNIQUE_HEALTHY_Healthy (321).jpg,dataset\Cardamom\Healthy\Healthy_1000\Healthy (321).jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight121.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight121.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight182.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight182.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight159.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight159.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight52.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight52.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight2.jpg,dataset\Cardamom\Disease\Blight1000\C_blight2.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight197.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight197.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight187.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight187.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight175.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight175.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight178.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight178.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight9.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight9.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight205.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight205.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight268.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight268.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight229.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight229.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight189.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight189.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight82.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight82.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight5.jpg,dataset\Cardamom\Disease\Blight1000\C_blight5.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight107.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight107.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight186.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight186.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight145.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight145.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight41.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight41.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight74.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight74.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight138.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight138.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight110.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight110.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight273.jpg,dataset\Cardamom\Disease\Blight1000\C_blight273.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight234.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight234.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight171.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight171.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight131.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight131.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight245.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight245.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight243.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight243.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight136.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight136.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight256.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight256.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight105.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight105.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight206.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight206.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight177.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight177.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight88.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight88.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight40.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight40.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight141.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight141.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight166.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight166.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight128.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight128.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight124.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight124.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight39.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight39.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight24.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight24.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight241.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight241.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight46.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight46.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight160.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight160.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight190.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight190.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight265.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight265.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight250.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight250.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight262.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight262.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight218.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight218.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight68.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight68.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight86.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight86.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight115.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight115.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight77.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight77.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight45.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight45.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight65.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight65.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight100.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight100.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight20.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight20.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight173.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight173.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight161.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight161.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight215.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight215.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight139.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight139.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight58.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight58.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight191.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight191.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight253.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight253.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight246.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight246.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight81.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight81.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight137.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight137.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight270.jpg,dataset\Cardamom\Disease\Blight1000\C_blight270.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight104.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight104.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight87.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight87.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight19.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight19.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight251.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight251.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight80.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight80.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight238.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight238.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight195.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight195.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight146.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight146.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight23.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight23.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight281.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight281.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight217.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight217.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight99.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight99.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight225.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight225.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight244.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight244.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight28.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight28.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight135.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight135.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight6.jpg,dataset\Cardamom\Disease\Blight1000\C_blight6.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight106.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight106.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight47.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight47.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight232.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight232.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight130.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight130.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight117.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight117.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight174.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight174.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight125.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight125.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight30.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight30.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight83.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight83.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight214.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight214.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight216.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight216.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight42.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight42.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight32.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight32.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight277.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight277.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight213.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight213.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight67.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight67.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight240.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight240.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight207.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight207.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight260.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight260.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight180.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight180.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight37.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight37.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight33.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight33.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight132.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight132.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight236.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight236.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight95.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight95.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight133.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight133.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight154.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight154.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight274.jpg,dataset\Cardamom\Disease\Blight1000\C_blight274.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight38.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight38.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight96.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight96.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight147.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight147.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight10.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight10.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight27.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight27.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight108.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight108.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight254.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight254.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight12.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight12.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight35.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight35.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight118.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight118.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight109.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight109.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight34.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight34.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight13.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight13.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight149.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight149.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight148.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight148.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight78.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight78.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight113.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight113.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight51.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight51.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight199.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight199.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight169.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight169.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight201.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight201.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight203.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight203.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight188.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight188.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight22.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight22.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight151.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight151.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight196.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight196.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight276.jpg,dataset\Cardamom\Disease\Blight1000\C_blight276.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight157.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight157.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight64.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight64.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight258.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight258.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight230.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight230.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight134.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight134.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight239.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight239.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight116.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight116.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight248.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight248.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight192.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight192.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight114.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight114.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight126.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight126.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight242.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight242.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight29.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight29.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight43.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight43.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight200.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight200.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight54.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight54.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight123.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight123.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight84.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight84.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight111.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight111.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight129.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight129.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight17.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight17.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight152.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight152.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight122.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight122.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight220.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight220.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight7.jpg,dataset\Cardamom\Disease\Blight1000\C_blight7.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight279.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight279.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight92.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight92.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight172.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight172.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight127.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight127.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight44.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight44.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight71.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight71.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight226.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight226.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight18.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight18.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight56.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight56.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight252.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight252.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight26.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight26.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight168.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight168.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_blight3.jpg,dataset\Cardamom\Disease\Blight1000\C_blight3.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight264.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight264.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight259.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight259.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight69.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight69.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight266.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight266.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight143.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight143.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight101.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight101.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight73.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight73.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight50.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight50.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight16.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight16.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight198.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight198.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight25.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight25.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight255.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight255.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight211.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight211.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight14.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight14.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight223.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight223.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight70.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight70.jpg
+BLIGHT,train,UNIQUE_BLIGHT_C_Blight181.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight181.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_blight272.jpg,dataset\Cardamom\Disease\Blight1000\C_blight272.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight21.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight21.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight231.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight231.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight53.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight53.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight167.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight167.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight11.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight11.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight222.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight222.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight140.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight140.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight93.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight93.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight165.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight165.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight235.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight235.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight210.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight210.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight142.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight142.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight36.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight36.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight144.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight144.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight153.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight153.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight162.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight162.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight98.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight98.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_blight271.jpg,dataset\Cardamom\Disease\Blight1000\C_blight271.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight221.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight221.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight185.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight185.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_blight_1.jpg,dataset\Cardamom\Disease\Blight1000\C_blight_1.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight193.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight193.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight120.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight120.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight202.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight202.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight91.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight91.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight63.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight63.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight90.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight90.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight155.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight155.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight66.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight66.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight97.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight97.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight261.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight261.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight164.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight164.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight31.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight31.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight72.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight72.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight76.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight76.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_blight275.jpg,dataset\Cardamom\Disease\Blight1000\C_blight275.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight55.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight55.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight212.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight212.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight49.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight49.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight224.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight224.jpg
+BLIGHT,validation,UNIQUE_BLIGHT_C_Blight48.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight48.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight75.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight75.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight208.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight208.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight257.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight257.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight247.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight247.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_blight4.jpg,dataset\Cardamom\Disease\Blight1000\C_blight4.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_blight269.jpg,dataset\Cardamom\Disease\Blight1000\C_blight269.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight102.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight102.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight183.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight183.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight59.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight59.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight8.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight8.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight267.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight267.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight15.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight15.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight57.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight57.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight280.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight280.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight94.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight94.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight158.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight158.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight204.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight204.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight176.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight176.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight79.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight79.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight227.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight227.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight233.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight233.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight156.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight156.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight150.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight150.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight103.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight103.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight60.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight60.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight209.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight209.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight85.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight85.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight194.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight194.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight119.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight119.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight219.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight219.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight163.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight163.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight237.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight237.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight179.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight179.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight263.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight263.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight184.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight184.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight112.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight112.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight61.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight61.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight228.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight228.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight249.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight249.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight62.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight62.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight89.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight89.jpg
+BLIGHT,test,UNIQUE_BLIGHT_C_Blight170.jpg,dataset\Cardamom\Disease\Blight1000\C_Blight170.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165325.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165325.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162133.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162133.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165302.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165302.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162433.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162433.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173409.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173409.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170147.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170147.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173538.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173538.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165518.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165518.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172324.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172324.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170120.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170120.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172140.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172140.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164715.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164715.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171810.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171810.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162630.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162630.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165300.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165300.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162633.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162633.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165747.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165747.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170231.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170231.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164127.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164127.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162300.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162300.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165351.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165351.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173637.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173637.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173725.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173725.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162402.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162402.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164353.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164353.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171335.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171335.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172451.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172451.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170912.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170912.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165723.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165723.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171428.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171428.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171944.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171944.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171925.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171925.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164139.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164139.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170328.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170328.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172936.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172936.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165633.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165633.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164008.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164008.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164305.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164305.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173055.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173055.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173222.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173222.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164503.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164503.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163810.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163810.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165428.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165428.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171839.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171839.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164238.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164238.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172113.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172113.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171233.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171233.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170813.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170813.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164553.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164553.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164639.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164639.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172951.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172951.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171457.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171457.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173304.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173304.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173329.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173329.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171748.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171748.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172026.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172026.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171835.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171835.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163816.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163816.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164515.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164515.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173512.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173512.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170256.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170256.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164300.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164300.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164043.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164043.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170759.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170759.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164012.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164012.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171641.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171641.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173348.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173348.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165949.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165949.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171525.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171525.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170513.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170513.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171939.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171939.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163517.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163517.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163459.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163459.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164744.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164744.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170035.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170035.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173318.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173318.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164707.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164707.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172409.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172409.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165529.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165529.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173451.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173451.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164148.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164148.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171953.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171953.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171554.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171554.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172356.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172356.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162642.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162642.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173533.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173533.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165115.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165115.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172403.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172403.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165119.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165119.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171755.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171755.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163430.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163430.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171502.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171502.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172010.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172010.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170101.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170101.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171706.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171706.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170242.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170242.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165340.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165340.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165831.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165831.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170017.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170017.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171252.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171252.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173516.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173516.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165250.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165250.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164232.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164232.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164521.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164521.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173202.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173202.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170559.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170559.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162124.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162124.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171638.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171638.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173157.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173157.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173231.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173231.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162349.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162349.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162145.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162145.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164712.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164712.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164114.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164114.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170556.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170556.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173506.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173506.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165825.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165825.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164412.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164412.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164909.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164909.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173357.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173357.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173536.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173536.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173501.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173501.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173301.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173301.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173629.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173629.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171801.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171801.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170504.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170504.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165137.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165137.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164656.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164656.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171644.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171644.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164652.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164652.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170408.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170408.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171621.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171621.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173527.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173527.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173640.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173640.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173007.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173007.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171303.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171303.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165055.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165055.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170051.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170051.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165236.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165236.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165405.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165405.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164103.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164103.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173424.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173424.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165123.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165123.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162608.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162608.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164124.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164124.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170807.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170807.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164326.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164326.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164218.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164218.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165550.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165550.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170136.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170136.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165402.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165402.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165045.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165045.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164836.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164836.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165733.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165733.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165511.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165511.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164741.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164741.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173113.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173113.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165016.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165016.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172310.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172310.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172413.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172413.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165521.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165521.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165227.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165227.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170804.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170804.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170435.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170435.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173246.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173246.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163925.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163925.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171854.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171854.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162204.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162204.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170822.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170822.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165828.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165828.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173544.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173544.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164907.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164907.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165318.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165318.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165454.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165454.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165140.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165140.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172007.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172007.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170855.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170855.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165845.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165845.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164152.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164152.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171845.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171845.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173402.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173402.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162343.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162343.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172945.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172945.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164507.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164507.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172053.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172053.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165432.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165432.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172227.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172227.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173235.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173235.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173215.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173215.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172217.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172217.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165257.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165257.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170617.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170617.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164819.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164819.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163952.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163952.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170226.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170226.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173315.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173315.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170431.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170431.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165230.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165230.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165450.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165450.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164137.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164137.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171230.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171230.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173422.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173422.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165053.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165053.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171635.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171635.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173233.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173233.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172040.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172040.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170030.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170030.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172334.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172334.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164734.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164734.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173616.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173616.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165330.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165330.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173240.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173240.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173250.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173250.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171851.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171851.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173732.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173732.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171306.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171306.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165412.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165412.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162313.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162313.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172327.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172327.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170849.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170849.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173225.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173225.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170202.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170202.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165108.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165108.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162601.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162601.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173606.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173606.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163849.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163849.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170413.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170413.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171937.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171937.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164332.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164332.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172444.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172444.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162330.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162330.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173703.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173703.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170344.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170344.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171715.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171715.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173558.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173558.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165345.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165345.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164118.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164118.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170357.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170357.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170113.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170113.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165840.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165840.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171516.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171516.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170334.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170334.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170400.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170400.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165422.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165422.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172456.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172456.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170300.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170300.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172428.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172428.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165437.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165437.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165753.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165753.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171249.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171249.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165939.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165939.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173133.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173133.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172448.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172448.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170449.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170449.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173126.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173126.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165415.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165415.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173320.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173320.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164805.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164805.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171324.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171324.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165029.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165029.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172120.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172120.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170128.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170128.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162425.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162425.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170320.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170320.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165023.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165023.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162620.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162620.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173237.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173237.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170515.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170515.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165707.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165707.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173442.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173442.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165409.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165409.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165323.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165323.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173644.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173644.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170451.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170451.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173217.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173217.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165516.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165516.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170909.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170909.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165836.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165836.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162317.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162317.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173700.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173700.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165742.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165742.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165506.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165506.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172440.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172440.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165816.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165816.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173336.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173336.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165458.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165458.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165553.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165553.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171236.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171236.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172501.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172501.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165854.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165854.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165358.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165358.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171824.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171824.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162336.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162336.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173144.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173144.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170239.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170239.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162214.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162214.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165026.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165026.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172222.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172222.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170608.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170608.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171424.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171424.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171710.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171710.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162241.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162241.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163611.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163611.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171718.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171718.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172313.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172313.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170632.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170632.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163854.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163854.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163955.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163955.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170904.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170904.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162128.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162128.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171320.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171320.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172336.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172336.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165039.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165039.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173715.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173715.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164341.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164341.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170621.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170621.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164323.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164323.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170047.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170047.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162441.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162441.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164311.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164311.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172110.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172110.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163842.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163842.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173658.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173658.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173002.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173002.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172043.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172043.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162222.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162222.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173413.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173413.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164329.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164329.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171438.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171438.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170756.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170756.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163831.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163831.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171917.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171917.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164726.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164726.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172022.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172022.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162407.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162407.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172211.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172211.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171821.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171821.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170022.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170022.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171351.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171351.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172100.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172100.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165205.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165205.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170810.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170810.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170749.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170749.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165452.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165452.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164344.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164344.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170753.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170753.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162255.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162255.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164738.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164738.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173722.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173722.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170340.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170340.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172504.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172504.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163455.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163455.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170455.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170455.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172511.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172511.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164022.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164022.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172939.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172939.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165355.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165355.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172235.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172235.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170629.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170629.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170518.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170518.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165219.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165219.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171403.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171403.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165254.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165254.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163932.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163932.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170002.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170002.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170858.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170858.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162306.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162306.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163805.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163805.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164828.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164828.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172406.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172406.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164350.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164350.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170109.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170109.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165546.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165546.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163605.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163605.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172219.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172219.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171348.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171348.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165216.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165216.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165958.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165958.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173518.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173518.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171701.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171701.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165311.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165311.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173146.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173146.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163948.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163948.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163754.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163754.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172107.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172107.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172434.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172434.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164113.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164113.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172315.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172315.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170011.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170011.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173014.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173014.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171242.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171242.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162648.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162648.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165209.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165209.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165443.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165443.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162309.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162309.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163448.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163448.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171630.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171630.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173405.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173405.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170544.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170544.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164226.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164226.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165133.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165133.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164409.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164409.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172424.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172424.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171619.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171619.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170314.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170314.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171239.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171239.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171727.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171727.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164721.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164721.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173434.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173434.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170641.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170641.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165143.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165143.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164500.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164500.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171704.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171704.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170304.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170304.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171658.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171658.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173730.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173730.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173102.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173102.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165811.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165811.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173555.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173555.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172239.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172239.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164038.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164038.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165200.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165200.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164802.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164802.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170818.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170818.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170446.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170446.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170252.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170252.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173224.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173224.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164143.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164143.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165537.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165537.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173059.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173059.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171309.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171309.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164100.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164100.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165945.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165945.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164905.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164905.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162251.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162251.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173227.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173227.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170508.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170508.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162554.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162554.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171331.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171331.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170419.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170419.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165533.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165533.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165614.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165614.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171904.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171904.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173625.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173625.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606172131.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172131.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164815.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164815.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173333.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173333.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606162131.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162131.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170547.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170547.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606163945.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163945.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173419.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173419.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164758.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164758.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165638.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165638.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171615.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171615.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170212.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170212.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164426.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164426.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165501.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165501.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173139.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173139.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170353.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170353.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606173456.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173456.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606164511.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164511.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606170142.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170142.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606165952.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165952.jpg
+PHYLOSTICTA,train,UNIQUE_PHYLOSTICTA_IMG20210606171807.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171807.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173550.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173550.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165718.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165718.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606162323.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162323.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165336.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165336.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173121.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173121.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606162419.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162419.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170323.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170323.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171914.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171914.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164416.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164416.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165222.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165222.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170218.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170218.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172933.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172933.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173118.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173118.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164702.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164702.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171418.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171418.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170056.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170056.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170527.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170527.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164402.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164402.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606162558.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162558.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171448.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171448.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173051.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173051.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171549.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171549.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173522.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173522.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173148.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173148.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171407.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171407.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164131.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164131.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165034.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165034.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606163918.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163918.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170153.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170153.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171411.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171411.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170441.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170441.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170405.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170405.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173431.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173431.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170826.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170826.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164616.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164616.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173256.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173256.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171444.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171444.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171441.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171441.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173151.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173151.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165727.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165727.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173324.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173324.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171342.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171342.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173416.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173416.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165307.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165307.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606162228.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162228.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164812.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164812.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170132.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170132.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606163555.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163555.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165245.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165245.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173219.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173219.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172959.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172959.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164000.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164000.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171950.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171950.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171920.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171920.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165525.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165525.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165621.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165621.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165128.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165128.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171544.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171544.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171720.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171720.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170222.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170222.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606163310.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163310.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165050.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165050.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164242.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164242.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165508.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165508.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606163942.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163942.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172156.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172156.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172955.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172955.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171434.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171434.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172017.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172017.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171529.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171529.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173508.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173508.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171758.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171758.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172320.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172320.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172232.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172232.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171311.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171311.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606162637.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162637.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173458.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173458.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165233.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165233.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171257.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171257.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170510.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170510.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173039.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173039.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172207.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172207.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170245.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170245.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173719.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173719.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171600.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171600.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164718.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164718.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165241.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165241.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173650.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173650.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172030.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172030.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606170025.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170025.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172243.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172243.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606171933.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171933.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164202.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164202.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606162246.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162246.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164924.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164924.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173633.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173633.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606172135.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172135.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606164700.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164700.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606165333.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165333.jpg
+PHYLOSTICTA,validation,UNIQUE_PHYLOSTICTA_IMG20210606173603.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173603.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173354.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173354.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173312.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173312.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173444.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173444.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172949.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172949.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172420.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172420.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170443.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170443.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171731.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171731.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162231.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162231.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171454.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171454.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170427.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170427.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173710.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173710.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170522.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170522.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606163837.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163837.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162209.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162209.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171737.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171737.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171626.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171626.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170845.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170845.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171900.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171900.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173306.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173306.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165101.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165101.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171451.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171451.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164644.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164644.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173447.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173447.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165213.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165213.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171742.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171742.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165348.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165348.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172153.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172153.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170901.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170901.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162258.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162258.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173159.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173159.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171831.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171831.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173111.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173111.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173343.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173343.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173326.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173326.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170348.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170348.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164347.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164347.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173252.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173252.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171339.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171339.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171848.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171848.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172047.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172047.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162333.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162333.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170601.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170601.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162137.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162137.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170501.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170501.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172202.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172202.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173449.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173449.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173647.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173647.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165628.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165628.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164251.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164251.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165739.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165739.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173339.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173339.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164922.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164922.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162218.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162218.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165757.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165757.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164748.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164748.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171315.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171315.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165104.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165104.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165642.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165642.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171246.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171246.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606163619.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163619.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173653.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173653.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171817.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171817.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171734.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171734.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173707.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173707.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162456.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162456.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170416.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170416.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170458.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170458.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170535.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170535.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164005.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164005.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164752.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164752.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172508.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172508.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164255.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164255.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164620.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164620.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164832.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164832.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172035.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172035.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171538.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171538.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173244.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173244.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170438.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170438.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173106.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173106.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170610.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170610.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171827.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171827.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173309.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173309.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170116.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170116.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172343.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172343.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606170042.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606170042.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172348.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172348.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171318.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171318.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171910.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171910.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172123.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172123.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606172351.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606172351.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164900.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164900.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606164405.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606164405.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171520.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171520.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173136.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173136.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606165617.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606165617.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606162354.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606162354.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606171751.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606171751.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606173129.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606173129.jpg
+PHYLOSTICTA,test,UNIQUE_PHYLOSTICTA_IMG20210606163509.jpg,dataset\Cardamom\Disease\Phylosticta_LS_1000\IMG20210606163509.jpg

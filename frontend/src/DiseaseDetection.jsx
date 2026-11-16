@@ -25,6 +25,11 @@ const API_CONFIG = {
       "http://127.0.0.1:8001/predict/arecanut",
     health: "http://127.0.0.1:8001/health",
   },
+  Cardamom: {
+    prediction: import.meta.env.VITE_CARDAMOM_API_URL ||
+      "http://127.0.0.1:8002/predict/cardamom",
+    health: "http://127.0.0.1:8002/health",
+  },
 };
 
 const COFFEE_RESEARCH_URL =
@@ -38,7 +43,7 @@ const HISTORY_STORAGE_KEY = "kisanvision_crop_prediction_history";
 const CROPS = [
   { id: "Coffee", scientific: "Coffea spp.", connected: true },
   { id: "Arecanut", scientific: "Areca catechu", connected: true },
-  { id: "Cardamom", scientific: "Elettaria cardamomum", connected: false },
+  { id: "Cardamom", scientific: "Elettaria cardamomum", connected: true },
   { id: "Ginger", scientific: "Zingiber officinale", connected: false },
   { id: "Black Pepper", scientific: "Piper nigrum", connected: false },
 ];
@@ -46,6 +51,7 @@ const CROPS = [
 const CROP_CLASSES = {
   Coffee: ["Cercospora", "Leaf Rust", "Miner", "Phoma", "Healthy"],
   Arecanut: ["BUD ROT", "RING SPOT", "YELLOW LEAF", "HEALTHY LEAF"],
+  Cardamom: ["HEALTHY", "BLIGHT", "PHYLOSTICTA"],
 };
 
 const DISEASE_INFORMATION = {
@@ -135,6 +141,36 @@ const DISEASE_INFORMATION = {
       treatment: "No disease-specific treatment is indicated by this prediction.",
     },
   },
+
+  Cardamom: {
+    HEALTHY: {
+      title: "Healthy Cardamom Leaf",
+      scientificName: "No disease class detected by the model",
+      category: "Healthy prediction",
+      description: "The Cardamom AI model classified the uploaded leaf image as HEALTHY. This prediction applies to the submitted image and does not guarantee that the entire plant is disease-free.",
+      symptoms: ["No supported disease class was predicted in the uploaded image.", "The model classified the visible leaf as healthy."],
+      prevention: ["Inspect plants and both sides of leaves regularly.", "Maintain good field sanitation.", "Provide balanced nutrition and suitable drainage.", "Continue monitoring new leaves for changes."],
+      treatment: "No disease-specific treatment is indicated by this model prediction. Continue routine monitoring and seek field assessment if symptoms appear.",
+    },
+    BLIGHT: {
+      title: "Cardamom Leaf Blight",
+      scientificName: "Causal organism not confirmed by this image classifier",
+      category: "Model disease class",
+      description: "BLIGHT is one of the disease classes supported by the Cardamom AI model. The prediction identifies a visual class; it does not independently confirm the causal organism or infection severity.",
+      symptoms: ["Leaf tissue may show discoloured or necrotic areas.", "Affected portions may appear dry or scorched.", "The appearance and extent of symptoms can vary."],
+      prevention: ["Inspect the crop regularly for expanding leaf damage.", "Maintain suitable plant spacing and airflow.", "Avoid prolonged leaf wetness where practical.", "Remove badly affected plant material where recommended by local experts."],
+      treatment: "Confirm the problem in the field before treatment. Consult a local horticulture or agriculture expert for diagnosis and locally approved management advice.",
+    },
+    PHYLOSTICTA: {
+      title: "Cardamom Phylosticta Leaf Disease",
+      scientificName: "Phyllosticta-associated class; species not identified by the model",
+      category: "Model disease class",
+      description: "PHYLOSTICTA is a disease class in the Cardamom AI model. The image prediction does not identify the exact Phyllosticta species or replace laboratory or field confirmation.",
+      symptoms: ["Leaf spots or lesions may be visible.", "Affected tissue may become brown or dry.", "Spot size, shape and distribution can vary with conditions."],
+      prevention: ["Monitor leaves for new or spreading spots.", "Maintain plantation hygiene.", "Promote suitable airflow within the crop.", "Use healthy planting material and seek expert advice when symptoms spread."],
+      treatment: "Do not choose a fungicide from the AI result alone. Obtain field confirmation and follow local agricultural recommendations for the confirmed problem.",
+    },
+  },
 };
 
 // --------------------------------------------------
@@ -213,6 +249,30 @@ const KN_DISEASE = {
     symptoms: ["ಬೆಂಬಲಿತ ರೋಗ ವರ್ಗ ಯಾವುದೂ ಊಹಿಸಲ್ಪಟ್ಟಿಲ್ಲ.", "ಚಿತ್ರವನ್ನು ಆರೋಗ್ಯಕರ ಎಲೆ ಎಂದು ವರ್ಗೀಕರಿಸಲಾಗಿದೆ."],
     prevention: ["ಮರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "ಸಮತೋಲಿತ ಪೋಷಣೆ ನೀಡಿ.", "ಉತ್ತಮ ನೀರು ಹರಿವು ಕಾಪಾಡಿ.", "ಮಧ್ಯದ ಮೊಗ್ಗನ್ನು ಪರಿಶೀಲಿಸಿ."],
     treatment: "ಈ ಭವಿಷ್ಯವಾಣಿಯ ಆಧಾರದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ರೋಗ ಚಿಕಿತ್ಸೆ ಅಗತ್ಯವಿಲ್ಲ.",
+  },
+  HEALTHY: {
+    title: "ಆರೋಗ್ಯಕರ ಏಲಕ್ಕಿ ಎಲೆ",
+    category: "ಆರೋಗ್ಯಕರ ಸ್ಥಿತಿ",
+    description: "ಏಲಕ್ಕಿ AI ಮಾದರಿಯು ಅಪ್‌ಲೋಡ್ ಮಾಡಿದ ಎಲೆಯನ್ನು ಆರೋಗ್ಯಕರವೆಂದು ವರ್ಗೀಕರಿಸಿದೆ. ಇದು ಸಂಪೂರ್ಣ ಗಿಡ ರೋಗಮುಕ್ತವಾಗಿದೆ ಎಂಬ ಖಾತರಿಯಲ್ಲ.",
+    symptoms: ["ಚಿತ್ರದಲ್ಲಿ ಬೆಂಬಲಿತ ರೋಗ ವರ್ಗ ಪತ್ತೆಯಾಗಿಲ್ಲ.", "ಮಾದರಿಯು ಕಾಣುವ ಎಲೆಯನ್ನು ಆರೋಗ್ಯಕರವೆಂದು ಗುರುತಿಸಿದೆ."],
+    prevention: ["ಎಲೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.", "ತೋಟದ ಸ್ವಚ್ಛತೆ ಕಾಪಾಡಿ.", "ಸಮತೋಲಿತ ಪೋಷಣೆ ಮತ್ತು ಸೂಕ್ತ ನೀರು ಹರಿವು ಕಾಪಾಡಿ."],
+    treatment: "ಈ ಮಾದರಿ ಫಲಿತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ನಿರ್ದಿಷ್ಟ ಚಿಕಿತ್ಸೆಯ ಅಗತ್ಯವಿಲ್ಲ. ಲಕ್ಷಣಗಳು ಕಂಡುಬಂದರೆ ತಜ್ಞರಿಂದ ಪರಿಶೀಲಿಸಿ.",
+  },
+  BLIGHT: {
+    title: "ಏಲಕ್ಕಿ ಎಲೆ ಬ್ಲೈಟ್ ರೋಗ",
+    category: "ಮಾದರಿಯ ರೋಗ ವರ್ಗ",
+    description: "BLIGHT ಏಲಕ್ಕಿ AI ಮಾದರಿಯಲ್ಲಿರುವ ರೋಗ ವರ್ಗವಾಗಿದೆ. ಚಿತ್ರ ಫಲಿತಾಂಶವು ಕಾರಣಕಾರಿ ಜೀವಿಯನ್ನು ಖಚಿತಪಡಿಸುವುದಿಲ್ಲ.",
+    symptoms: ["ಎಲೆಗಳಲ್ಲಿ ಬಣ್ಣ ಬದಲಾವಣೆ ಅಥವಾ ಹಾನಿಗೊಂಡ ಭಾಗಗಳು ಕಾಣಬಹುದು.", "ಹಾನಿಗೊಂಡ ಭಾಗಗಳು ಒಣಗಿದಂತೆ ಕಾಣಬಹುದು."],
+    prevention: ["ಎಲೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.", "ಸೂಕ್ತ ಗಿಡ ಅಂತರ ಮತ್ತು ಗಾಳಿಯಾಟ ಕಾಪಾಡಿ.", "ತೋಟದ ಸ್ವಚ್ಛತೆ ಕಾಪಾಡಿ."],
+    treatment: "ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ಕ್ಷೇತ್ರದಲ್ಲೇ ರೋಗವನ್ನು ದೃಢೀಕರಿಸಿ. ಸ್ಥಳೀಯ ಕೃಷಿ ತಜ್ಞರ ಸಲಹೆ ಪಡೆಯಿರಿ.",
+  },
+  PHYLOSTICTA: {
+    title: "ಏಲಕ್ಕಿ ಫೈಲೋಸ್ಟಿಕ್ಟಾ ಎಲೆ ರೋಗ",
+    category: "ಮಾದರಿಯ ರೋಗ ವರ್ಗ",
+    description: "PHYLOSTICTA ಏಲಕ್ಕಿ AI ಮಾದರಿಯಲ್ಲಿರುವ ವರ್ಗವಾಗಿದೆ. ನಿಖರವಾದ ಪ್ರಭೇದವನ್ನು ಮಾದರಿ ಗುರುತಿಸುವುದಿಲ್ಲ.",
+    symptoms: ["ಎಲೆಗಳ ಮೇಲೆ ಚುಕ್ಕೆಗಳು ಅಥವಾ ಗಾಯಗಳು ಕಾಣಬಹುದು.", "ಹಾನಿಗೊಂಡ ಅಂಗಾಂಶ ಕಂದು ಅಥವಾ ಒಣಗಿದಂತೆ ಕಾಣಬಹುದು."],
+    prevention: ["ಹೊಸ ಅಥವಾ ಹೆಚ್ಚಾಗುತ್ತಿರುವ ಚುಕ್ಕೆಗಳಿಗಾಗಿ ಎಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "ತೋಟದ ಸ್ವಚ್ಛತೆ ಮತ್ತು ಸೂಕ್ತ ಗಾಳಿಯಾಟ ಕಾಪಾಡಿ.", "ಆರೋಗ್ಯಕರ ನೆಡುವ ವಸ್ತು ಬಳಸಿ."],
+    treatment: "AI ಫಲಿತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ಮಾತ್ರ ಶಿಲೀಂಧ್ರನಾಶಕ ಆಯ್ಕೆ ಮಾಡಬೇಡಿ. ಕ್ಷೇತ್ರ ದೃಢೀಕರಣದ ನಂತರ ಸ್ಥಳೀಯ ಕೃಷಿ ಸಲಹೆ ಅನುಸರಿಸಿ.",
   },
 };
 
@@ -706,6 +766,7 @@ export default function DiseaseDetection() {
   const [apiStatus, setApiStatus] = useState({
     Coffee: { connected: false, checking: true },
     Arecanut: { connected: false, checking: true },
+    Cardamom: { connected: false, checking: true },
   });
 
   const [selectedResearchClass, setSelectedResearchClass] =
@@ -713,6 +774,9 @@ export default function DiseaseDetection() {
 
   const [selectedArecanutClass, setSelectedArecanutClass] =
     useState("BUD ROT");
+
+  const [selectedCardamomClass, setSelectedCardamomClass] =
+    useState("HEALTHY");
 
   const [researchData, setResearchData] = useState([]);
   const [researchLoading, setResearchLoading] = useState(false);
@@ -783,16 +847,17 @@ export default function DiseaseDetection() {
   }, []);
 
   // --------------------------------------------------
-  // CHECK BOTH PYTHON API CONNECTIONS
+  // CHECK CONNECTED CROP API CONNECTIONS
   // --------------------------------------------------
 
   const checkApiConnection = useCallback(async () => {
-    const cropsToCheck = ["Coffee", "Arecanut"];
+    const cropsToCheck = ["Coffee", "Arecanut", "Cardamom"];
 
     setApiStatus((previous) => ({
       ...previous,
       Coffee: { ...previous.Coffee, checking: true },
       Arecanut: { ...previous.Arecanut, checking: true },
+      Cardamom: { ...previous.Cardamom, checking: true },
     }));
 
     await Promise.all(
@@ -983,7 +1048,7 @@ export default function DiseaseDetection() {
   };
 
   // --------------------------------------------------
-  // CROP PREDICTION - COFFEE AND ARECANUT
+  // CROP PREDICTION - COFFEE, ARECANUT AND CARDAMOM
   // --------------------------------------------------
 
   const analyzeImage = async () => {
@@ -1302,6 +1367,8 @@ export default function DiseaseDetection() {
               setSelectedResearchClass(prediction.predictedClass);
             } else if (prediction?.crop === "Arecanut") {
               setSelectedArecanutClass(prediction.predictedClass);
+            } else if (prediction?.crop === "Cardamom") {
+              setSelectedCardamomClass(prediction.predictedClass);
             }
           }}
         >
@@ -1853,6 +1920,8 @@ export default function DiseaseDetection() {
                       setSelectedResearchClass(prediction.predictedClass);
                     } else if (prediction.crop === "Arecanut") {
                       setSelectedArecanutClass(prediction.predictedClass);
+                    } else if (prediction.crop === "Cardamom") {
+                      setSelectedCardamomClass(prediction.predictedClass);
                     }
 
                     setActiveTool("Disease Information");
@@ -2166,6 +2235,105 @@ export default function DiseaseDetection() {
                     {language === "kn"
                       ? "ಅಡಿಕೆ ಸಂಶೋಧನಾ ಪ್ರಕಟಣೆಗಳ API ಇನ್ನೂ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ. ಈ ವಿಭಾಗದಲ್ಲಿ ಪ್ರಸ್ತುತ ರೋಗ ಮಾಹಿತಿ ಮಾತ್ರ ಲಭ್ಯವಿದೆ."
                       : "Arecanut research publications are not connected yet. This section currently displays disease information only."}
+                  </p>
+                </div>
+              </div>
+            </>
+          ) : selectedCrop === "Cardamom" ? (
+            <>
+              <div className="research-heading">
+                <div>
+                  <h2>{language === "kn" ? "ಏಲಕ್ಕಿ ರೋಗಗಳ ಮಾಹಿತಿ" : "Cardamom — Disease Information"}</h2>
+                  <p>
+                    {language === "kn"
+                      ? "ಏಲಕ್ಕಿ AI ಮಾದರಿಯ ಮೂರು ಬೆಂಬಲಿತ ವರ್ಗಗಳ ಮಾಹಿತಿ."
+                      : "Information for the three classes supported by the Cardamom AI model."}
+                  </p>
+                </div>
+              </div>
+
+              <div className="research-filter">
+                <label htmlFor="cardamom-disease-class">
+                  {language === "kn" ? "ವರ್ಗ ಆಯ್ಕೆಮಾಡಿ" : "Select Cardamom Class"}
+                </label>
+                <select
+                  id="cardamom-disease-class"
+                  value={selectedCardamomClass}
+                  onChange={(event) => setSelectedCardamomClass(event.target.value)}
+                >
+                  {CROP_CLASSES.Cardamom.map((item) => (
+                    <option value={item} key={item}>{item}</option>
+                  ))}
+                </select>
+              </div>
+
+              {(() => {
+                const disease = DISEASE_INFORMATION.Cardamom[selectedCardamomClass];
+                const translated = language === "kn"
+                  ? { ...disease, ...(KN_DISEASE[selectedCardamomClass] || {}) }
+                  : disease;
+
+                return (
+                  <>
+                    <div className="research-info-message">
+                      <FaInfoCircle />
+                      <div>
+                        <strong>
+                          {language === "kn" ? "ಏಲಕ್ಕಿ AI ಮಾದರಿ ಸಂಪರ್ಕಗೊಂಡಿದೆ" : "Cardamom AI Model Connected"}
+                        </strong>
+                        <p>
+                          {language === "kn"
+                            ? "ಆಯ್ಕೆಮಾಡಿದ ವರ್ಗದ ಲಕ್ಷಣಗಳು ಮತ್ತು ನಿರ್ವಹಣಾ ಮಾಹಿತಿಯನ್ನು ಕೆಳಗೆ ನೋಡಿ."
+                            : "Review the selected class description, possible symptoms, prevention and management guidance below."}
+                        </p>
+                      </div>
+                    </div>
+
+                    <section className="prediction-result">
+                      <div className="result-details">
+                        <span className="result-label">
+                          {language === "kn" ? "ಆಯ್ಕೆಮಾಡಿದ ವರ್ಗ" : "SELECTED CLASS"}
+                        </span>
+                        <h2>{translated.title}</h2>
+                        <p className="scientific-name">{disease.scientificName}</p>
+                        <p><strong>{t.category}:</strong> {translated.category}</p>
+                        <p>{translated.description}</p>
+                      </div>
+
+                      <div className="disease-details-grid">
+                        <div className="disease-detail-card">
+                          <h3><FaInfoCircle /> {t.symptoms}</h3>
+                          <ul>
+                            {translated.symptoms.map((item) => <li key={item}>{item}</li>)}
+                          </ul>
+                        </div>
+                        <div className="disease-detail-card">
+                          <h3><FaSeedling /> {t.prevention}</h3>
+                          <ul>
+                            {translated.prevention.map((item) => <li key={item}>{item}</li>)}
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="treatment-card">
+                        <h3><FaLeaf /> {t.management}</h3>
+                        <p>{translated.treatment}</p>
+                      </div>
+
+                      <p className="result-disclaimer">{t.disclaimer}</p>
+                    </section>
+                  </>
+                );
+              })()}
+
+              <div className="research-info-message">
+                <FaInfoCircle />
+                <div>
+                  <strong>{language === "kn" ? "ಗಮನಿಸಿ" : "Important note"}</strong>
+                  <p>
+                    {language === "kn"
+                      ? "AI ವರ್ಗೀಕರಣವು ಪ್ರಾಥಮಿಕ ಸೂಚನೆ ಮಾತ್ರ. ನಿಖರ ರೋಗ ಮತ್ತು ಚಿಕಿತ್ಸೆಗೆ ಸ್ಥಳೀಯ ಕೃಷಿ ತಜ್ಞರಿಂದ ದೃಢೀಕರಣ ಪಡೆಯಿರಿ."
+                      : "AI classification is a preliminary indication only. Confirm the disease and suitable treatment with a local agricultural expert."}
                   </p>
                 </div>
               </div>
