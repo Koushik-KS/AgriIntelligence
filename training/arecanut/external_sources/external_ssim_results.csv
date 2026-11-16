@@ -1,0 +1,73 @@
+class,image_1,image_2,phash_distance,ssim,sha256_identical,resized_pixels_identical
+BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.22e962eda424b79e99125f7ea854ed1e.jpg,bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.5fa7b0955bae93a977cecbe85450ff1c.jpg,4,0.2118,False,False
+BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.f4cc8e7d111197bfcb1358e8754025cc.jpg,bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.d00bf67ace31c9e37844e7808f2526c1.jpg,2,0.534,False,False
+BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.d591622157b3b95cb621dd11ffdb89d7.jpg,bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.25475dc3bee182fc51e70c80231c25be.jpg,8,0.2899,False,False
+HEALTHY LEAF,Healthy leaf(1).jpeg,Healthy leaf(11).jpg,0,0.7508,False,False
+HEALTHY LEAF,Healthy leaf(1).jpeg,Healthy leaf(12).jpg,0,0.9022,False,False
+HEALTHY LEAF,Healthy leaf(11).jpg,Healthy leaf(12).jpg,0,0.8205,False,False
+HEALTHY LEAF,Healthy leaf(13).jpeg,Healthy leaf(5).jpg,0,0.8567,False,False
+HEALTHY LEAF,Healthy leaf(13).jpeg,Healthy leaf(6).jpg,0,0.9401,False,False
+HEALTHY LEAF,Healthy leaf(14).jpg,Healthy leaf(15).jpg,0,0.9007,False,False
+HEALTHY LEAF,Healthy leaf(16).jpg,Healthy leaf(17).jpg,0,0.9341,False,False
+HEALTHY LEAF,Healthy leaf(18).jpg,Healthy leaf(19).jpg,0,0.85,False,False
+HEALTHY LEAF,Healthy leaf(2).jpg,Healthy leaf(3).jpg,0,0.894,False,False
+HEALTHY LEAF,Healthy leaf(20).jpg,Healthy leaf(21).jpg,0,0.7731,False,False
+HEALTHY LEAF,Healthy leaf(22).jpg,Healthy leaf(23).jpg,0,0.7689,False,False
+HEALTHY LEAF,Healthy leaf(24).jpg,Healthy leaf(25).jpg,0,0.8445,False,False
+HEALTHY LEAF,Healthy leaf(26).jpg,Healthy leaf(27).jpg,0,0.7116,False,False
+HEALTHY LEAF,Healthy leaf(28).jpg,Healthy leaf(29).jpg,0,0.7709,False,False
+HEALTHY LEAF,Healthy leaf(28).jpg,Healthy leaf(30).jpg,6,0.4204,False,False
+HEALTHY LEAF,Healthy leaf(28).jpg,Healthy leaf(31).jpg,6,0.3216,False,False
+HEALTHY LEAF,Healthy leaf(29).jpg,Healthy leaf(30).jpg,6,0.3206,False,False
+HEALTHY LEAF,Healthy leaf(29).jpg,Healthy leaf(31).jpg,6,0.4107,False,False
+HEALTHY LEAF,Healthy leaf(30).jpg,Healthy leaf(31).jpg,0,0.7739,False,False
+HEALTHY LEAF,Healthy leaf(32).jpg,Healthy leaf(33).jpg,0,0.7211,False,False
+HEALTHY LEAF,Healthy leaf(36).jpg,Healthy leaf(37).jpg,0,0.8076,False,False
+HEALTHY LEAF,Healthy leaf(38).jpg,Healthy leaf(39).jpg,0,0.8573,False,False
+HEALTHY LEAF,Healthy leaf(40).jpg,Healthy leaf(41).jpg,0,0.8816,False,False
+HEALTHY LEAF,Healthy leaf(42).jpg,Healthy leaf(43).jpg,0,0.8736,False,False
+HEALTHY LEAF,Healthy leaf(44).jpg,Healthy leaf(45).jpg,0,0.9073,False,False
+HEALTHY LEAF,Healthy leaf(46).jpg,Healthy leaf(47).jpg,0,0.8774,False,False
+HEALTHY LEAF,Healthy leaf(48).jpg,Healthy leaf(49).jpg,0,0.8503,False,False
+HEALTHY LEAF,Healthy leaf(5).jpg,Healthy leaf(6).jpg,0,0.873,False,False
+HEALTHY LEAF,Healthy leaf(8).jpg,Healthy leaf(9).jpg,0,0.9537,False,False
+HEALTHY NUT,healthy_nut (1).jpg,healthy_nut (1)_gray.jpg,0,0.8817,False,False
+HEALTHY NUT,healthy_nut (1).jpg,healthy_nut (4).jpeg,0,0.8322,False,False
+HEALTHY NUT,healthy_nut (1)_gray.jpg,healthy_nut (4).jpeg,0,0.9037,False,False
+HEALTHY NUT,healthy_nut (10).jpg,healthy_nut (10)_gray.jpg,0,0.9619,False,False
+HEALTHY NUT,healthy_nut (11).jpg,healthy_nut (11)_gray.jpg,2,0.8319,False,False
+HEALTHY NUT,healthy_nut (12).jpg,healthy_nut (12)_gray.jpg,0,0.847,False,False
+HEALTHY NUT,healthy_nut (13).jpg,healthy_nut (13)_gray.jpg,0,0.8502,False,False
+HEALTHY NUT,healthy_nut (14).jpg,healthy_nut (14)_gray.jpg,0,0.8552,False,False
+HEALTHY NUT,healthy_nut (15).jpg,healthy_nut (15)_gray.jpg,0,0.9331,False,False
+HEALTHY NUT,healthy_nut (16).jpg,healthy_nut (16)_gray.jpg,0,0.9006,False,False
+HEALTHY NUT,healthy_nut (17).jpg,healthy_nut (17)_gray.jpg,0,0.8635,False,False
+HEALTHY NUT,healthy_nut (18).jpg,healthy_nut (18)_gray.jpg,0,0.8656,False,False
+HEALTHY NUT,healthy_nut (19).jpg,healthy_nut (19)_gray.jpg,0,0.9463,False,False
+HEALTHY NUT,healthy_nut (2).jpg,healthy_nut (2)_gray.jpg,0,0.8772,False,False
+HEALTHY NUT,healthy_nut (20).jpg,healthy_nut (20)_gray.jpg,0,0.727,False,False
+HEALTHY NUT,healthy_nut (21).jpg,healthy_nut (21)_gray.jpg,0,0.9317,False,False
+HEALTHY NUT,healthy_nut (22).jpg,healthy_nut (3).jpeg,0,0.948,False,False
+HEALTHY NUT,healthy_nut (23).jpg,healthy_nut (5).jpeg,0,0.8988,False,False
+HEALTHY NUT,healthy_nut (3).jpg,healthy_nut (3)_gray.jpg,0,0.9506,False,False
+HEALTHY NUT,healthy_nut (4).jpg,healthy_nut (4)_gray.jpg,0,0.879,False,False
+HEALTHY NUT,healthy_nut (5).jpg,healthy_nut (5)_gray.jpg,0,0.8812,False,False
+HEALTHY NUT,healthy_nut (6).jpg,healthy_nut (6)_gray.jpg,0,0.8848,False,False
+HEALTHY NUT,healthy_nut (7).jpg,healthy_nut (7)_gray.jpg,0,0.8977,False,False
+HEALTHY NUT,healthy_nut (8).jpg,healthy_nut (8)_gray.jpg,0,0.8887,False,False
+HEALTHY NUT,healthy_nut (9).jpg,healthy_nut (9)_gray.jpg,0,0.8963,False,False
+KOLEROGA,MahaliKoleroga (184).jpg,MahaliKoleroga (186).jpg,4,0.266,False,False
+KOLEROGA,MahaliKoleroga (187).jpg,MahaliKoleroga (228).jpg,4,0.1959,False,False
+KOLEROGA,MahaliKoleroga (188).jpg,MahaliKoleroga (227).jpg,4,0.2753,False,False
+KOLEROGA,MahaliKoleroga (193).jpg,MahaliKoleroga (223).jpg,8,0.2805,False,False
+KOLEROGA,MahaliKoleroga (193).jpg,MahaliKoleroga (226).jpg,8,0.2805,False,False
+KOLEROGA,MahaliKoleroga (203).jpg,MahaliKoleroga (206).jpg,8,0.2478,False,False
+KOLEROGA,MahaliKoleroga (214).jpg,MahaliKoleroga (217).jpg,0,1.0,True,True
+KOLEROGA,MahaliKoleroga (215).jpg,MahaliKoleroga (216).jpg,6,0.3711,False,False
+KOLEROGA,MahaliKoleroga (223).jpg,MahaliKoleroga (226).jpg,0,1.0,True,True
+RING SPOT,images (3).jpg,IMG_20221230_125452_jpg.rf.04f75e51dfe95ed7dde2edf568c83f2b.jpg,0,0.8701,False,False
+RING SPOT,images.jpg,Ring_Spot.jpg,0,0.8662,False,False
+RING SPOT,IMG_20221230_124722_jpg.rf.3225f6fbf0e6c883df4400d3864ebc73.jpg,IMG_20221230_124722_jpg.rf.50a5c511ee89f7e9a59efa4ec8e5f17f.jpg,0,0.9996,False,False
+RING SPOT,IMG_20221230_125452_jpg.rf.4bd8e5e68b606e813459ca5428b0ce22.jpg,IMG_20221230_125452_jpg.rf.68644f3118d0c03f49921fa8ddc98817.jpg,0,0.9999,False,False
+RING SPOT,OIP (2).jpg,OIP (9).jpg,4,0.3244,False,False
+RING SPOT,OIP (3).jpg,OIP (5).jpg,6,0.5573,False,False

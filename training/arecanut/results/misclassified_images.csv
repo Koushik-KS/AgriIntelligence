@@ -1,0 +1,8 @@
+image_path,actual_class,predicted_class,confidence
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0075.jpg,YELLOW LEAF,RING SPOT,0.5927
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0078.jpg,YELLOW LEAF,RING SPOT,0.6121
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0035.jpg,YELLOW LEAF,BUD ROT,0.4083
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0044.jpg,YELLOW LEAF,RING SPOT,0.532
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0123.jpg,YELLOW LEAF,RING SPOT,0.4764
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(14).jpg,HEALTHY LEAF,RING SPOT,0.3699
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(44).jpg,HEALTHY LEAF,RING SPOT,0.3509

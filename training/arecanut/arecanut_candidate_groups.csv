@@ -1,0 +1,59 @@
+group_id,image_path,group_size
+CANDIDATE_GROUP_001,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(1).jpeg,3
+CANDIDATE_GROUP_001,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(11).jpg,3
+CANDIDATE_GROUP_001,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(12).jpg,3
+CANDIDATE_GROUP_002,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(13).jpeg,3
+CANDIDATE_GROUP_002,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(5).jpg,3
+CANDIDATE_GROUP_002,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(6).jpg,3
+CANDIDATE_GROUP_003,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(14).jpg,2
+CANDIDATE_GROUP_003,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(15).jpg,2
+CANDIDATE_GROUP_004,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(16).jpg,2
+CANDIDATE_GROUP_004,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(17).jpg,2
+CANDIDATE_GROUP_005,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(18).jpg,2
+CANDIDATE_GROUP_005,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(19).jpg,2
+CANDIDATE_GROUP_006,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(2).jpg,2
+CANDIDATE_GROUP_006,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(3).jpg,2
+CANDIDATE_GROUP_007,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(20).jpg,2
+CANDIDATE_GROUP_007,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(21).jpg,2
+CANDIDATE_GROUP_008,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(22).jpg,2
+CANDIDATE_GROUP_008,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(23).jpg,2
+CANDIDATE_GROUP_009,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(24).jpg,2
+CANDIDATE_GROUP_009,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(25).jpg,2
+CANDIDATE_GROUP_010,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(26).jpg,2
+CANDIDATE_GROUP_010,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(27).jpg,2
+CANDIDATE_GROUP_011,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(28).jpg,2
+CANDIDATE_GROUP_011,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(29).jpg,2
+CANDIDATE_GROUP_012,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(30).jpg,2
+CANDIDATE_GROUP_012,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(31).jpg,2
+CANDIDATE_GROUP_013,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(32).jpg,2
+CANDIDATE_GROUP_013,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(33).jpg,2
+CANDIDATE_GROUP_014,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(36).jpg,2
+CANDIDATE_GROUP_014,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(37).jpg,2
+CANDIDATE_GROUP_015,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(38).jpg,2
+CANDIDATE_GROUP_015,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(39).jpg,2
+CANDIDATE_GROUP_016,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(40).jpg,2
+CANDIDATE_GROUP_016,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(41).jpg,2
+CANDIDATE_GROUP_017,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(42).jpg,2
+CANDIDATE_GROUP_017,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(43).jpg,2
+CANDIDATE_GROUP_018,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(44).jpg,2
+CANDIDATE_GROUP_018,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(45).jpg,2
+CANDIDATE_GROUP_019,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(46).jpg,2
+CANDIDATE_GROUP_019,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(47).jpg,2
+CANDIDATE_GROUP_020,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(48).jpg,2
+CANDIDATE_GROUP_020,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(49).jpg,2
+CANDIDATE_GROUP_021,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(8).jpg,2
+CANDIDATE_GROUP_021,dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(9).jpg,2
+CANDIDATE_GROUP_022,dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.22e962eda424b79e99125f7ea854ed1e.jpg,2
+CANDIDATE_GROUP_022,dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.5fa7b0955bae93a977cecbe85450ff1c.jpg,2
+CANDIDATE_GROUP_023,dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.f4cc8e7d111197bfcb1358e8754025cc.jpg,2
+CANDIDATE_GROUP_023,dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.d00bf67ace31c9e37844e7808f2526c1.jpg,2
+CANDIDATE_GROUP_024,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.04f75e51dfe95ed7dde2edf568c83f2b.jpg,2
+CANDIDATE_GROUP_024,dataset\Arecanut\Disease\RING SPOT\images (3).jpg,2
+CANDIDATE_GROUP_025,dataset\Arecanut\Disease\RING SPOT\Ring_Spot.jpg,2
+CANDIDATE_GROUP_025,dataset\Arecanut\Disease\RING SPOT\images.jpg,2
+CANDIDATE_GROUP_026,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.3225f6fbf0e6c883df4400d3864ebc73.jpg,2
+CANDIDATE_GROUP_026,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.50a5c511ee89f7e9a59efa4ec8e5f17f.jpg,2
+CANDIDATE_GROUP_027,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.4bd8e5e68b606e813459ca5428b0ce22.jpg,2
+CANDIDATE_GROUP_027,dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.68644f3118d0c03f49921fa8ddc98817.jpg,2
+CANDIDATE_GROUP_028,dataset\Arecanut\Disease\RING SPOT\OIP (2).jpg,2
+CANDIDATE_GROUP_028,dataset\Arecanut\Disease\RING SPOT\OIP (9).jpg,2

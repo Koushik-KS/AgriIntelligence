@@ -1,0 +1,201 @@
+image_path,class_folder,filename,width,height,format,camera_make,camera_model,date_taken,software,file_size_kb
+dataset\Arecanut\Disease\BUD ROT\bud rot 4.jpg,BUD ROT,bud rot 4.jpg,186,161,JPEG,,,,,20.31
+dataset\Arecanut\Disease\BUD ROT\bud rot1.jpg,BUD ROT,bud rot1.jpg,580,878,JPEG,,,,,201.33
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_18_jpg_e12ebac5-a55d-46e3-ab6a-15ed72cde555_jpg.rf.c6294f2c3dd1d2e0cc731684fffb9b9c.jpg,BUD ROT,bud-borer_original_18_jpg_e12ebac5-a55d-46e3-ab6a-15ed72cde555_jpg.rf.c6294f2c3dd1d2e0cc731684fffb9b9c.jpg,244,215,JPEG,,,,,8.55
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_515f3a08-1167-4f97-9399-ee5cedf9c6c5_jpg.rf.a4de6400674214c9090258a1706aaf5d.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_515f3a08-1167-4f97-9399-ee5cedf9c6c5_jpg.rf.a4de6400674214c9090258a1706aaf5d.jpg,2048,1536,JPEG,,,,,340.27
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_515f3a08-1167-4f97-9399-ee5cedf9c6c5_jpg.rf.c786f4e300461765c223a4bc1c931770.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_515f3a08-1167-4f97-9399-ee5cedf9c6c5_jpg.rf.c786f4e300461765c223a4bc1c931770.jpg,1820,1364,JPEG,,,,,259.66
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_515f3a08-1167-4f97-9399-ee5cedf9c6c5_jpg.rf.e0b90de5ea78581515b753c706a7ad95.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_515f3a08-1167-4f97-9399-ee5cedf9c6c5_jpg.rf.e0b90de5ea78581515b753c706a7ad95.jpg,1942,1456,JPEG,,,,,284.11
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_7997397b-c827-46ce-adaf-171ef5947364_jpg.rf.3e5d2324b0655a4e5fd7a0bdd2263cf8.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_7997397b-c827-46ce-adaf-171ef5947364_jpg.rf.3e5d2324b0655a4e5fd7a0bdd2263cf8.jpg,1842,1382,JPEG,,,,,226.71
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_7997397b-c827-46ce-adaf-171ef5947364_jpg.rf.7785c1de36c82581cf51453a62ff222c.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_7997397b-c827-46ce-adaf-171ef5947364_jpg.rf.7785c1de36c82581cf51453a62ff222c.jpg,1842,1382,JPEG,,,,,247.22
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_7997397b-c827-46ce-adaf-171ef5947364_jpg.rf.7ba6d1fb5abdc8bd13e51dd21205773e.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_7997397b-c827-46ce-adaf-171ef5947364_jpg.rf.7ba6d1fb5abdc8bd13e51dd21205773e.jpg,2048,1536,JPEG,,,,,318.75
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.22e962eda424b79e99125f7ea854ed1e.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.22e962eda424b79e99125f7ea854ed1e.jpg,1964,1472,JPEG,,,,,285.87
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.5fa7b0955bae93a977cecbe85450ff1c.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.5fa7b0955bae93a977cecbe85450ff1c.jpg,2048,1536,JPEG,,,,,340.81
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.a87e0b69d693b2841f02c1620e89221e.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_9c2e9ebd-67f6-4b77-8d76-d43b8bfe367d_jpg.rf.a87e0b69d693b2841f02c1620e89221e.jpg,1910,1432,JPEG,,,,,275.0
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_ae71eead-cd75-4266-b22a-2b49dc2ce00c_jpg.rf.5d05b2be6863c86ec368332564a73d5d.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_ae71eead-cd75-4266-b22a-2b49dc2ce00c_jpg.rf.5d05b2be6863c86ec368332564a73d5d.jpg,1964,1472,JPEG,,,,,285.77
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_ae71eead-cd75-4266-b22a-2b49dc2ce00c_jpg.rf.93a684311eba35e09d0c78d498cab8cd.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_ae71eead-cd75-4266-b22a-2b49dc2ce00c_jpg.rf.93a684311eba35e09d0c78d498cab8cd.jpg,2048,1536,JPEG,,,,,332.2
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170926_jpg_ae71eead-cd75-4266-b22a-2b49dc2ce00c_jpg.rf.e7c24cc79d2ef5a73f5ef3e7a809996d.jpg,BUD ROT,bud-borer_original_IMG_20230819_170926_jpg_ae71eead-cd75-4266-b22a-2b49dc2ce00c_jpg.rf.e7c24cc79d2ef5a73f5ef3e7a809996d.jpg,1984,1488,JPEG,,,,,279.79
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170931_jpg_0fc9c9b2-eb47-4e9a-b4de-903e15099677_jpg.rf.001254df754dae7cf8d506b7a57c2424.jpg,BUD ROT,bud-borer_original_IMG_20230819_170931_jpg_0fc9c9b2-eb47-4e9a-b4de-903e15099677_jpg.rf.001254df754dae7cf8d506b7a57c2424.jpg,2048,1536,JPEG,,,,,326.47
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170931_jpg_0fc9c9b2-eb47-4e9a-b4de-903e15099677_jpg.rf.03924f2b840f687a7693d39858ae7dcb.jpg,BUD ROT,bud-borer_original_IMG_20230819_170931_jpg_0fc9c9b2-eb47-4e9a-b4de-903e15099677_jpg.rf.03924f2b840f687a7693d39858ae7dcb.jpg,1942,1456,JPEG,,,,,272.62
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170931_jpg_0fc9c9b2-eb47-4e9a-b4de-903e15099677_jpg.rf.d27b9ba29a39b0484621f991f51996e0.jpg,BUD ROT,bud-borer_original_IMG_20230819_170931_jpg_0fc9c9b2-eb47-4e9a-b4de-903e15099677_jpg.rf.d27b9ba29a39b0484621f991f51996e0.jpg,1942,1456,JPEG,,,,,266.89
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170931_jpg_27c08f5b-bfc3-44a2-88bc-92ef0920b689_jpg.rf.07c5350bdc4f1ac8d4810af4ecabed95.jpg,BUD ROT,bud-borer_original_IMG_20230819_170931_jpg_27c08f5b-bfc3-44a2-88bc-92ef0920b689_jpg.rf.07c5350bdc4f1ac8d4810af4ecabed95.jpg,1920,1440,JPEG,,,,,260.32
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170931_jpg_27c08f5b-bfc3-44a2-88bc-92ef0920b689_jpg.rf.3cfdaa67971c22df3f27d2baa452aea5.jpg,BUD ROT,bud-borer_original_IMG_20230819_170931_jpg_27c08f5b-bfc3-44a2-88bc-92ef0920b689_jpg.rf.3cfdaa67971c22df3f27d2baa452aea5.jpg,1842,1382,JPEG,,,,,240.0
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_170931_jpg_27c08f5b-bfc3-44a2-88bc-92ef0920b689_jpg.rf.c7128a0bb25495f1d09e0e092d637fbe.jpg,BUD ROT,bud-borer_original_IMG_20230819_170931_jpg_27c08f5b-bfc3-44a2-88bc-92ef0920b689_jpg.rf.c7128a0bb25495f1d09e0e092d637fbe.jpg,2048,1536,JPEG,,,,,306.87
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.5cdfce183d0aea1939040a7069b9ef61.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.5cdfce183d0aea1939040a7069b9ef61.jpg,1888,1416,JPEG,,,,,313.19
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.804da89e7a2690c760ccc28fe44a52b0.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.804da89e7a2690c760ccc28fe44a52b0.jpg,2016,1512,JPEG,,,,,344.3
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.f4cc8e7d111197bfcb1358e8754025cc.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_0a202412-dde5-4379-be65-0f4033eaeb4f_jpg.rf.f4cc8e7d111197bfcb1358e8754025cc.jpg,2048,1536,JPEG,,,,,399.83
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.6b7e444d3e0124e4bbdc5f419485e3dc.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.6b7e444d3e0124e4bbdc5f419485e3dc.jpg,1808,1356,JPEG,,,,,253.52
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.8dc6b3e8d6755cd590771f41ff99f9f9.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.8dc6b3e8d6755cd590771f41ff99f9f9.jpg,1854,1390,JPEG,,,,,307.58
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.d591622157b3b95cb621dd11ffdb89d7.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_212464d1-abb6-45d5-b312-4ebc56b992bc_jpg.rf.d591622157b3b95cb621dd11ffdb89d7.jpg,2048,1536,JPEG,,,,,412.03
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.9173ed4f0e49e2ca379b0eb20d4165a4.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.9173ed4f0e49e2ca379b0eb20d4165a4.jpg,1888,1416,JPEG,,,,,307.31
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.d00bf67ace31c9e37844e7808f2526c1.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.d00bf67ace31c9e37844e7808f2526c1.jpg,2048,1536,JPEG,,,,,397.14
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.f7d2f7433cc2af4551bcc37e142ddb76.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_4d2f5188-1741-4229-a5dd-fc9376ac812a_jpg.rf.f7d2f7433cc2af4551bcc37e142ddb76.jpg,1876,1406,JPEG,,,,,364.73
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_69d7b3a6-ab93-487e-b46c-57417a09fe1e_jpg.rf.2eacafc43e99788ef78fcd5b97d21afc.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_69d7b3a6-ab93-487e-b46c-57417a09fe1e_jpg.rf.2eacafc43e99788ef78fcd5b97d21afc.jpg,1910,1432,JPEG,,,,,326.75
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_69d7b3a6-ab93-487e-b46c-57417a09fe1e_jpg.rf.735e225a8445b6c9ae5cff8239050b4f.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_69d7b3a6-ab93-487e-b46c-57417a09fe1e_jpg.rf.735e225a8445b6c9ae5cff8239050b4f.jpg,2048,1536,JPEG,,,,,411.98
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_69d7b3a6-ab93-487e-b46c-57417a09fe1e_jpg.rf.ca4a856b5e6ee8091948b4215e20fbc8.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_69d7b3a6-ab93-487e-b46c-57417a09fe1e_jpg.rf.ca4a856b5e6ee8091948b4215e20fbc8.jpg,1952,1464,JPEG,,,,,333.77
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_77064d01-10ba-42d3-b72e-ab5d1b5b22e4_jpg.rf.0054cbf6b602b28116346fc8c6907975.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_77064d01-10ba-42d3-b72e-ab5d1b5b22e4_jpg.rf.0054cbf6b602b28116346fc8c6907975.jpg,1830,1372,JPEG,,,,,271.93
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_77064d01-10ba-42d3-b72e-ab5d1b5b22e4_jpg.rf.008be605c52ae5ad58fc7dad222063af.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_77064d01-10ba-42d3-b72e-ab5d1b5b22e4_jpg.rf.008be605c52ae5ad58fc7dad222063af.jpg,1952,1464,JPEG,,,,,328.01
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_77064d01-10ba-42d3-b72e-ab5d1b5b22e4_jpg.rf.1e647399d73ad70b27f77d7ed4d19452.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_77064d01-10ba-42d3-b72e-ab5d1b5b22e4_jpg.rf.1e647399d73ad70b27f77d7ed4d19452.jpg,2048,1536,JPEG,,,,,439.47
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_8104315e-a2bf-43be-bafd-7e6ca191668e_jpg.rf.06a65d8882dc4e64159e0de3d4b01b49.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_8104315e-a2bf-43be-bafd-7e6ca191668e_jpg.rf.06a65d8882dc4e64159e0de3d4b01b49.jpg,2036,1528,JPEG,,,,,375.43
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_8104315e-a2bf-43be-bafd-7e6ca191668e_jpg.rf.1032ceec2558ce095e603f5a0a348f6f.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_8104315e-a2bf-43be-bafd-7e6ca191668e_jpg.rf.1032ceec2558ce095e603f5a0a348f6f.jpg,1888,1416,JPEG,,,,,375.17
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_8104315e-a2bf-43be-bafd-7e6ca191668e_jpg.rf.33d8aee3ef43cc25d7c6a4d19989ebed.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_8104315e-a2bf-43be-bafd-7e6ca191668e_jpg.rf.33d8aee3ef43cc25d7c6a4d19989ebed.jpg,2048,1536,JPEG,,,,,422.36
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.25475dc3bee182fc51e70c80231c25be.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.25475dc3bee182fc51e70c80231c25be.jpg,1910,1432,JPEG,,,,,324.19
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.a5aa335a5bc280b445c0df21937d8a15.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.a5aa335a5bc280b445c0df21937d8a15.jpg,2048,1536,JPEG,,,,,421.79
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.db1141741b6c725f51ccc67a3db0f835.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_8d2f0b36-0fb7-4f4c-bbb6-c16a16c2731c_jpg.rf.db1141741b6c725f51ccc67a3db0f835.jpg,1876,1406,JPEG,,,,,343.51
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_93c4ffa3-fead-481f-b5ee-a1a9fe900a3e_jpg.rf.25bd9ae497cf2d64617f33cb169b9ecf.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_93c4ffa3-fead-481f-b5ee-a1a9fe900a3e_jpg.rf.25bd9ae497cf2d64617f33cb169b9ecf.jpg,2048,1536,JPEG,,,,,386.91
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_93c4ffa3-fead-481f-b5ee-a1a9fe900a3e_jpg.rf.4509654e346be899b7fc889d463d0b66.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_93c4ffa3-fead-481f-b5ee-a1a9fe900a3e_jpg.rf.4509654e346be899b7fc889d463d0b66.jpg,1830,1372,JPEG,,,,,288.6
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_93c4ffa3-fead-481f-b5ee-a1a9fe900a3e_jpg.rf.e99a875ccc60bdc0ed195f4f83e2caa5.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_93c4ffa3-fead-481f-b5ee-a1a9fe900a3e_jpg.rf.e99a875ccc60bdc0ed195f4f83e2caa5.jpg,1808,1356,JPEG,,,,,295.53
+dataset\Arecanut\Disease\BUD ROT\bud-borer_original_IMG_20230819_171000_jpg_ddc65600-b347-4577-ae2b-c5680c0fef79_jpg.rf.7885f4244019803a216170addb5581e0.jpg,BUD ROT,bud-borer_original_IMG_20230819_171000_jpg_ddc65600-b347-4577-ae2b-c5680c0fef79_jpg.rf.7885f4244019803a216170addb5581e0.jpg,1796,1346,JPEG,,,,,285.0
+dataset\Arecanut\Disease\BUD ROT\IMG_20250502_161419_jpg.rf.aedb372feb4cf15bd5aa9885708bcabe.jpg,BUD ROT,IMG_20250502_161419_jpg.rf.aedb372feb4cf15bd5aa9885708bcabe.jpg,640,640,JPEG,,,,,52.79
+dataset\Arecanut\Disease\BUD ROT\IMG_20250502_161426_jpg.rf.2c1d775fb3882fdf26b3410f4448e6d3.jpg,BUD ROT,IMG_20250502_161426_jpg.rf.2c1d775fb3882fdf26b3410f4448e6d3.jpg,640,640,JPEG,,,,,87.97
+dataset\Arecanut\Disease\BUD ROT\IMG_20250502_161504_jpg.rf.8f7239b00952db30d9e8011914d866ab.jpg,BUD ROT,IMG_20250502_161504_jpg.rf.8f7239b00952db30d9e8011914d866ab.jpg,640,640,JPEG,,,,,113.12
+dataset\Arecanut\Disease\BUD ROT\IMG_20250502_161512_jpg.rf.d6a14a637197fb4d0de512f0c6e87623.jpg,BUD ROT,IMG_20250502_161512_jpg.rf.d6a14a637197fb4d0de512f0c6e87623.jpg,640,640,JPEG,,,,,124.06
+dataset\Arecanut\Disease\RING SPOT\download (1).jpg,RING SPOT,download (1).jpg,195,234,JPEG,,,,,14.43
+dataset\Arecanut\Disease\RING SPOT\download.jpg,RING SPOT,download.jpg,403,234,JPEG,,,,,27.76
+dataset\Arecanut\Disease\RING SPOT\images (1).jpg,RING SPOT,images (1).jpg,300,168,JPEG,,,,,10.16
+dataset\Arecanut\Disease\RING SPOT\images (1)1.jpg,RING SPOT,images (1)1.jpg,328,153,JPEG,,,,,8.79
+dataset\Arecanut\Disease\RING SPOT\images (2).jpg,RING SPOT,images (2).jpg,225,224,JPEG,,,,,13.99
+dataset\Arecanut\Disease\RING SPOT\images (3).jpg,RING SPOT,images (3).jpg,225,225,JPEG,,,,,8.66
+dataset\Arecanut\Disease\RING SPOT\images (4).jpg,RING SPOT,images (4).jpg,259,194,JPEG,,,,,12.55
+dataset\Arecanut\Disease\RING SPOT\images.jpg,RING SPOT,images.jpg,201,251,JPEG,,,,,11.41
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124706_jpg.rf.c2375c219f2b093884fe2d70e57c0dcf.jpg,RING SPOT,IMG_20221230_124706_jpg.rf.c2375c219f2b093884fe2d70e57c0dcf.jpg,640,640,JPEG,,,,,79.29
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124706_jpg.rf.ca263ee52bb1e8c3de8d04dce645044f.jpg,RING SPOT,IMG_20221230_124706_jpg.rf.ca263ee52bb1e8c3de8d04dce645044f.jpg,640,640,JPEG,,,,,62.89
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124706_jpg.rf.d4946c9fffd8731af8b8b301cc77ced3.jpg,RING SPOT,IMG_20221230_124706_jpg.rf.d4946c9fffd8731af8b8b301cc77ced3.jpg,640,640,JPEG,,,,,84.19
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124706_jpg.rf.dcdc6d1ded8a0d760008c8c2479666b8.jpg,RING SPOT,IMG_20221230_124706_jpg.rf.dcdc6d1ded8a0d760008c8c2479666b8.jpg,639,639,JPEG,,,,,87.33
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124706_jpg.rf.ef1cbe85e8ce77a08f99b6e92bac6565.jpg,RING SPOT,IMG_20221230_124706_jpg.rf.ef1cbe85e8ce77a08f99b6e92bac6565.jpg,640,640,JPEG,,,,,97.46
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.114c49834fcbb5ed0f98035a2220e7a5.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.114c49834fcbb5ed0f98035a2220e7a5.jpg,640,640,JPEG,,,,,90.18
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.30c0c1144ea20e5792e8dc90be19fabf.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.30c0c1144ea20e5792e8dc90be19fabf.jpg,640,640,JPEG,,,,,72.88
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.3225f6fbf0e6c883df4400d3864ebc73.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.3225f6fbf0e6c883df4400d3864ebc73.jpg,640,640,JPEG,,,,,89.07
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.3700392e32c8030b3a8b87064eb45712.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.3700392e32c8030b3a8b87064eb45712.jpg,640,640,JPEG,,,,,81.77
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.4d5e0abe4d5e2f8508615881627c3232.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.4d5e0abe4d5e2f8508615881627c3232.jpg,640,640,JPEG,,,,,71.82
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.50a5c511ee89f7e9a59efa4ec8e5f17f.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.50a5c511ee89f7e9a59efa4ec8e5f17f.jpg,640,640,JPEG,,,,,89.03
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.ac643caa7690490c0d1bb967de8e45ec.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.ac643caa7690490c0d1bb967de8e45ec.jpg,640,640,JPEG,,,,,83.09
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.b1d02c871b7cb305cd2ebd9a3828ad36.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.b1d02c871b7cb305cd2ebd9a3828ad36.jpg,640,640,JPEG,,,,,79.12
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.b442fe7478ac6139fde545aa8269e51e.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.b442fe7478ac6139fde545aa8269e51e.jpg,640,640,JPEG,,,,,119.91
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.ba684dd768bca6d31c14592d7a395230.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.ba684dd768bca6d31c14592d7a395230.jpg,640,640,JPEG,,,,,66.67
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.c5ea407f2a0e0d645533b78349477982.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.c5ea407f2a0e0d645533b78349477982.jpg,640,640,JPEG,,,,,71.26
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_124722_jpg.rf.c961ef62d6719d734d2d4a610d25e48d.jpg,RING SPOT,IMG_20221230_124722_jpg.rf.c961ef62d6719d734d2d4a610d25e48d.jpg,639,639,JPEG,,,,,73.96
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.0085b6cce84dceaa56593e3aac434752.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.0085b6cce84dceaa56593e3aac434752.jpg,640,640,JPEG,,,,,44.35
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.04f75e51dfe95ed7dde2edf568c83f2b.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.04f75e51dfe95ed7dde2edf568c83f2b.jpg,640,640,JPEG,,,,,58.95
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.073872430e991b417b472ef2bbf36878.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.073872430e991b417b472ef2bbf36878.jpg,639,639,JPEG,,,,,48.16
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.130fd6623e7fffcf4cd72db9bcace93a.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.130fd6623e7fffcf4cd72db9bcace93a.jpg,640,640,JPEG,,,,,49.93
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.2f19955bf138019de6eaf06aa36c71ec.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.2f19955bf138019de6eaf06aa36c71ec.jpg,640,640,JPEG,,,,,44.85
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.4bd8e5e68b606e813459ca5428b0ce22.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.4bd8e5e68b606e813459ca5428b0ce22.jpg,640,640,JPEG,,,,,51.14
+dataset\Arecanut\Disease\RING SPOT\IMG_20221230_125452_jpg.rf.68644f3118d0c03f49921fa8ddc98817.jpg,RING SPOT,IMG_20221230_125452_jpg.rf.68644f3118d0c03f49921fa8ddc98817.jpg,640,640,JPEG,,,,,51.15
+dataset\Arecanut\Disease\RING SPOT\OIP (1).jpg,RING SPOT,OIP (1).jpg,410,234,JPEG,,,,,27.8
+dataset\Arecanut\Disease\RING SPOT\OIP (2).jpg,RING SPOT,OIP (2).jpg,399,234,JPEG,,,,,21.74
+dataset\Arecanut\Disease\RING SPOT\OIP (3).jpg,RING SPOT,OIP (3).jpg,317,237,JPEG,,,,,10.22
+dataset\Arecanut\Disease\RING SPOT\OIP (4).jpg,RING SPOT,OIP (4).jpg,79,79,JPEG,,,,,3.71
+dataset\Arecanut\Disease\RING SPOT\OIP (5).jpg,RING SPOT,OIP (5).jpg,266,234,JPEG,,,,,9.77
+dataset\Arecanut\Disease\RING SPOT\OIP (6).jpg,RING SPOT,OIP (6).jpg,149,234,JPEG,,,,,8.46
+dataset\Arecanut\Disease\RING SPOT\OIP (7).jpg,RING SPOT,OIP (7).jpg,334,234,JPEG,,,,,17.93
+dataset\Arecanut\Disease\RING SPOT\OIP (8).jpg,RING SPOT,OIP (8).jpg,211,234,JPEG,,,,,15.53
+dataset\Arecanut\Disease\RING SPOT\OIP (9).jpg,RING SPOT,OIP (9).jpg,427,240,JPEG,,,,,23.12
+dataset\Arecanut\Disease\RING SPOT\OIP.jpg,RING SPOT,OIP.jpg,429,241,JPEG,,,,,36.72
+dataset\Arecanut\Disease\RING SPOT\Ring_pot4_.jpg,RING SPOT,Ring_pot4_.jpg,701,527,JPEG,,,,Adobe Photoshop CS3 Windows,145.33
+dataset\Arecanut\Disease\RING SPOT\Ring_Spot.jpg,RING SPOT,Ring_Spot.jpg,579,724,JPEG,,,,Adobe Photoshop CS3 Windows,217.91
+dataset\Arecanut\Disease\RING SPOT\Ring_Spot2.jpg,RING SPOT,Ring_Spot2.jpg,579,724,JPEG,,,,Adobe Photoshop CS3 Windows,241.87
+dataset\Arecanut\Disease\RING SPOT\Ring_Spot3.jpg,RING SPOT,Ring_Spot3.jpg,579,724,JPEG,,,,Adobe Photoshop CS3 Windows,183.2
+dataset\Arecanut\Disease\RING SPOT\Screenshot 2024-05-03 205018.png,RING SPOT,Screenshot 2024-05-03 205018.png,305,246,PNG,,,,,168.55
+dataset\Arecanut\Disease\RING SPOT\yt-xsfbkQxigLs-0043_jpg.rf.610b3e30718fe5d94f87f1d7f5f4b6a4.jpg,RING SPOT,yt-xsfbkQxigLs-0043_jpg.rf.610b3e30718fe5d94f87f1d7f5f4b6a4.jpg,640,640,JPEG,,,,,86.7
+dataset\Arecanut\Disease\RING SPOT\yt-xsfbkQxigLs-0043_jpg.rf.e2ce530fa2da79a6b1742324c6f101c2.jpg,RING SPOT,yt-xsfbkQxigLs-0043_jpg.rf.e2ce530fa2da79a6b1742324c6f101c2.jpg,640,640,JPEG,,,,,97.05
+dataset\Arecanut\Disease\RING SPOT\yt-xsfbkQxigLs-0061_jpg.rf.c7ba2b5d027001060509f015250662b4.jpg,RING SPOT,yt-xsfbkQxigLs-0061_jpg.rf.c7ba2b5d027001060509f015250662b4.jpg,640,640,JPEG,,,,,113.24
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0026.jpg,YELLOW LEAF,IMG-20240427-WA0026.jpg,1152,648,JPEG,,,,,160.27
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0034.jpg,YELLOW LEAF,IMG-20240427-WA0034.jpg,648,1152,JPEG,,,,,143.22
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0035.jpg,YELLOW LEAF,IMG-20240427-WA0035.jpg,648,1152,JPEG,,,,,160.92
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0044.jpg,YELLOW LEAF,IMG-20240427-WA0044.jpg,1152,648,JPEG,,,,,137.44
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0048.jpg,YELLOW LEAF,IMG-20240427-WA0048.jpg,648,1152,JPEG,,,,,125.1
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0053.jpg,YELLOW LEAF,IMG-20240427-WA0053.jpg,648,1152,JPEG,,,,,169.58
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0054.jpg,YELLOW LEAF,IMG-20240427-WA0054.jpg,1152,648,JPEG,,,,,192.69
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0064.jpg,YELLOW LEAF,IMG-20240427-WA0064.jpg,1152,648,JPEG,,,,,149.31
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0065.jpg,YELLOW LEAF,IMG-20240427-WA0065.jpg,648,1152,JPEG,,,,,134.36
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0066.jpg,YELLOW LEAF,IMG-20240427-WA0066.jpg,648,1152,JPEG,,,,,121.74
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0067.jpg,YELLOW LEAF,IMG-20240427-WA0067.jpg,648,1152,JPEG,,,,,144.0
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0069.jpg,YELLOW LEAF,IMG-20240427-WA0069.jpg,648,1152,JPEG,,,,,161.46
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0070.jpg,YELLOW LEAF,IMG-20240427-WA0070.jpg,648,1152,JPEG,,,,,150.05
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0071.jpg,YELLOW LEAF,IMG-20240427-WA0071.jpg,648,1152,JPEG,,,,,165.53
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0072.jpg,YELLOW LEAF,IMG-20240427-WA0072.jpg,648,1152,JPEG,,,,,131.92
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0073.jpg,YELLOW LEAF,IMG-20240427-WA0073.jpg,648,1152,JPEG,,,,,150.63
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0074.jpg,YELLOW LEAF,IMG-20240427-WA0074.jpg,648,1152,JPEG,,,,,189.86
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0075.jpg,YELLOW LEAF,IMG-20240427-WA0075.jpg,648,1152,JPEG,,,,,186.1
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0076.jpg,YELLOW LEAF,IMG-20240427-WA0076.jpg,648,1152,JPEG,,,,,155.28
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0077.jpg,YELLOW LEAF,IMG-20240427-WA0077.jpg,648,1152,JPEG,,,,,168.31
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0078.jpg,YELLOW LEAF,IMG-20240427-WA0078.jpg,648,1152,JPEG,,,,,196.13
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0079.jpg,YELLOW LEAF,IMG-20240427-WA0079.jpg,648,1152,JPEG,,,,,164.12
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0081.jpg,YELLOW LEAF,IMG-20240427-WA0081.jpg,648,1152,JPEG,,,,,121.02
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0082.jpg,YELLOW LEAF,IMG-20240427-WA0082.jpg,648,1152,JPEG,,,,,152.17
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0085.jpg,YELLOW LEAF,IMG-20240427-WA0085.jpg,648,1152,JPEG,,,,,188.76
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0086.jpg,YELLOW LEAF,IMG-20240427-WA0086.jpg,648,1152,JPEG,,,,,182.04
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0087.jpg,YELLOW LEAF,IMG-20240427-WA0087.jpg,648,1152,JPEG,,,,,171.13
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0088.jpg,YELLOW LEAF,IMG-20240427-WA0088.jpg,648,1152,JPEG,,,,,140.53
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0089.jpg,YELLOW LEAF,IMG-20240427-WA0089.jpg,648,1152,JPEG,,,,,95.04
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0090.jpg,YELLOW LEAF,IMG-20240427-WA0090.jpg,648,1152,JPEG,,,,,155.1
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0092.jpg,YELLOW LEAF,IMG-20240427-WA0092.jpg,648,1152,JPEG,,,,,142.64
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0093.jpg,YELLOW LEAF,IMG-20240427-WA0093.jpg,648,1152,JPEG,,,,,156.86
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0094.jpg,YELLOW LEAF,IMG-20240427-WA0094.jpg,648,1152,JPEG,,,,,140.11
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0095.jpg,YELLOW LEAF,IMG-20240427-WA0095.jpg,648,1152,JPEG,,,,,157.53
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0097.jpg,YELLOW LEAF,IMG-20240427-WA0097.jpg,648,1152,JPEG,,,,,193.66
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0101.jpg,YELLOW LEAF,IMG-20240427-WA0101.jpg,648,1152,JPEG,,,,,149.0
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0103.jpg,YELLOW LEAF,IMG-20240427-WA0103.jpg,648,1152,JPEG,,,,,155.19
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0107.jpg,YELLOW LEAF,IMG-20240427-WA0107.jpg,648,1152,JPEG,,,,,189.43
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0108.jpg,YELLOW LEAF,IMG-20240427-WA0108.jpg,1152,648,JPEG,,,,,177.51
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0111.jpg,YELLOW LEAF,IMG-20240427-WA0111.jpg,648,1152,JPEG,,,,,122.66
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0112.jpg,YELLOW LEAF,IMG-20240427-WA0112.jpg,648,1152,JPEG,,,,,119.43
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0113.jpg,YELLOW LEAF,IMG-20240427-WA0113.jpg,648,1152,JPEG,,,,,102.48
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0114.jpg,YELLOW LEAF,IMG-20240427-WA0114.jpg,648,1152,JPEG,,,,,136.68
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0115.jpg,YELLOW LEAF,IMG-20240427-WA0115.jpg,648,1152,JPEG,,,,,164.99
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0116.jpg,YELLOW LEAF,IMG-20240427-WA0116.jpg,648,1152,JPEG,,,,,135.25
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0118.jpg,YELLOW LEAF,IMG-20240427-WA0118.jpg,648,1152,JPEG,,,,,159.58
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0119.jpg,YELLOW LEAF,IMG-20240427-WA0119.jpg,648,1152,JPEG,,,,,138.96
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0120.jpg,YELLOW LEAF,IMG-20240427-WA0120.jpg,648,1152,JPEG,,,,,115.41
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0121.jpg,YELLOW LEAF,IMG-20240427-WA0121.jpg,648,1152,JPEG,,,,,93.77
+dataset\Arecanut\Disease\YELLOW LEAF\IMG-20240427-WA0123.jpg,YELLOW LEAF,IMG-20240427-WA0123.jpg,648,1152,JPEG,,,,,134.77
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(1).jpeg,HEALTHY LEAF,Healthy leaf(1).jpeg,259,194,JPEG,,,,,16.74
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(10).jpeg,HEALTHY LEAF,Healthy leaf(10).jpeg,208,242,JPEG,,,,,15.0
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(11).jpg,HEALTHY LEAF,Healthy leaf(11).jpg,480,360,JPEG,,,,,60.75
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(12).jpg,HEALTHY LEAF,Healthy leaf(12).jpg,480,360,JPEG,,,,,50.38
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(13).jpeg,HEALTHY LEAF,Healthy leaf(13).jpeg,189,250,JPEG,,,,,13.79
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(14).jpg,HEALTHY LEAF,Healthy leaf(14).jpg,3120,4160,JPEG,OPPO,OPPO A3s,,msm8953_64-user 8.1.0 OPM1.171019.026 eng.root.20190529.191350 release-keys,4881.6
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(15).jpg,HEALTHY LEAF,Healthy leaf(15).jpg,3120,4160,JPEG,,,,,1720.98
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(16).jpg,HEALTHY LEAF,Healthy leaf(16).jpg,3120,4160,JPEG,OPPO,OPPO A3s,,msm8953_64-user 8.1.0 OPM1.171019.026 eng.root.20190529.191350 release-keys,4056.68
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(17).jpg,HEALTHY LEAF,Healthy leaf(17).jpg,3120,4160,JPEG,,,,,1458.62
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(18).jpg,HEALTHY LEAF,Healthy leaf(18).jpg,3120,4160,JPEG,OPPO,OPPO A3s,,msm8953_64-user 8.1.0 OPM1.171019.026 eng.root.20190529.191350 release-keys,4721.12
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(19).jpg,HEALTHY LEAF,Healthy leaf(19).jpg,3120,4160,JPEG,,,,,1585.3
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(2).jpg,HEALTHY LEAF,Healthy leaf(2).jpg,1300,1065,JPEG,,,,,285.6
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(20).jpg,HEALTHY LEAF,Healthy leaf(20).jpg,800,600,JPEG,,,,,79.98
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(21).jpg,HEALTHY LEAF,Healthy leaf(21).jpg,800,600,JPEG,,,,,62.92
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(22).jpg,HEALTHY LEAF,Healthy leaf(22).jpg,588,1280,JPEG,,,,,185.93
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(23).jpg,HEALTHY LEAF,Healthy leaf(23).jpg,588,1280,JPEG,,,,,151.71
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(24).jpg,HEALTHY LEAF,Healthy leaf(24).jpg,588,1280,JPEG,,,,,212.88
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(25).jpg,HEALTHY LEAF,Healthy leaf(25).jpg,588,1280,JPEG,,,,,187.01
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(26).jpg,HEALTHY LEAF,Healthy leaf(26).jpg,588,1280,JPEG,,,,,101.25
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(27).jpg,HEALTHY LEAF,Healthy leaf(27).jpg,588,1280,JPEG,,,,,75.9
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(28).jpg,HEALTHY LEAF,Healthy leaf(28).jpg,588,1280,JPEG,,,,,149.27
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(29).jpg,HEALTHY LEAF,Healthy leaf(29).jpg,588,1280,JPEG,,,,,124.14
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(3).jpg,HEALTHY LEAF,Healthy leaf(3).jpg,1300,1065,JPEG,,,,,267.16
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(30).jpg,HEALTHY LEAF,Healthy leaf(30).jpg,588,1280,JPEG,,,,,168.8
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(31).jpg,HEALTHY LEAF,Healthy leaf(31).jpg,588,1280,JPEG,,,,,142.25
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(32).jpg,HEALTHY LEAF,Healthy leaf(32).jpg,675,900,JPEG,,,,,68.67
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(33).jpg,HEALTHY LEAF,Healthy leaf(33).jpg,675,900,JPEG,,,,,60.28
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(34).JPG,HEALTHY LEAF,Healthy leaf(34).JPG,6000,4000,MPO,NIKON CORPORATION,NIKON D3500,,Ver.1.00 ,6244.28
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(35).JPG,HEALTHY LEAF,Healthy leaf(35).JPG,6000,4000,MPO,NIKON CORPORATION,NIKON D3500,,Ver.1.00 ,7374.18
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(36).jpg,HEALTHY LEAF,Healthy leaf(36).jpg,6144,8192,JPEG,Nothing,A063,,,13971.03
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(37).jpg,HEALTHY LEAF,Healthy leaf(37).jpg,6144,8192,JPEG,,,,,5453.1
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(38).jpg,HEALTHY LEAF,Healthy leaf(38).jpg,6144,8192,JPEG,Nothing,A063,,,13270.37
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(39).jpg,HEALTHY LEAF,Healthy leaf(39).jpg,6144,8192,JPEG,,,,,5057.96
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(4).jpeg,HEALTHY LEAF,Healthy leaf(4).jpeg,800,1600,JPEG,,,,,149.33
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(40).jpg,HEALTHY LEAF,Healthy leaf(40).jpg,6144,8192,JPEG,Nothing,A063,,,12960.78
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(41).jpg,HEALTHY LEAF,Healthy leaf(41).jpg,6144,8192,JPEG,,,,,5022.5
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(42).jpg,HEALTHY LEAF,Healthy leaf(42).jpg,6144,8192,JPEG,Nothing,A063,,,14128.12
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(43).jpg,HEALTHY LEAF,Healthy leaf(43).jpg,6144,8192,JPEG,,,,,5538.27
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(44).jpg,HEALTHY LEAF,Healthy leaf(44).jpg,6144,8192,JPEG,Nothing,A063,,,12392.52
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(45).jpg,HEALTHY LEAF,Healthy leaf(45).jpg,6144,8192,JPEG,,,,,4779.18
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(46).jpg,HEALTHY LEAF,Healthy leaf(46).jpg,6144,8192,JPEG,Nothing,A063,,,11120.59
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(47).jpg,HEALTHY LEAF,Healthy leaf(47).jpg,6144,8192,JPEG,,,,,4098.52
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(48).jpg,HEALTHY LEAF,Healthy leaf(48).jpg,6144,8192,JPEG,Nothing,A063,,,13713.25
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(49).jpg,HEALTHY LEAF,Healthy leaf(49).jpg,6144,8192,JPEG,,,,,5212.64
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(5).jpg,HEALTHY LEAF,Healthy leaf(5).jpg,189,250,JPEG,,,,,17.01
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(50).jpg,HEALTHY LEAF,Healthy leaf(50).jpg,6144,8192,JPEG,Nothing,A063,,,10518.51
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(6).jpg,HEALTHY LEAF,Healthy leaf(6).jpg,189,250,JPEG,,,,,14.6
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(7).jpeg,HEALTHY LEAF,Healthy leaf(7).jpeg,375,500,JPEG,,,,,53.14
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(8).jpg,HEALTHY LEAF,Healthy leaf(8).jpg,400,376,JPEG,,,,,54.42
+dataset\Arecanut\Healthy\HEALTHY LEAF\Healthy leaf(9).jpg,HEALTHY LEAF,Healthy leaf(9).jpg,400,376,JPEG,,,,,51.74
