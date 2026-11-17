@@ -43,7 +43,8 @@ const COFFEE_RESEARCH_URL =
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp"];
-const HISTORY_STORAGE_KEY = "kisanvision_crop_prediction_history";
+const HISTORY_API_URL =
+  import.meta.env.VITE_AUTH_API_URL || "http://localhost:5000/api";
 
 const CROPS = [
   { id: "Coffee", scientific: "Coffea spp.", connected: true },
@@ -670,19 +671,17 @@ function normalizePredictedClass(crop, returnedClass) {
   );
 }
 
-function readHistory() {
-  try {
-    const parsed = JSON.parse(
-      localStorage.getItem(HISTORY_STORAGE_KEY) || "[]"
-    );
-
-    const supportedCrops = ["Coffee", "Arecanut", "Cardamom", "Ginger"];
-    return Array.isArray(parsed)
-      ? parsed.filter((item) => supportedCrops.includes(item?.crop || "Coffee"))
-      : [];
-  } catch {
-    return [];
-  }
+function mapHistoryRecord(record) {
+  return {
+    id: record._id || record.id,
+    crop: record.crop,
+    predictedClass: record.disease,
+    confidence: Number(record.confidence) || 0,
+    probabilities: Array.isArray(record.probabilities)
+      ? record.probabilities
+      : [],
+    createdAt: record.createdAt,
+  };
 }
 
 // --------------------------------------------------
@@ -873,7 +872,7 @@ export default function DiseaseDetection() {
   const [researchMessage, setResearchMessage] = useState("");
   const [researchUpdatedAt, setResearchUpdatedAt] = useState(null);
 
-  const [history, setHistory] = useState(readHistory);
+  const [history, setHistory] = useState([]);
 
   const selectedCropInfo = CROPS.find((crop) => crop.id === selectedCrop);
   const selectedApi = API_CONFIG[selectedCrop];
@@ -916,12 +915,38 @@ export default function DiseaseDetection() {
   }, [language]);
 
   useEffect(() => {
-    try {
-      localStorage.setItem(HISTORY_STORAGE_KEY, JSON.stringify(history));
-    } catch (error) {
-      console.error("Unable to save prediction history:", error);
-    }
-  }, [history]);
+    let cancelled = false;
+
+    const loadPredictionHistory = async () => {
+      try {
+        const response = await fetch(`${HISTORY_API_URL}/history`, {
+          method: "GET",
+          credentials: "include",
+        });
+        const data = await response.json().catch(() => ({}));
+
+        if (response.status === 401) {
+          if (!cancelled) setHistory([]);
+          return;
+        }
+
+        if (!response.ok) {
+          throw new Error(data.message || "Unable to load prediction history.");
+        }
+
+        if (!cancelled) {
+          setHistory((data.records || []).map(mapHistoryRecord));
+        }
+      } catch (error) {
+        console.error("Unable to load prediction history:", error);
+      }
+    };
+
+    loadPredictionHistory();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     return () => {
@@ -1224,15 +1249,39 @@ export default function DiseaseDetection() {
 
       setPrediction(result);
 
-      setHistory((previous) =>
-        [
-          {
-            id: `${Date.now()}-${Math.random()}`,
-            ...result,
-          },
-          ...previous,
-        ].slice(0, 50)
-      );
+      try {
+        const saveResponse = await fetch(`${HISTORY_API_URL}/history`, {
+          method: "POST",
+          credentials: "include",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            crop: result.crop,
+            disease: result.predictedClass,
+            confidence: result.confidence,
+            probabilities: result.probabilities,
+          }),
+        });
+
+        const savedData = await saveResponse.json().catch(() => ({}));
+
+        if (!saveResponse.ok) {
+          throw new Error(
+            savedData.message || "Prediction completed, but history could not be saved."
+          );
+        }
+
+        if (savedData.record) {
+          setHistory((previous) => [
+            mapHistoryRecord(savedData.record),
+            ...previous,
+          ]);
+        }
+      } catch (historyError) {
+        console.error("Prediction history save failed:", historyError);
+        setPredictionError(
+          "Prediction completed, but it could not be saved to your account. Please check that you are logged in."
+        );
+      }
 
       if (selectedCrop === "Coffee") {
         setSelectedResearchClass(normalized);
@@ -1352,9 +1401,26 @@ export default function DiseaseDetection() {
   // HISTORY
   // --------------------------------------------------
 
-  const clearHistory = () => {
-    if (window.confirm(t.confirmClear)) {
+  const clearHistory = async () => {
+    if (!window.confirm(t.confirmClear)) return;
+
+    try {
+      const response = await fetch(`${HISTORY_API_URL}/history`, {
+        method: "DELETE",
+        credentials: "include",
+      });
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(data.message || "Unable to clear prediction history.");
+      }
+
       setHistory([]);
+    } catch (error) {
+      console.error("Clear prediction history failed:", error);
+      setPredictionError(
+        error.message || "Unable to clear prediction history."
+      );
     }
   };
 
@@ -1368,7 +1434,6 @@ export default function DiseaseDetection() {
       predictedClass: item.predictedClass,
       confidence: Number(item.confidence) || 0,
       probabilities: [],
-      imageName: item.imageName,
       createdAt: item.createdAt,
     });
 
@@ -2599,8 +2664,6 @@ export default function DiseaseDetection() {
                     <h3>
                       {item.crop || "Coffee"} — {item.predictedClass}
                     </h3>
-
-                    <p>{item.imageName}</p>
 
                     <span>{formatDate(item.createdAt, language)}</span>
                   </div>

@@ -1,11 +1,7 @@
-
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   FaHistory,
-  FaLeaf,
   FaMicroscope,
-  FaImages,
-  FaCloudSun,
   FaFileExport,
   FaTrashAlt,
   FaQuestionCircle,
@@ -18,11 +14,13 @@ import {
   FaInfoCircle,
   FaSeedling,
   FaChevronDown,
-  FaChevronLeft,
-  FaChevronRight,
   FaClipboardList,
 } from "react-icons/fa";
 import "./PredictionHistory.css";
+
+const HISTORY_API_URL =
+  (import.meta.env.VITE_AUTH_API_URL || "http://localhost:5000/api") +
+  "/history";
 
 const historyNavigation = [
   { label: "All Analyses", icon: FaHistory, value: "All" },
@@ -31,28 +29,16 @@ const historyNavigation = [
     icon: FaMicroscope,
     value: "Disease Detection",
   },
-  {
-    label: "Plant Identification",
-    icon: FaLeaf,
-    value: "Plant Identification",
-  },
-  {
-    label: "Multi-Image Analysis",
-    icon: FaImages,
-    value: "Multi-Image Analysis",
-  },
-  {
-    label: "Weather Recommendations",
-    icon: FaCloudSun,
-    value: "Weather Recommendations",
-  },
   { label: "Export Reports", icon: FaFileExport, value: "Export Reports" },
   { label: "Delete Records", icon: FaTrashAlt, value: "Delete Records" },
   { label: "FAQs", icon: FaQuestionCircle, value: "FAQs" },
 ];
 
 function PredictionHistory() {
-  const [records] = useState([]);
+  const [records, setRecords] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [deleting, setDeleting] = useState(false);
+
   const [activeCategory, setActiveCategory] = useState("All");
   const [search, setSearch] = useState("");
   const [analysisType, setAnalysisType] = useState("All Types");
@@ -61,6 +47,50 @@ function PredictionHistory() {
   const [endDate, setEndDate] = useState("");
   const [selectedRecord, setSelectedRecord] = useState(null);
   const [notice, setNotice] = useState("");
+
+  // Fetch only the authenticated user's prediction history.
+  const fetchHistory = async () => {
+    try {
+      setLoading(true);
+      setNotice("");
+
+      const response = await fetch(HISTORY_API_URL, {
+        method: "GET",
+        credentials: "include",
+      });
+      const data = await response.json();
+
+      if (!response.ok) {
+        if (response.status === 401) {
+          setRecords([]);
+          setSelectedRecord(null);
+          setNotice("Please log in to view your prediction history.");
+          return;
+        }
+        throw new Error(data.message || "Unable to load prediction history.");
+      }
+
+      const savedRecords = Array.isArray(data.records)
+        ? data.records.map((record) => ({
+            ...record,
+            id: record._id,
+            type: "Disease Detection",
+            status: "Saved",
+          }))
+        : [];
+
+      setRecords(savedRecords);
+    } catch (error) {
+      console.error("Prediction history fetch error:", error);
+      setNotice(error.message || "Unable to load prediction history.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchHistory();
+  }, []);
 
   const filteredRecords = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -77,24 +107,18 @@ function PredictionHistory() {
         .toLowerCase();
 
       const matchesSearch = !query || searchableText.includes(query);
-
       const matchesType =
         analysisType === "All Types" || record.type === analysisType;
-
       const matchesCrop =
         selectedCrop === "All Crops" || record.crop === selectedCrop;
 
-      const recordDate = record.createdAt
-        ? new Date(record.createdAt)
-        : null;
-
+      const recordDate = record.createdAt ? new Date(record.createdAt) : null;
       const matchesStart =
         !startDate ||
         (recordDate && recordDate >= new Date(`${startDate}T00:00:00`));
-
       const matchesEnd =
         !endDate ||
-        (recordDate && recordDate <= new Date(`${endDate}T23:59:59`));
+        (recordDate && recordDate <= new Date(`${endDate}T23:59:59.999`));
 
       const matchesCategory =
         activeCategory === "All" ||
@@ -122,28 +146,73 @@ function PredictionHistory() {
     activeCategory,
   ]);
 
+  const handleExport = () => {
+    if (!filteredRecords.length) {
+      setNotice("No saved records are available to export.");
+      return;
+    }
+
+    const headers = [
+      "Crop",
+      "Disease or Result",
+      "Confidence (%)",
+      "Probabilities",
+      "Date",
+    ];
+
+    const rows = filteredRecords.map((record) => [
+      record.crop,
+      record.disease,
+      record.confidence,
+      Array.isArray(record.probabilities)
+        ? record.probabilities
+            .map((item) => `${item.name}: ${item.value}%`)
+            .join("; ")
+        : "",
+      record.createdAt ? new Date(record.createdAt).toLocaleString() : "",
+    ]);
+
+    const csv = [headers, ...rows]
+      .map((row) =>
+        row
+          .map((value) => `"${String(value ?? "").replace(/"/g, '""')}"`)
+          .join(",")
+      )
+      .join("\r\n");
+
+    const blob = new Blob(["\uFEFF" + csv], {
+      type: "text/csv;charset=utf-8;",
+    });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+
+    link.href = url;
+    link.download = "kisanvision-prediction-history.csv";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+
+    setNotice("Your prediction history was exported successfully.");
+  };
+
   const handleNavigation = (value) => {
     setActiveCategory(value);
     setSelectedRecord(null);
+    setNotice("");
 
     if (value === "Export Reports") {
-      setNotice(
-        records.length
-          ? "Export can be connected when report storage is implemented."
-          : "There are no saved records to export yet."
-      );
+      handleExport();
     } else if (value === "Delete Records") {
       setNotice(
         records.length
-          ? "Record deletion will be available when persistent storage is connected."
+          ? "Select a record to delete it, or clear all your saved records."
           : "There are no saved records to delete."
       );
     } else if (value === "FAQs") {
       setNotice(
-        "History stores analyses only after saving is connected. No predictions are generated on this page."
+        "Prediction history contains saved disease detection results for your account."
       );
-    } else {
-      setNotice("");
     }
   };
 
@@ -157,48 +226,78 @@ function PredictionHistory() {
     setNotice("");
   };
 
-  const handleExport = () => {
-    if (!filteredRecords.length) {
-      setNotice("No saved records are available to export.");
+  const handleDeleteRecord = async () => {
+    if (!selectedRecord?._id || deleting) return;
+
+    const confirmed = window.confirm(
+      "Are you sure you want to delete this prediction record?"
+    );
+    if (!confirmed) return;
+
+    try {
+      setDeleting(true);
+      setNotice("");
+
+      const response = await fetch(
+        `${HISTORY_API_URL}/${selectedRecord._id}`,
+        {
+          method: "DELETE",
+          credentials: "include",
+        }
+      );
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || "Unable to delete this record.");
+      }
+
+      setRecords((previous) =>
+        previous.filter((record) => record._id !== selectedRecord._id)
+      );
+      setSelectedRecord(null);
+      setNotice("Prediction record deleted successfully.");
+    } catch (error) {
+      console.error("Delete prediction error:", error);
+      setNotice(error.message || "Unable to delete prediction.");
+    } finally {
+      setDeleting(false);
+    }
+  };
+
+  const handleClearHistory = async () => {
+    if (!records.length || deleting) {
+      setNotice("There are no saved records to delete.");
       return;
     }
 
-    const headers = [
-      "Crop",
-      "Disease or Result",
-      "Analysis Type",
-      "Status",
-      "Date",
-    ];
+    const confirmed = window.confirm(
+      "Are you sure you want to delete all your prediction history? This cannot be undone."
+    );
+    if (!confirmed) return;
 
-    const rows = filteredRecords.map((record) => [
-      record.crop,
-      record.disease,
-      record.type,
-      record.status,
-      record.createdAt,
-    ]);
+    try {
+      setDeleting(true);
+      setNotice("");
 
-    const csv = [headers, ...rows]
-      .map((row) =>
-        row
-          .map((value) => `"${String(value ?? "").replace(/"/g, '""')}"`)
-          .join(",")
-      )
-      .join("\r\n");
+      const response = await fetch(HISTORY_API_URL, {
+        method: "DELETE",
+        credentials: "include",
+      });
+      const data = await response.json();
 
-    const blob = new Blob([csv], {
-      type: "text/csv;charset=utf-8;",
-    });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
+      if (!response.ok) {
+        throw new Error(data.message || "Unable to clear prediction history.");
+      }
 
-    link.href = url;
-    link.download = "kisanvision-analysis-history.csv";
-    link.click();
-
-    URL.revokeObjectURL(url);
-    setNotice("The available history records were exported.");
+      setRecords([]);
+      setSelectedRecord(null);
+      setNotice("Your prediction history was cleared successfully.");
+    } catch (error) {
+      console.error("Clear prediction history error:", error);
+      setNotice(error.message || "Unable to clear prediction history.");
+    } finally {
+      setDeleting(false);
+    }
   };
 
   return (
@@ -235,9 +334,7 @@ function PredictionHistory() {
         <div className="ph-sidebar-note">
           <FaSeedling />
           <h3>Your analyses, in one place</h3>
-          <p>
-            Saved results will appear here when history storage is connected.
-          </p>
+          <p>Your saved prediction results are securely linked to your account.</p>
         </div>
       </aside>
 
@@ -246,11 +343,10 @@ function PredictionHistory() {
           <div className="ph-heading-icon">
             <FaHistory />
           </div>
-
           <div className="ph-heading-copy">
             <span className="ph-eyebrow">KISANVISION AI / WORKSPACE</span>
             <h1>Prediction History</h1>
-            <p>View and manage your past analyses, results and reports.</p>
+            <p>View and manage your past analyses and results.</p>
           </div>
         </header>
 
@@ -279,9 +375,6 @@ function PredictionHistory() {
               >
                 <option>All Types</option>
                 <option>Disease Detection</option>
-                <option>Plant Identification</option>
-                <option>Multi-Image Analysis</option>
-                <option>Weather Recommendations</option>
               </select>
               <FaChevronDown />
             </div>
@@ -296,31 +389,7 @@ function PredictionHistory() {
                 onChange={(event) => setSelectedCrop(event.target.value)}
               >
                 <option>All Crops</option>
-                {[
-                  "Rice",
-                  "Maize",
-                  "Ragi",
-                  "Jowar",
-                  "Sugarcane",
-                  "Red Gram",
-                  "Bengal Gram",
-                  "Groundnut",
-                  "Sunflower",
-                  "Cotton",
-                  "Coffee",
-                  "Arecanut",
-                  "Coconut",
-                  "Tomato",
-                  "Potato",
-                  "Onion",
-                  "Green Chilli",
-                  "Mango",
-                  "Banana",
-                  "Grapes",
-                  "Black Pepper",
-                  "Shunti",
-                  "Elakki",
-                ].map((crop) => (
+                {["Coffee", "Arecanut", "Cardamom", "Ginger"].map((crop) => (
                   <option key={crop}>{crop}</option>
                 ))}
               </select>
@@ -359,7 +428,7 @@ function PredictionHistory() {
           <button
             type="button"
             className="ph-filter-button"
-            onClick={() => setNotice("Filters applied to available saved records.")}
+            onClick={() => setNotice("Filters applied to your saved records.")}
           >
             <FaFilter /> Filter
           </button>
@@ -392,9 +461,8 @@ function PredictionHistory() {
             <FaQuestionCircle className="ph-empty-icon" />
             <h2>Prediction History FAQs</h2>
             <p>
-              This page will display analyses after records are saved by the
-              connected application. Search and filters work on available
-              records; results are not invented.
+              Your disease detection predictions are saved to your account.
+              Only you can view and manage your saved records.
             </p>
             <button
               type="button"
@@ -417,36 +485,49 @@ function PredictionHistory() {
                 </p>
               </div>
 
-              <button
-                type="button"
-                className="ph-export-button"
-                onClick={handleExport}
-                disabled={!filteredRecords.length}
-              >
-                <FaDownload /> Export All
-              </button>
+              <div>
+                <button
+                  type="button"
+                  className="ph-export-button"
+                  onClick={handleExport}
+                  disabled={!filteredRecords.length || loading}
+                >
+                  <FaDownload /> Export All
+                </button>
+                <button
+                  type="button"
+                  className="ph-delete-button"
+                  onClick={handleClearHistory}
+                  disabled={!records.length || deleting || loading}
+                >
+                  <FaTrashAlt /> Clear All
+                </button>
+              </div>
             </div>
 
             <div className="ph-main-grid">
               <section className="ph-table-panel">
                 <div className="ph-table-topline">
                   <h3>
-                    {activeCategory === "All"
-                      ? "All Analyses"
-                      : activeCategory}
+                    {activeCategory === "All" ? "All Analyses" : activeCategory}
                   </h3>
                   <span>{filteredRecords.length} results</span>
                 </div>
 
-                {filteredRecords.length === 0 ? (
+                {loading ? (
+                  <div className="ph-empty-state">
+                    <h3>Loading prediction history...</h3>
+                    <p>Please wait while your saved records are retrieved.</p>
+                  </div>
+                ) : filteredRecords.length === 0 ? (
                   <div className="ph-empty-state">
                     <div className="ph-empty-illustration">
                       <FaClipboardList />
                     </div>
                     <h3>No saved analyses yet</h3>
                     <p>
-                      When your application saves an analysis, its crop,
-                      result, date and image will appear here.
+                      When you complete a disease detection prediction, its
+                      crop, result, confidence and date will appear here.
                     </p>
                     {(search ||
                       analysisType !== "All Types" ||
@@ -473,13 +554,13 @@ function PredictionHistory() {
                           <th>Disease / Result</th>
                           <th>Type</th>
                           <th>Date &amp; Time</th>
-                          <th>Status</th>
+                          <th>Confidence</th>
                           <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>
                         {filteredRecords.map((record, index) => (
-                          <tr key={record.id}>
+                          <tr key={record._id}>
                             <td>{index + 1}</td>
                             <td>{record.crop}</td>
                             <td>{record.disease || "Not provided"}</td>
@@ -489,7 +570,7 @@ function PredictionHistory() {
                                 ? new Date(record.createdAt).toLocaleString()
                                 : "Date unavailable"}
                             </td>
-                            <td>{record.status || "Saved"}</td>
+                            <td>{Number(record.confidence).toFixed(2)}%</td>
                             <td>
                               <button
                                 type="button"
@@ -521,6 +602,8 @@ function PredictionHistory() {
                     <dl>
                       <dt>Analysis type</dt>
                       <dd>{selectedRecord.type}</dd>
+                      <dt>Confidence</dt>
+                      <dd>{Number(selectedRecord.confidence).toFixed(2)}%</dd>
                       <dt>Status</dt>
                       <dd>{selectedRecord.status || "Saved"}</dd>
                       <dt>Date</dt>
@@ -530,12 +613,20 @@ function PredictionHistory() {
                           : "Unavailable"}
                       </dd>
                     </dl>
-                    {selectedRecord.imageUrl && (
-                      <img
-                        src={selectedRecord.imageUrl}
-                        alt={`Saved analysis of ${selectedRecord.crop}`}
-                      />
-                    )}
+
+                    {Array.isArray(selectedRecord.probabilities) &&
+                      selectedRecord.probabilities.length > 0 && (
+                        <div className="ph-probabilities">
+                          <h4>Prediction Probabilities</h4>
+                          {selectedRecord.probabilities.map((item, index) => (
+                            <div key={`${item.name}-${index}`}>
+                              <span>
+                                {item.name}: {item.value}%
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                   </div>
                 ) : (
                   <div className="ph-details-empty">
@@ -550,21 +641,15 @@ function PredictionHistory() {
 
                 <div className="ph-detail-actions">
                   <h3>Actions</h3>
-                  <p>
-                    Export and deletion actions require saved records and
-                    connected storage.
-                  </p>
+                  <p>Manage the selected saved prediction.</p>
                   <button
                     type="button"
                     className="ph-delete-button"
-                    disabled={!selectedRecord}
-                    onClick={() =>
-                      setNotice(
-                        "Connect persistent storage before deleting saved records."
-                      )
-                    }
+                    disabled={!selectedRecord || deleting}
+                    onClick={handleDeleteRecord}
                   >
-                    <FaTrashAlt /> Delete Record
+                    <FaTrashAlt />
+                    {deleting ? "Deleting..." : "Delete Record"}
                   </button>
                 </div>
               </aside>

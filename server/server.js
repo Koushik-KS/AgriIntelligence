@@ -6,8 +6,10 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
+
 import authRoutes from "./routes/auth.js";
 import coffeeResearchRoutes from "./routes/coffeeResearch.js";
+import predictionHistoryRoutes from "./routes/predictionHistory.js";
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
@@ -58,6 +60,9 @@ const authLimiter = rateLimit({
 app.use("/api/auth", authLimiter, authRoutes);
 
 app.use("/api/research", coffeeResearchRoutes);
+
+// Prediction History routes
+app.use("/api/history", predictionHistoryRoutes);
 
 app.use((req, res) => {
   res.status(404).json({
