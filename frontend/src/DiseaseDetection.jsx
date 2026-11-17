@@ -50,7 +50,6 @@ const CROPS = [
   { id: "Arecanut", scientific: "Areca catechu", connected: true },
   { id: "Cardamom", scientific: "Elettaria cardamomum", connected: true },
   { id: "Ginger", scientific: "Zingiber officinale", connected: true },
-  { id: "Black Pepper", scientific: "Piper nigrum", connected: false },
 ];
 
 const CROP_CLASSES = {
@@ -181,39 +180,39 @@ const DISEASE_INFORMATION = {
   Ginger: {
     HEALTHY: {
       title: "Healthy Ginger Leaf",
-      scientificName: "Zingiber officinale",
+      scientificName: "No supported problem class detected",
       category: "Healthy prediction",
-      description: "The Ginger AI model classified the uploaded image as HEALTHY. This prediction applies only to the submitted image and does not guarantee that the entire plant is disease-free.",
-      symptoms: ["No supported damage or disease class was predicted.", "The visible leaf was classified as healthy by the model."],
-      prevention: ["Use healthy planting material.", "Maintain suitable soil moisture and drainage.", "Inspect leaves and stems regularly.", "Maintain field sanitation and balanced crop nutrition."],
-      treatment: "No disease-specific treatment is indicated by this prediction. Continue monitoring the crop and seek field assessment if symptoms appear.",
+      description: "The Ginger AI model classified the submitted image as HEALTHY. This result applies to the visible image and does not guarantee that the entire plant is free from problems.",
+      symptoms: ["No supported problem class was predicted in the submitted image.", "The model classified the visible leaf as healthy."],
+      prevention: ["Inspect plants and leaves regularly.", "Maintain suitable drainage and avoid waterlogging.", "Use healthy planting material.", "Monitor new leaves for changes."],
+      treatment: "No problem-specific treatment is indicated by this model prediction. Continue routine monitoring and seek field assessment if symptoms appear.",
     },
     "DAMAGE-PEST": {
-      title: "Ginger Leaf Damage / Pest Class",
-      scientificName: "Specific pest or causal agent not identified by the model",
-      category: "Model damage / pest class",
-      description: "The model detected visual features associated with its DAMAGE-PEST training class. It does not identify a specific insect, pest species, or causal organism.",
-      symptoms: ["Visible feeding or damaged areas may be present.", "Leaf tissue may show holes, marks, or irregular damage.", "The exact cause requires field inspection."],
-      prevention: ["Inspect both sides of leaves regularly.", "Monitor the crop for insects and fresh damage.", "Remove heavily affected plant material where appropriate.", "Use integrated pest management based on confirmed identification."],
-      treatment: "Do not apply pesticides based only on this AI class. Identify the pest in the field and follow local agricultural expert advice and approved label directions.",
+      title: "Ginger Leaf — Pest Damage Class",
+      scientificName: "Pest species not identified by the image classifier",
+      category: "Model prediction class",
+      description: "DAMAGE-PEST is a visual class supported by the Ginger AI model. The prediction does not identify a specific pest or confirm the cause of the visible damage.",
+      symptoms: ["Visible feeding marks or damaged leaf tissue may be present.", "Irregular holes, marks or discoloured areas may appear.", "The model does not identify the pest species."],
+      prevention: ["Inspect leaves and shoots regularly.", "Keep the field clean and remove crop residues appropriately.", "Monitor plants for fresh damage and visible pests.", "Use integrated pest management and seek local expert advice."],
+      treatment: "Do not select a pesticide from the AI prediction alone. Identify the pest in the field and follow locally approved integrated pest-management advice.",
     },
     DEHYDRATED: {
-      title: "Ginger Leaf Dehydration Class",
+      title: "Ginger Leaf — Dehydration Class",
       scientificName: "Water-stress appearance; cause not confirmed by the model",
-      category: "Model stress class",
-      description: "The model detected visual features associated with its DEHYDRATED class. Leaf appearance alone cannot confirm the cause; water stress, root problems, soil conditions, and other factors may need assessment.",
-      symptoms: ["Leaves may appear drooped or wilted.", "Leaf edges or surfaces may look dry.", "Loss of normal leaf freshness may be visible."],
-      prevention: ["Maintain suitable and consistent soil moisture.", "Ensure good drainage and avoid waterlogging.", "Check soil moisture before irrigation.", "Inspect roots and growing conditions if symptoms persist."],
-      treatment: "Check soil moisture and drainage and assess the plant before changing irrigation. Seek local agricultural advice if symptoms continue; do not treat this model class as a confirmed diagnosis.",
+      category: "Model prediction class",
+      description: "DEHYDRATED is a visual class supported by the Ginger AI model. Leaf appearance alone cannot confirm the cause or severity of water stress.",
+      symptoms: ["Leaves may appear wilted or drooping.", "Leaf margins or surfaces may look dry.", "Water stress may be associated with soil moisture or root conditions."],
+      prevention: ["Monitor soil moisture regularly.", "Provide irrigation according to crop and soil needs.", "Maintain suitable drainage while avoiding prolonged waterlogging.", "Check plants during hot or dry conditions."],
+      treatment: "Check soil moisture, drainage and root-zone conditions before changing irrigation. Seek local agricultural advice if symptoms persist.",
     },
     "LEAF-BLIGHT": {
       title: "Ginger Leaf Blight Class",
-      scientificName: "Causal pathogen not identified by the model",
-      category: "Model disease class",
-      description: "The model detected visual features associated with its LEAF-BLIGHT class. It does not confirm the pathogen or distinguish all possible causes of leaf lesions.",
-      symptoms: ["Brown or dark areas may appear on leaves.", "Affected tissue may dry or become necrotic.", "Lesions may expand under favourable conditions."],
-      prevention: ["Use healthy planting material.", "Maintain suitable plant spacing and airflow.", "Avoid prolonged leaf wetness where practical.", "Remove affected plant debris where recommended and monitor crop health."],
-      treatment: "Confirm the cause in the field before selecting a fungicide or other treatment. Consult a local agricultural expert and follow locally approved recommendations.",
+      scientificName: "Causal organism not identified by the image classifier",
+      category: "Model prediction class",
+      description: "LEAF-BLIGHT is a disease-related visual class supported by the Ginger AI model. The prediction does not independently confirm the pathogen responsible.",
+      symptoms: ["Leaf tissue may show brown or dry lesions.", "Affected areas may expand or merge.", "Severely affected portions may dry out."],
+      prevention: ["Inspect leaves regularly for new or spreading lesions.", "Maintain suitable plant spacing and airflow.", "Avoid prolonged leaf wetness where practical.", "Remove affected plant material where recommended by local experts."],
+      treatment: "Confirm the disease in the field before treatment. Do not choose a fungicide from the AI result alone; follow local agricultural recommendations after diagnosis.",
     },
   },
 };
@@ -262,38 +261,6 @@ const KN_DISEASE = {
     symptoms: ["ಬೆಂಬಲಿತ ರೋಗ ವರ್ಗ ಯಾವುದೂ ಊಹಿಸಲ್ಪಟ್ಟಿಲ್ಲ.", "ಚಿತ್ರವನ್ನು ಆರೋಗ್ಯಕರವೆಂದು ವರ್ಗೀಕರಿಸಲಾಗಿದೆ."],
     prevention: ["ತೋಟವನ್ನು ಪರಿಶೀಲಿಸಿ.", "ಸಮತೋಲಿತ ಪೋಷಣೆ ನೀಡಿ.", "ಪರಿಸರ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಗಮನಿಸಿ.", "ಎಲೆಗಳ ಎರಡೂ ಬದಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."],
     treatment: "ಈ ಭವಿಷ್ಯವಾಣಿಯ ಆಧಾರದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ರೋಗ ಚಿಕಿತ್ಸೆ ಅಗತ್ಯವಿಲ್ಲ.",
-  },
-  HEALTHY: {
-    title: "ಆರೋಗ್ಯಕರ ಶುಂಠಿ ಎಲೆ",
-    category: "ಆರೋಗ್ಯಕರ ಎಂದು ಭವಿಷ್ಯ",
-    description: "AI ಮಾದರಿಯು ಅಪ್‌ಲೋಡ್ ಮಾಡಿದ ಚಿತ್ರವನ್ನು ಆರೋಗ್ಯಕರವೆಂದು ವರ್ಗೀಕರಿಸಿದೆ. ಇದರಿಂದ ಸಂಪೂರ್ಣ ಗಿಡ ರೋಗಮುಕ್ತವೆಂದು ಖಚಿತವಾಗುವುದಿಲ್ಲ.",
-    symptoms: ["ಬೆಂಬಲಿತ ರೋಗ ಅಥವಾ ಹಾನಿ ವರ್ಗ ಪತ್ತೆಯಾಗಿಲ್ಲ.", "ಚಿತ್ರದಲ್ಲಿನ ಎಲೆಯನ್ನು ಆರೋಗ್ಯಕರವೆಂದು ವರ್ಗೀಕರಿಸಲಾಗಿದೆ."],
-    prevention: ["ಆರೋಗ್ಯಕರ ನೆಡುವ ವಸ್ತು ಬಳಸಿ.", "ಸೂಕ್ತ ಮಣ್ಣಿನ ತೇವಾಂಶ ಮತ್ತು ನೀರು ಹರಿವು ಕಾಪಾಡಿ.", "ಎಲೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ."],
-    treatment: "ಈ ಭವಿಷ್ಯವಾಣಿಯ ಆಧಾರದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಚಿಕಿತ್ಸೆ ಅಗತ್ಯವಿಲ್ಲ. ಬೆಳೆ ಪರಿಶೀಲನೆಯನ್ನು ಮುಂದುವರಿಸಿ.",
-  },
-  "DAMAGE-PEST": {
-    title: "ಶುಂಠಿ ಎಲೆ ಹಾನಿ / ಕೀಟ ವರ್ಗ",
-    category: "ಮಾದರಿ ಹಾನಿ / ಕೀಟ ವರ್ಗ",
-    description: "ಮಾದರಿಯು ಕೀಟ ಅಥವಾ ಹಾನಿಗೆ ಸಂಬಂಧಿಸಿದ ದೃಶ್ಯ ಲಕ್ಷಣಗಳನ್ನು ಗುರುತಿಸಿದೆ. ನಿರ್ದಿಷ್ಟ ಕೀಟವನ್ನು ಇದು ಗುರುತಿಸುವುದಿಲ್ಲ.",
-    symptoms: ["ಎಲೆಗಳಲ್ಲಿ ತಿಂದ ಗುರುತುಗಳು ಅಥವಾ ಹಾನಿ", "ಅನಿಯಮಿತ ಕಲೆಗಳು ಅಥವಾ ರಂಧ್ರಗಳು", "ನಿಖರ ಕಾರಣಕ್ಕೆ ಕ್ಷೇತ್ರ ಪರಿಶೀಲನೆ ಅಗತ್ಯ."],
-    prevention: ["ಎಲೆಗಳ ಎರಡೂ ಬದಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "ಕೀಟಗಳ ಚಟುವಟಿಕೆಯನ್ನು ಗಮನಿಸಿ.", "ದೃಢಪಟ್ಟ ಗುರುತಿನ ಆಧಾರದಲ್ಲಿ ಸಮಗ್ರ ಕೀಟ ನಿರ್ವಹಣೆ ಅನುಸರಿಸಿ."],
-    treatment: "AI ಫಲಿತಾಂಶದ ಆಧಾರದಲ್ಲಿ ಮಾತ್ರ ಕೀಟನಾಶಕ ಬಳಸಬೇಡಿ. ಕೀಟವನ್ನು ದೃಢೀಕರಿಸಿ ಕೃಷಿ ತಜ್ಞರ ಸಲಹೆ ಪಡೆಯಿರಿ.",
-  },
-  DEHYDRATED: {
-    title: "ಶುಂಠಿ ಎಲೆ ನೀರಿನ ಒತ್ತಡ ವರ್ಗ",
-    category: "ಮಾದರಿ ಒತ್ತಡ ವರ್ಗ",
-    description: "ಮಾದರಿಯು ನೀರಿನ ಕೊರತೆಯಂತಿರುವ ದೃಶ್ಯ ಲಕ್ಷಣಗಳನ್ನು ಗುರುತಿಸಿದೆ. ನಿಖರ ಕಾರಣವನ್ನು ಚಿತ್ರದಿಂದ ಮಾತ್ರ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ.",
-    symptoms: ["ಎಲೆಗಳು ಬಾಡಿದಂತೆ ಕಾಣಬಹುದು.", "ಎಲೆ ಅಂಚುಗಳು ಒಣಗಿದಂತೆ ಕಾಣಬಹುದು.", "ಎಲೆಗಳ ತಾಜಾತನ ಕಡಿಮೆಯಾಗಿರಬಹುದು."],
-    prevention: ["ಮಣ್ಣಿನಲ್ಲಿ ಸೂಕ್ತ ತೇವಾಂಶ ಕಾಪಾಡಿ.", "ನೀರು ನಿಲ್ಲದಂತೆ ಉತ್ತಮ ಹರಿವು ಇರಲಿ.", "ನೀರಾವರಿಗೆ ಮೊದಲು ಮಣ್ಣಿನ ತೇವಾಂಶ ಪರಿಶೀಲಿಸಿ."],
-    treatment: "ನೀರಾವರಿ ಬದಲಿಸುವ ಮೊದಲು ಮಣ್ಣಿನ ತೇವಾಂಶ ಮತ್ತು ನೀರು ಹರಿವನ್ನು ಪರಿಶೀಲಿಸಿ. ಲಕ್ಷಣಗಳು ಮುಂದುವರಿದರೆ ಕೃಷಿ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
-  },
-  "LEAF-BLIGHT": {
-    title: "ಶುಂಠಿ ಎಲೆ ಬ್ಲೈಟ್ ವರ್ಗ",
-    category: "ಮಾದರಿ ರೋಗ ವರ್ಗ",
-    description: "ಮಾದರಿಯು ಎಲೆ ಬ್ಲೈಟ್‌ಗೆ ಸಂಬಂಧಿಸಿದ ದೃಶ್ಯ ಲಕ್ಷಣಗಳನ್ನು ಗುರುತಿಸಿದೆ. ರೋಗಕಾರಕವನ್ನು ಇದು ದೃಢೀಕರಿಸುವುದಿಲ್ಲ.",
-    symptoms: ["ಎಲೆಗಳ ಮೇಲೆ ಕಂದು ಅಥವಾ ಕಪ್ಪು ಪ್ರದೇಶಗಳು", "ಹಾನಿಗೊಂಡ ಅಂಗಾಂಶ ಒಣಗುವುದು", "ಕಲೆಗಳು ವಿಸ್ತರಿಸಬಹುದು."],
-    prevention: ["ಆರೋಗ್ಯಕರ ನೆಡುವ ವಸ್ತು ಬಳಸಿ.", "ಸೂಕ್ತ ಗಿಡ ಅಂತರ ಮತ್ತು ಗಾಳಿಯಾಟ ಕಾಪಾಡಿ.", "ಎಲೆಗಳ ಮೇಲೆ ದೀರ್ಘಕಾಲ ತೇವಾಂಶ ಉಳಿಯುವುದನ್ನು ತಪ್ಪಿಸಿ."],
-    treatment: "ಶಿಲೀಂಧ್ರನಾಶಕ ಆಯ್ಕೆಮಾಡುವ ಮೊದಲು ರೋಗದ ಕಾರಣವನ್ನು ದೃಢೀಕರಿಸಿ. ಸ್ಥಳೀಯ ಕೃಷಿ ತಜ್ಞರ ಸಲಹೆ ಪಡೆಯಿರಿ.",
   },
   "BUD ROT": {
     title: "ಬಡ್ ರಾಟ್",
@@ -350,6 +317,44 @@ const KN_DISEASE = {
     symptoms: ["ಎಲೆಗಳ ಮೇಲೆ ಚುಕ್ಕೆಗಳು ಅಥವಾ ಗಾಯಗಳು ಕಾಣಬಹುದು.", "ಹಾನಿಗೊಂಡ ಅಂಗಾಂಶ ಕಂದು ಅಥವಾ ಒಣಗಿದಂತೆ ಕಾಣಬಹುದು."],
     prevention: ["ಹೊಸ ಅಥವಾ ಹೆಚ್ಚಾಗುತ್ತಿರುವ ಚುಕ್ಕೆಗಳಿಗಾಗಿ ಎಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "ತೋಟದ ಸ್ವಚ್ಛತೆ ಮತ್ತು ಸೂಕ್ತ ಗಾಳಿಯಾಟ ಕಾಪಾಡಿ.", "ಆರೋಗ್ಯಕರ ನೆಡುವ ವಸ್ತು ಬಳಸಿ."],
     treatment: "AI ಫಲಿತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ಮಾತ್ರ ಶಿಲೀಂಧ್ರನಾಶಕ ಆಯ್ಕೆ ಮಾಡಬೇಡಿ. ಕ್ಷೇತ್ರ ದೃಢೀಕರಣದ ನಂತರ ಸ್ಥಳೀಯ ಕೃಷಿ ಸಲಹೆ ಅನುಸರಿಸಿ.",
+  },
+
+};
+
+
+
+const KN_GINGER_DISEASE = {
+  HEALTHY: {
+    title: "ಆರೋಗ್ಯಕರ ಶುಂಠಿ ಎಲೆ",
+    category: "ಆರೋಗ್ಯಕರ ಎಂದು ಭವಿಷ್ಯ",
+    description: "ಶುಂಠಿ AI ಮಾದರಿಯು ಚಿತ್ರವನ್ನು HEALTHY ಎಂದು ವರ್ಗೀಕರಿಸಿದೆ. ಇದು ಸಂಪೂರ್ಣ ಗಿಡ ಸಮಸ್ಯೆಮುಕ್ತವಾಗಿದೆ ಎಂಬ ಖಾತರಿಯಲ್ಲ.",
+    symptoms: ["ಚಿತ್ರದಲ್ಲಿ ಬೆಂಬಲಿತ ಸಮಸ್ಯೆಯ ವರ್ಗ ಪತ್ತೆಯಾಗಿಲ್ಲ.", "ಕಾಣುವ ಎಲೆಯನ್ನು ಮಾದರಿ ಆರೋಗ್ಯಕರವೆಂದು ವರ್ಗೀಕರಿಸಿದೆ."],
+    prevention: ["ಗಿಡಗಳು ಮತ್ತು ಎಲೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.", "ಉತ್ತಮ ನೀರು ಹರಿವು ಕಾಪಾಡಿ.", "ಆರೋಗ್ಯಕರ ನೆಡುವ ವಸ್ತು ಬಳಸಿ.", "ಹೊಸ ಎಲೆಗಳಲ್ಲಿ ಬದಲಾವಣೆಗಳನ್ನು ಗಮನಿಸಿ."],
+    treatment: "ಈ ಫಲಿತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ನಿರ್ದಿಷ್ಟ ಚಿಕಿತ್ಸೆ ಸೂಚಿಸಲಾಗುವುದಿಲ್ಲ. ಲಕ್ಷಣಗಳು ಕಂಡುಬಂದರೆ ಕ್ಷೇತ್ರ ಪರಿಶೀಲನೆ ಪಡೆಯಿರಿ.",
+  },
+  "DAMAGE-PEST": {
+    title: "ಶುಂಠಿ ಎಲೆ — ಕೀಟ ಹಾನಿ ವರ್ಗ",
+    category: "ಮಾದರಿಯ ಭವಿಷ್ಯ ವರ್ಗ",
+    description: "DAMAGE-PEST ಶುಂಠಿ AI ಮಾದರಿಯ ದೃಶ್ಯ ವರ್ಗವಾಗಿದೆ. ನಿರ್ದಿಷ್ಟ ಕೀಟದ ಜಾತಿಯನ್ನು ಈ ಭವಿಷ್ಯವಾಣಿ ಗುರುತಿಸುವುದಿಲ್ಲ.",
+    symptoms: ["ಎಲೆ ಅಂಗಾಂಶದಲ್ಲಿ ತಿನ್ನುವ ಗುರುತುಗಳು ಅಥವಾ ಹಾನಿ ಕಾಣಬಹುದು.", "ಅನಿಯಮಿತ ರಂಧ್ರಗಳು ಅಥವಾ ಬಣ್ಣ ಬದಲಾವಣೆ ಕಾಣಬಹುದು.", "ನಿರ್ದಿಷ್ಟ ಕೀಟದ ಜಾತಿ ಮಾದರಿಯಿಂದ ತಿಳಿಯುವುದಿಲ್ಲ."],
+    prevention: ["ಎಲೆಗಳು ಮತ್ತು ಚಿಗುರುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "ಹೊಲದ ಸ್ವಚ್ಛತೆ ಕಾಪಾಡಿ.", "ಹೊಸ ಹಾನಿ ಮತ್ತು ಕೀಟಗಳ ಇರುವಿಕೆಯನ್ನು ಗಮನಿಸಿ.", "ಸಮಗ್ರ ಕೀಟ ನಿರ್ವಹಣೆ ಅನುಸರಿಸಿ."],
+    treatment: "AI ಫಲಿತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ಮಾತ್ರ ಕೀಟನಾಶಕ ಆಯ್ಕೆ ಮಾಡಬೇಡಿ. ಕೀಟವನ್ನು ಕ್ಷೇತ್ರದಲ್ಲಿ ಗುರುತಿಸಿ ತಜ್ಞರ ಸಲಹೆ ಪಡೆಯಿರಿ.",
+  },
+  DEHYDRATED: {
+    title: "ಶುಂಠಿ ಎಲೆ — ನೀರಿನ ಕೊರತೆ ವರ್ಗ",
+    category: "ಮಾದರಿಯ ಭವಿಷ್ಯ ವರ್ಗ",
+    description: "DEHYDRATED ಶುಂಠಿ AI ಮಾದರಿಯ ದೃಶ್ಯ ವರ್ಗವಾಗಿದೆ. ಎಲೆಯ ರೂಪದಿಂದ ಮಾತ್ರ ನೀರಿನ ಒತ್ತಡದ ಕಾರಣ ಅಥವಾ ತೀವ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸಲಾಗುವುದಿಲ್ಲ.",
+    symptoms: ["ಎಲೆಗಳು ಬಾಡಿದಂತೆ ಅಥವಾ ಕೆಳಗೆ ಬಾಗಿದಂತೆ ಕಾಣಬಹುದು.", "ಎಲೆಯ ಅಂಚುಗಳು ಅಥವಾ ಮೇಲ್ಮೈ ಒಣಗಿದಂತೆ ಕಾಣಬಹುದು.", "ಮಣ್ಣಿನ ತೇವಾಂಶ ಅಥವಾ ಬೇರುಗಳ ಸ್ಥಿತಿ ಕಾರಣವಾಗಿರಬಹುದು."],
+    prevention: ["ಮಣ್ಣಿನ ತೇವಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ.", "ಬೆಳೆ ಮತ್ತು ಮಣ್ಣಿನ ಅಗತ್ಯಕ್ಕೆ ಅನುಗುಣವಾಗಿ ನೀರು ನೀಡಿ.", "ನೀರು ನಿಲ್ಲದಂತೆ ಉತ್ತಮ ನೀರು ಹರಿವು ಕಾಪಾಡಿ.", "ಬಿಸಿಲು ಅಥವಾ ಒಣ ಹವಾಮಾನದಲ್ಲಿ ಗಿಡಗಳನ್ನು ಗಮನಿಸಿ."],
+    treatment: "ನೀರಾವರಿ ಬದಲಿಸುವ ಮೊದಲು ಮಣ್ಣಿನ ತೇವಾಂಶ ಮತ್ತು ನೀರು ಹರಿವನ್ನು ಪರಿಶೀಲಿಸಿ. ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ ಕೃಷಿ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+  },
+  "LEAF-BLIGHT": {
+    title: "ಶುಂಠಿ ಎಲೆ ಬ್ಲೈಟ್ ವರ್ಗ",
+    category: "ಮಾದರಿಯ ಭವಿಷ್ಯ ವರ್ಗ",
+    description: "LEAF-BLIGHT ಶುಂಠಿ AI ಮಾದರಿಯ ರೋಗ ಸಂಬಂಧಿತ ದೃಶ್ಯ ವರ್ಗವಾಗಿದೆ. ಕಾರಣಕಾರಿ ರೋಗಕಾರಕವನ್ನು ಚಿತ್ರ ಮಾದರಿ ಸ್ವತಂತ್ರವಾಗಿ ದೃಢೀಕರಿಸುವುದಿಲ್ಲ.",
+    symptoms: ["ಎಲೆಗಳಲ್ಲಿ ಕಂದು ಅಥವಾ ಒಣ ಗಾಯಗಳು ಕಾಣಬಹುದು.", "ಹಾನಿಗೊಂಡ ಭಾಗಗಳು ವಿಸ್ತರಿಸಬಹುದು.", "ತೀವ್ರ ಹಾನಿಯಲ್ಲಿ ಎಲೆಯ ಭಾಗಗಳು ಒಣಗಬಹುದು."],
+    prevention: ["ಹೊಸ ಅಥವಾ ಹರಡುವ ಗಾಯಗಳಿಗಾಗಿ ಎಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "ಸೂಕ್ತ ಗಿಡ ಅಂತರ ಮತ್ತು ಗಾಳಿಯಾಟ ಕಾಪಾಡಿ.", "ಎಲೆಗಳು ದೀರ್ಘಕಾಲ ತೇವವಾಗಿರುವುದನ್ನು ತಪ್ಪಿಸಿ.", "ತಜ್ಞರ ಸಲಹೆಯಂತೆ ಹಾನಿಗೊಂಡ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕಿ."],
+    treatment: "ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ಕ್ಷೇತ್ರದಲ್ಲಿ ರೋಗವನ್ನು ದೃಢೀಕರಿಸಿ. AI ಫಲಿತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ಮಾತ್ರ ಶಿಲೀಂಧ್ರನಾಶಕ ಆಯ್ಕೆ ಮಾಡಬೇಡಿ.",
   },
 };
 
@@ -441,7 +446,7 @@ const TEXT = {
     invalidType: "Please upload a JPG, PNG, or WEBP image.",
     tooLarge: "Image size must not exceed 5 MB.",
     chooseFirst: "Please select a leaf image first.",
-    modelPending: "The selected crop model is not connected yet. Select Coffee or Arecanut.",
+    modelPending: "The selected crop model is not connected yet. Select one of the four supported crops.",
     cameraUnsupported: "Camera access is not supported by this browser.",
     cameraPermission: "Unable to access camera. Please check browser permissions.",
     cameraReady: "Camera is not ready. Please try again.",
@@ -625,58 +630,36 @@ function predictionClass(data) {
 
 function predictionProbabilities(data) {
   const source =
-    data?.probabilities ??
-    data?.class_probabilities ??
-    data?.predictions ??
+    data?.probabilities ||
+    data?.class_probabilities ||
+    data?.predictions ||
     {};
 
-  let entries = [];
-
   if (Array.isArray(source)) {
-    entries = source.map((item) => ({
-      name: item?.class || item?.class_name || item?.label || "Unknown",
-      rawValue:
-        item?.probability ?? item?.confidence ?? item?.score ?? 0,
-    }));
-  } else if (source && typeof source === "object") {
-    entries = Object.entries(source).map(([name, value]) => ({
-      name,
-      rawValue:
-        value && typeof value === "object"
-          ? value?.probability ?? value?.confidence ?? value?.score ?? 0
-          : value,
-    }));
+    return source
+      .map((item) => ({
+        name: item?.class || item?.class_name || item?.label || "Unknown",
+        value: confidenceValue(
+          item?.probability ?? item?.confidence ?? item?.score ?? 0
+        ),
+      }))
+      .sort((a, b) => b.value - a.value);
   }
 
-  // Convert fractions or percentages into non-negative numeric values.
-  const values = entries.map(({ rawValue }) => {
-    const number = Number(rawValue);
-    if (!Number.isFinite(number) || number < 0) return 0;
-    return number <= 1 ? number * 100 : number;
-  });
+  if (source && typeof source === "object") {
+    return Object.entries(source)
+      .map(([name, value]) => ({
+        name,
+        value: confidenceValue(
+          typeof value === "object"
+            ? value?.probability ?? value?.confidence ?? value?.score ?? 0
+            : value
+        ),
+      }))
+      .sort((a, b) => b.value - a.value);
+  }
 
-  const total = values.reduce((sum, value) => sum + value, 0);
-  if (total <= 0) return [];
-
-  // Normalize defensively so the displayed class distribution totals 100%.
-  const exactValues = values.map((value) => (value / total) * 100);
-  const roundedValues = exactValues.map((value) =>
-    Number(value.toFixed(2))
-  );
-
-  // Correct rounding drift on the largest class so the displayed total is 100.00%.
-  const roundedTotal = roundedValues.reduce((sum, value) => sum + value, 0);
-  const largestIndex = exactValues.indexOf(Math.max(...exactValues));
-  roundedValues[largestIndex] = Number(
-    (roundedValues[largestIndex] + (100 - roundedTotal)).toFixed(2)
-  );
-
-  return entries
-    .map(({ name }, index) => ({
-      name,
-      value: roundedValues[index],
-    }))
-    .sort((a, b) => b.value - a.value);
+  return [];
 }
 
 function normalizePredictedClass(crop, returnedClass) {
@@ -693,7 +676,10 @@ function readHistory() {
       localStorage.getItem(HISTORY_STORAGE_KEY) || "[]"
     );
 
-    return Array.isArray(parsed) ? parsed : [];
+    const supportedCrops = ["Coffee", "Arecanut", "Cardamom", "Ginger"];
+    return Array.isArray(parsed)
+      ? parsed.filter((item) => supportedCrops.includes(item?.crop || "Coffee"))
+      : [];
   } catch {
     return [];
   }
@@ -905,7 +891,9 @@ export default function DiseaseDetection() {
     currentDisease && language === "kn"
       ? {
           ...currentDisease,
-          ...(KN_DISEASE[prediction.predictedClass] || {}),
+          ...(prediction.crop === "Ginger"
+            ? KN_GINGER_DISEASE[prediction.predictedClass] || {}
+            : KN_DISEASE[prediction.predictedClass] || {}),
         }
       : currentDisease;
 
@@ -1152,7 +1140,7 @@ export default function DiseaseDetection() {
   };
 
   // --------------------------------------------------
-  // CROP PREDICTION - COFFEE, ARECANUT AND CARDAMOM
+  // CROP PREDICTION - FOUR SUPPORTED CROPS
   // --------------------------------------------------
 
   const analyzeImage = async () => {
@@ -1219,25 +1207,17 @@ export default function DiseaseDetection() {
         throw new Error(`${t.unsupportedClass} ${returnedClass}`);
       }
 
-      const probabilities = predictionProbabilities(data);
-
-      // Use the highest displayed class probability as the model confidence.
-      // This keeps the confidence value consistent with the distribution.
-      const highestClassProbability = probabilities.length
-        ? Math.max(...probabilities.map((item) => item.value))
-        : confidenceValue(
-            data?.confidence ??
-            data?.confidence_score ??
-            data?.probability ??
-            data?.score ??
-            0
-          );
-
       const result = {
         crop: selectedCrop,
         predictedClass: normalized,
-        confidence: highestClassProbability,
-        probabilities,
+        confidence: confidenceValue(
+          data?.confidence ??
+          data?.confidence_score ??
+          data?.probability ??
+          data?.score ??
+          0
+        ),
+        probabilities: predictionProbabilities(data),
         imageName: selectedFile.name,
         createdAt: new Date().toISOString(),
       };
@@ -1256,6 +1236,12 @@ export default function DiseaseDetection() {
 
       if (selectedCrop === "Coffee") {
         setSelectedResearchClass(normalized);
+      } else if (selectedCrop === "Arecanut") {
+        setSelectedArecanutClass(normalized);
+      } else if (selectedCrop === "Cardamom") {
+        setSelectedCardamomClass(normalized);
+      } else if (selectedCrop === "Ginger") {
+        setSelectedGingerClass(normalized);
       }
 
       // Experimental colour-based highlighting.
@@ -1515,11 +1501,11 @@ export default function DiseaseDetection() {
                 <p>
                   {language === "kn"
                     ? "ನಿಮ್ಮ ಬೆಳೆ ಆಯ್ಕೆಮಾಡಿ"
-                    : "Choose one of the five project crops."}
+                    : "Choose one of the four supported project crops."}
                 </p>
               </div>
 
-              <span className="crop-count">5 crops</span>
+              <span className="crop-count">4 crops</span>
             </div>
 
             <div className="crop-selector-grid">
@@ -1840,7 +1826,6 @@ export default function DiseaseDetection() {
                 <span
                   className={`result-status ${
                     prediction.predictedClass === "Healthy" ||
-                    prediction.predictedClass === "HEALTHY" ||
                     prediction.predictedClass === "HEALTHY LEAF"
                       ? "healthy"
                       : "disease"
@@ -2459,11 +2444,11 @@ export default function DiseaseDetection() {
             <>
               <div className="research-heading">
                 <div>
-                  <h2>{language === "kn" ? "ಶುಂಠಿ ರೋಗ ಮತ್ತು ಹಾನಿ ಮಾಹಿತಿ" : "Ginger — Disease Information"}</h2>
+                  <h2>{language === "kn" ? "ಶುಂಠಿ ರೋಗಗಳ ಮಾಹಿತಿ" : "Ginger — Disease Information"}</h2>
                   <p>
                     {language === "kn"
                       ? "ಶುಂಠಿ AI ಮಾದರಿಯ ನಾಲ್ಕು ಬೆಂಬಲಿತ ವರ್ಗಗಳ ಮಾಹಿತಿ."
-                      : "Information for the four visual classes supported by the Ginger AI model."}
+                      : "Information for the four classes supported by the Ginger AI model."}
                   </p>
                 </div>
               </div>
@@ -2486,7 +2471,7 @@ export default function DiseaseDetection() {
               {(() => {
                 const disease = DISEASE_INFORMATION.Ginger[selectedGingerClass];
                 const translated = language === "kn"
-                  ? { ...disease, ...(KN_DISEASE[selectedGingerClass] || {}) }
+                  ? { ...disease, ...(KN_GINGER_DISEASE[selectedGingerClass] || {}) }
                   : disease;
 
                 return (
@@ -2499,8 +2484,8 @@ export default function DiseaseDetection() {
                         </strong>
                         <p>
                           {language === "kn"
-                            ? "ಆಯ್ಕೆಮಾಡಿದ ವರ್ಗದ ಮಾಹಿತಿ ಕೆಳಗೆ ಲಭ್ಯವಿದೆ. AI ಫಲಿತಾಂಶವು ಪ್ರಾಥಮಿಕ ಸೂಚನೆ ಮಾತ್ರ."
-                            : "Review the selected class description, possible symptoms, prevention and management guidance below. These are model classes, not confirmed field diagnoses."}
+                            ? "ಆಯ್ಕೆಮಾಡಿದ ವರ್ಗದ ಲಕ್ಷಣಗಳು ಮತ್ತು ನಿರ್ವಹಣಾ ಮಾಹಿತಿಯನ್ನು ಕೆಳಗೆ ನೋಡಿ."
+                            : "Review the selected class description, possible symptoms, prevention and management guidance below."}
                         </p>
                       </div>
                     </div>
@@ -2548,8 +2533,8 @@ export default function DiseaseDetection() {
                   <strong>{language === "kn" ? "ಗಮನಿಸಿ" : "Important note"}</strong>
                   <p>
                     {language === "kn"
-                      ? "AI ವರ್ಗೀಕರಣವು ಪ್ರಾಥಮಿಕ ಸೂಚನೆ ಮಾತ್ರ. ನಿಖರ ಕಾರಣ ಮತ್ತು ಸೂಕ್ತ ನಿರ್ವಹಣೆಗೆ ಸ್ಥಳೀಯ ಕೃಷಿ ತಜ್ಞರಿಂದ ದೃಢೀಕರಣ ಪಡೆಯಿರಿ."
-                      : "The Ginger model is experimental. Confirm the cause in the field with a local agricultural expert before making crop-management or pesticide decisions."}
+                      ? "AI ವರ್ಗೀಕರಣವು ಪ್ರಾಥಮಿಕ ಸೂಚನೆ ಮಾತ್ರ. ನಿಖರ ರೋಗ ಮತ್ತು ಚಿಕಿತ್ಸೆಗೆ ಸ್ಥಳೀಯ ಕೃಷಿ ತಜ್ಞರಿಂದ ದೃಢೀಕರಣ ಪಡೆಯಿರಿ."
+                      : "AI classification is a preliminary indication only. Confirm the disease and suitable treatment with a local agricultural expert."}
                   </p>
                 </div>
               </div>
@@ -2559,7 +2544,7 @@ export default function DiseaseDetection() {
               <FaInfoCircle />
               <div>
                 <strong>{selectedCrop} — Disease Information</strong>
-                <p>{t.arecanutResearchPending}</p>
+                <p>{language === "kn" ? "ಈ ಬೆಳೆಗೆ ಸಂಶೋಧನಾ ಪ್ರಕಟಣೆಗಳ ಸಂಪರ್ಕ ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ." : "Research publications are not connected for this crop yet."}</p>
               </div>
             </div>
           )}

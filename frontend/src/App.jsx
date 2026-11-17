@@ -1,7 +1,6 @@
 
 import { useState } from "react";
 import {
-  FaLeaf,
   FaHome,
   FaMicroscope,
   FaSeedling,
@@ -17,11 +16,9 @@ import {
   FaTimes,
   FaBars,
   FaCheckCircle,
-  FaClock,
 } from "react-icons/fa";
 
 import DiseaseDetectionPage from "./DiseaseDetection";
-import PlantIdentificationPage from "./PlantIdentification";
 import MultipleLeafAnalysis from "./MultipleLeafAnalysis";
 import WeatherRecommendation from "./WeatherRecommendation";
 import PredictionHistory from "./PredictionHistory";
@@ -31,7 +28,6 @@ import "./App.css";
 const pages = [
   { name: "Home", icon: FaHome },
   { name: "Disease Detection", icon: FaMicroscope },
-  { name: "Plant Identification", icon: FaLeaf },
   { name: "Multi-Image Analysis", icon: FaImages },
   {
     name: "Weather-Aware Crop Recommendation",
@@ -51,25 +47,19 @@ const crops = [
     name: "Arecanut",
     scientific: "Areca catechu",
     image: "/assets/arecanut.png",
-    supported: false,
+    supported: true,
   },
   {
     name: "Cardamom",
     scientific: "Elettaria cardamomum",
     image: "/assets/cardmone.png",
-    supported: false,
+    supported: true,
   },
   {
     name: "Ginger",
     scientific: "Zingiber officinale",
     image: "/assets/ginger.png",
-    supported: false,
-  },
-  {
-    name: "Black Pepper",
-    scientific: "Piper nigrum",
-    image: "/assets/peppar.png",
-    supported: false,
+    supported: true,
   },
 ];
 
@@ -80,13 +70,6 @@ const features = [
     icon: FaMicroscope,
     color: "rose",
     page: "Disease Detection",
-  },
-  {
-    title: "Plant Identification",
-    text: "Identify supported crops from plant images.",
-    icon: FaLeaf,
-    color: "green",
-    page: "Plant Identification",
   },
   {
     title: "Multi-Image Analysis",
@@ -217,7 +200,7 @@ function App() {
                 <h2>Your Smart Farming Assistant</h2>
 
                 <p className="kv-hero-description">
-                  An AI-assisted system for plant identification,
+                  An AI-assisted system for
                   disease screening and weather-aware crop
                   recommendations.
                 </p>
@@ -257,16 +240,12 @@ function App() {
                 </div>
 
                 <div>
-                  <FaSeedling /> Plant identification
-                </div>
-
-                <div>
                   <FaCloudSun /> Weather-aware planning
                 </div>
               </div>
             </section>
 
-            {/* SUPPORTED CROPS SECTION ON HOME */}
+            {/* SUPPORTED CROPS SECTION */}
             <section
               className="kv-section kv-supported-section"
               aria-labelledby="kv-supported-heading"
@@ -278,12 +257,12 @@ function App() {
                   </span>
 
                   <h2 id="kv-supported-heading">
-                    <FaSeedling /> Supported Crops (5)
+                    <FaSeedling /> Supported Crops (4)
                   </h2>
 
                   <p>
-                    Explore supported crops and their model
-                    integration status.
+                    Explore the four trained and connected crop
+                    disease detection models.
                   </p>
                 </div>
 
@@ -292,7 +271,7 @@ function App() {
                 </span>
               </div>
 
-              {/* FIVE ORIGINAL CROP IMAGES */}
+              {/* FOUR CONNECTED CROP IMAGES */}
               <div className="kv-supported-grid">
                 {crops.map((crop) => (
                   <button
@@ -300,9 +279,7 @@ function App() {
                     key={crop.name}
                     className={[
                       "kv-supported-card",
-                      crop.supported
-                        ? "model-connected"
-                        : "model-pending",
+                      "model-connected",
                       selectedCrop === crop.name
                         ? "crop-selected"
                         : "",
@@ -332,22 +309,9 @@ function App() {
                       {crop.scientific}
                     </span>
 
-                    <span
-                      className={`kv-model-status ${
-                        crop.supported
-                          ? "status-connected"
-                          : "status-pending"
-                      }`}
-                    >
-                      {crop.supported ? (
-                        <FaCheckCircle />
-                      ) : (
-                        <FaClock />
-                      )}
-
-                      {crop.supported
-                        ? "Model connected"
-                        : "Model pending"}
+                    <span className="kv-model-status status-connected">
+                      <FaCheckCircle />
+                      Model connected
                     </span>
                   </button>
                 ))}
@@ -360,44 +324,35 @@ function App() {
                   aria-live="polite"
                 >
                   <div className="kv-selected-crop-icon">
-                    {selectedCropDetails.supported ? (
-                      <FaCheckCircle />
-                    ) : (
-                      <FaInfoCircle />
-                    )}
+                    <FaCheckCircle />
                   </div>
 
                   <div>
                     <strong>
-                      {selectedCropDetails.name} —{" "}
-                      {selectedCropDetails.supported
-                        ? "Model connected"
-                        : "Model pending"}
+                      {selectedCropDetails.name} — Model connected
                     </strong>
 
                     <p>
-                      {selectedCropDetails.supported
-                        ? "Coffee disease classification is configured as connected. Prediction quality must still be evaluated."
-                        : `A separately trained and tested ${selectedCropDetails.name} model is required before disease predictions can be provided.`}
+                      The trained {selectedCropDetails.name} disease
+                      classification model is marked as connected
+                      in KisanVision AI.
                     </p>
                   </div>
 
-                  {selectedCropDetails.supported && (
-                    <button
-                      type="button"
-                      className="kv-crop-action"
-                      onClick={() => goTo("Disease Detection")}
-                    >
-                      Open Disease Detection <FaArrowRight />
-                    </button>
-                  )}
+                  <button
+                    type="button"
+                    className="kv-crop-action"
+                    onClick={() => goTo("Disease Detection")}
+                  >
+                    Open Disease Detection <FaArrowRight />
+                  </button>
                 </div>
               )}
 
               <p className="kv-supported-disclaimer">
                 <FaShieldAlt />
-                Predictions are experimental. Pending crops require
-                their own trained and tested models.
+                Predictions depend on the connected models and their
+                evaluation.
               </p>
             </section>
 
@@ -434,25 +389,7 @@ function App() {
                       </div>
                     </article>
 
-                    <article className="kv-quick-card upload-card">
-                      <div className="kv-quick-icon">
-                        <FaUpload />
-                      </div>
-
-                      <div>
-                        <h3>Identify a Plant</h3>
-                        <p>
-                          Open the plant identification workflow.
-                        </p>
-
-                        <button
-                          type="button"
-                          onClick={() => goTo("Plant Identification")}
-                        >
-                          Identify plant <FaArrowRight />
-                        </button>
-                      </div>
-                    </article>
+                    
 
                     <article className="kv-quick-card compare-card">
                       <div className="kv-quick-icon">
@@ -550,7 +487,7 @@ function App() {
                         <FaSeedling /> Target Crops
                       </h2>
 
-                      <p>Current dataset scope: 5 crops</p>
+                      <p>Current dataset scope: 4 crops</p>
                     </div>
                   </div>
 
@@ -578,8 +515,8 @@ function App() {
                   </div>
 
                   <p className="kv-crop-disclaimer">
-                    Model availability depends on training,
-                    evaluation and integration.
+                    Four crop disease detection models are included
+                    in the current project scope.
                   </p>
                 </section>
               </aside>
@@ -587,8 +524,6 @@ function App() {
           </>
         ) : activePage === "Disease Detection" ? (
           <DiseaseDetectionPage />
-        ) : activePage === "Plant Identification" ? (
-          <PlantIdentificationPage />
         ) : activePage === "Multi-Image Analysis" ? (
           <MultipleLeafAnalysis />
         ) : activePage === "Weather-Aware Crop Recommendation" ? (
