@@ -25,7 +25,10 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
       trim: true,
       maxlength: 254,
-      match: [/^[^\s@]+@[^\s@]+\.[^\s@]+$/, "Enter a valid email address"],
+      match: [
+        /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+        "Enter a valid email address",
+      ],
     },
 
     phone: {
@@ -43,21 +46,61 @@ const userSchema = new mongoose.Schema(
 
     // Farmer profile and farm information
     farmProfile: {
-      location: { type: String, trim: true, default: "" },
-      farmName: { type: String, trim: true, default: "" },
-      farmArea: { type: Number, min: 0, default: null },
-      landType: { type: String, default: "" },
-      soilType: { type: String, default: "" },
-      waterSource: { type: String, default: "" },
-      farmingType: { type: String, default: "" },
+      location: {
+        type: String,
+        trim: true,
+        default: "",
+      },
+
+      farmName: {
+        type: String,
+        trim: true,
+        default: "",
+      },
+
+      farmArea: {
+        type: Number,
+        min: 0,
+        default: null,
+      },
+
+      landType: {
+        type: String,
+        default: "",
+      },
+
+      soilType: {
+        type: String,
+        default: "",
+      },
+
+      waterSource: {
+        type: String,
+        default: "",
+      },
+
+      farmingType: {
+        type: String,
+        default: "",
+      },
 
       primaryCrops: {
-        type: [{ type: String, enum: supportedCrops }],
+        type: [
+          {
+            type: String,
+            enum: supportedCrops,
+          },
+        ],
         default: [],
       },
 
       interestedCrops: {
-        type: [{ type: String, enum: supportedCrops }],
+        type: [
+          {
+            type: String,
+            enum: supportedCrops,
+          },
+        ],
         default: [],
       },
 
@@ -67,10 +110,25 @@ const userSchema = new mongoose.Schema(
         default: "English",
       },
 
-      emailNotifications: { type: Boolean, default: true },
-      smsNotifications: { type: Boolean, default: false },
-      weatherAlerts: { type: Boolean, default: true },
-      recommendations: { type: Boolean, default: true },
+      emailNotifications: {
+        type: Boolean,
+        default: true,
+      },
+
+      smsNotifications: {
+        type: Boolean,
+        default: false,
+      },
+
+      weatherAlerts: {
+        type: Boolean,
+        default: true,
+      },
+
+      recommendations: {
+        type: Boolean,
+        default: true,
+      },
     },
 
     // Store only the hash of the reset token.
@@ -97,6 +155,7 @@ userSchema.set("toJSON", {
     delete returnedObject.passwordHash;
     delete returnedObject.resetPasswordTokenHash;
     delete returnedObject.resetPasswordExpires;
+
     return returnedObject;
   },
 });

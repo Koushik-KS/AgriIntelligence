@@ -4,13 +4,22 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import crypto from "node:crypto";
 import User from "../models/User.js";
+
 import {
   getCookieOptions,
   requireAuth,
 } from "../middleware/auth.js";
+
 import { sendPasswordResetEmail } from "../services/emailService.js";
 
 const router = Router();
+
+const supportedCrops = [
+  "Coffee",
+  "Arecanut",
+  "Ginger",
+  "Cardamom",
+];
 
 function createSession(res, userId) {
   const token = jwt.sign(
@@ -28,6 +37,8 @@ function publicUser(user) {
     fullName: user.fullName,
     email: user.email,
     phone: user.phone || "",
+    farmProfile: user.farmProfile || {},
+    memberSince: user.createdAt || null,
   };
 }
 
@@ -174,6 +185,214 @@ router.get("/me", requireAuth, async (req, res, next) => {
   }
 });
 
+// GET /api/auth/profile
+// Get the logged-in farmer's profile
+router.get("/profile", requireAuth, async (req, res, next) => {
+  try {
+    const user = await User.findById(req.userId);
+
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "Farmer account not found.",
+      });
+    }
+
+    return res.json({
+      success: true,
+      message: "Farmer profile loaded successfully.",
+      user: publicUser(user),
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+// PUT /api/auth/profile
+// Update the logged-in farmer's profile
+router.put("/profile", requireAuth, async (req, res, next) => {
+  try {
+    const user = await User.findById(req.userId);
+
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "Farmer account not found.",
+      });
+    }
+
+    const {
+      fullName,
+      phone,
+      farmProfile,
+    } = req.body || {};
+
+    if (fullName !== undefined) {
+      if (
+        typeof fullName !== "string" ||
+        fullName.trim().length < 2 ||
+        fullName.trim().length > 80
+      ) {
+        return res.status(400).json({
+          success: false,
+          message: "Name must be between 2 and 80 characters.",
+        });
+      }
+
+      user.fullName = fullName.trim();
+    }
+
+    if (phone !== undefined) {
+      if (
+        typeof phone !== "string" ||
+        phone.trim().length > 20 ||
+        (phone.trim() && !/^[+\d\s()-]{7,20}$/.test(phone.trim()))
+      ) {
+        return res.status(400).json({
+          success: false,
+          message: "Please enter a valid phone number.",
+        });
+      }
+
+      user.phone = phone.trim();
+    }
+
+    if (farmProfile !== undefined) {
+      if (
+        !farmProfile ||
+        typeof farmProfile !== "object" ||
+        Array.isArray(farmProfile)
+      ) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid farm profile details.",
+        });
+      }
+
+      const allowedFields = [
+        "location",
+        "farmName",
+        "farmArea",
+        "landType",
+        "soilType",
+        "waterSource",
+        "farmingType",
+        "primaryCrops",
+        "interestedCrops",
+        "language",
+        "emailNotifications",
+        "smsNotifications",
+        "weatherAlerts",
+        "recommendations",
+      ];
+
+      for (const field of Object.keys(farmProfile)) {
+        if (!allowedFields.includes(field)) {
+          return res.status(400).json({
+            success: false,
+            message: `Field '${field}' cannot be updated.`,
+          });
+        }
+      }
+
+      const currentProfile = user.farmProfile?.toObject
+        ? user.farmProfile.toObject()
+        : { ...(user.farmProfile || {}) };
+
+      const updatedProfile = {
+        ...currentProfile,
+        ...farmProfile,
+      };
+
+      for (const field of [
+        "location",
+        "farmName",
+        "landType",
+        "soilType",
+        "waterSource",
+        "farmingType",
+      ]) {
+        if (
+          updatedProfile[field] !== undefined &&
+          typeof updatedProfile[field] !== "string"
+        ) {
+          return res.status(400).json({
+            success: false,
+            message: `Invalid value for ${field}.`,
+          });
+        }
+      }
+
+      if (
+        updatedProfile.farmArea !== null &&
+        updatedProfile.farmArea !== "" &&
+        updatedProfile.farmArea !== undefined &&
+        (!Number.isFinite(Number(updatedProfile.farmArea)) ||
+          Number(updatedProfile.farmArea) < 0)
+      ) {
+        return res.status(400).json({
+          success: false,
+          message: "Farm area must be a valid non-negative number.",
+        });
+      }
+
+      for (const field of ["primaryCrops", "interestedCrops"]) {
+        if (
+          !Array.isArray(updatedProfile[field]) ||
+          !updatedProfile[field].every(
+            (crop) =>
+              typeof crop === "string" && supportedCrops.includes(crop)
+          )
+        ) {
+          return res.status(400).json({
+            success: false,
+            message: `Invalid ${field} selection.`,
+          });
+        }
+      }
+
+      const validLanguages = [
+        "English",
+        "Kannada",
+        "English / Kannada",
+      ];
+
+      if (!validLanguages.includes(updatedProfile.language)) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid language preference.",
+        });
+      }
+
+      for (const field of [
+        "emailNotifications",
+        "smsNotifications",
+        "weatherAlerts",
+        "recommendations",
+      ]) {
+        if (typeof updatedProfile[field] !== "boolean") {
+          return res.status(400).json({
+            success: false,
+            message: `Invalid setting for ${field}.`,
+          });
+        }
+      }
+
+      user.farmProfile = updatedProfile;
+    }
+
+    await user.save();
+
+    return res.json({
+      success: true,
+      message: "Farmer profile updated successfully.",
+      user: publicUser(user),
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
 // POST /api/auth/logout
 router.post("/logout", (_req, res) => {
   res.clearCookie("kv_token", getCookieOptions());
@@ -189,7 +408,6 @@ router.post("/forgot-password", async (req, res, next) => {
   try {
     const email = req.body?.email;
 
-    // Return the same response regardless of whether the account exists.
     const genericResponse = {
       success: true,
       message:
@@ -212,8 +430,8 @@ router.post("/forgot-password", async (req, res, next) => {
       return res.status(200).json(genericResponse);
     }
 
-    // Generate a high-entropy token; store only its SHA-256 hash.
     const rawToken = crypto.randomBytes(32).toString("hex");
+
     const tokenHash = crypto
       .createHash("sha256")
       .update(rawToken)
@@ -221,6 +439,7 @@ router.post("/forgot-password", async (req, res, next) => {
 
     user.resetPasswordTokenHash = tokenHash;
     user.resetPasswordExpires = new Date(Date.now() + 15 * 60 * 1000);
+
     await user.save();
 
     const frontendUrl = process.env.FRONTEND_URL;
@@ -230,14 +449,14 @@ router.post("/forgot-password", async (req, res, next) => {
     }
 
     const resetUrl =
-      `${frontendUrl.replace(/\/$/, "")}/reset-password?token=${rawToken}`;
+      `${frontendUrl.replace(/\/+$/, "")}/reset-password?token=${rawToken}`;
 
     try {
       await sendPasswordResetEmail(user.email, resetUrl);
     } catch (emailError) {
-      // Do not leave a usable token behind if email delivery fails.
       user.resetPasswordTokenHash = undefined;
       user.resetPasswordExpires = undefined;
+
       await user.save();
 
       throw emailError;
@@ -287,6 +506,7 @@ router.post("/reset-password", async (req, res, next) => {
     user.passwordHash = await bcrypt.hash(password, 12);
     user.resetPasswordTokenHash = undefined;
     user.resetPasswordExpires = undefined;
+
     await user.save();
 
     return res.json({
