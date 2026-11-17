@@ -1,30 +1,36 @@
-
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
-  FaLeaf,
-  FaImages,
-  FaCloudUploadAlt,
-  FaTrashAlt,
-  FaTimes,
-  FaCheckCircle,
-  FaExclamationTriangle,
-  FaDownload,
-  FaSearch,
-  FaChartBar,
-  FaQuestionCircle,
-  FaSeedling,
-  FaHistory,
-  FaFileAlt,
-  FaShieldAlt,
-  FaInfoCircle,
-  FaChevronDown,
-  FaBars,
+  FaLeaf, FaImages, FaCloudUploadAlt, FaTimes, FaCheckCircle,
+  FaExclamationTriangle, FaDownload, FaSearch, FaChartBar,
+  FaQuestionCircle, FaSeedling, FaHistory, FaFileAlt, FaShieldAlt,
+  FaInfoCircle, FaChevronDown, FaBars,
 } from "react-icons/fa";
 import "./MultipleLeafAnalysis.css";
 
 const MAX_IMAGES = 20;
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp"];
+const HISTORY_KEY = "kisanvision_multi_image_history_v1";
+const CROPS = ["Coffee", "Arecanut", "Cardamom", "Ginger"];
+
+const API_CONFIG = {
+  Coffee: {
+    url: import.meta.env.VITE_COFFEE_API_URL || "http://127.0.0.1:8000",
+    endpoint: "/predict/coffee",
+  },
+  Arecanut: {
+    url: import.meta.env.VITE_ARECANUT_API_URL || "http://127.0.0.1:8001",
+    endpoint: "/predict/arecanut",
+  },
+  Cardamom: {
+    url: import.meta.env.VITE_CARDAMOM_API_URL || "http://127.0.0.1:8002",
+    endpoint: "/predict/cardamom",
+  },
+  Ginger: {
+    url: import.meta.env.VITE_GINGER_API_URL || "http://127.0.0.1:8003",
+    endpoint: "/predict/ginger",
+  },
+};
 
 const menuItems = [
   { label: "Analyze Multiple Leaves", icon: FaImages, target: "mla-upload" },
@@ -35,31 +41,62 @@ const menuItems = [
   { label: "FAQs", icon: FaQuestionCircle, target: "mla-faqs" },
 ];
 
-const supportedCrops = [
-  "Rice", "Maize", "Ragi", "Jowar", "Sugarcane",
-  "Red Gram", "Bengal Gram", "Groundnut", "Sunflower",
-  "Cotton", "Coffee", "Arecanut", "Coconut", "Tomato",
-  "Potato", "Onion", "Green Chilli", "Mango", "Banana", "Grapes",
-];
-
 const faqs = [
   {
     question: "How many images can I upload?",
-    answer: "You can select up to 20 images, with a maximum size of 5 MB per image.",
+    answer: "You can select up to 20 images in one batch. Each image can be up to 5 MB.",
   },
   {
     question: "Which image formats are supported?",
-    answer: "The upload interface accepts JPG, PNG and WebP images.",
+    answer: "JPG, PNG and WebP images are supported.",
   },
   {
-    question: "Will this page identify crop diseases now?",
-    answer: "Not yet. A trained and tested machine-learning model must be connected before crop and disease predictions can be displayed.",
+    question: "How is the crop selected?",
+    answer: "Choose Coffee, Arecanut, Cardamom or Ginger for every image. The selected crop decides which prediction API receives that image.",
   },
   {
-    question: "Are my selected images saved permanently?",
-    answer: "Currently, the images are held in this browser session. Permanent upload history requires storage or backend integration.",
+    question: "Does the report show disease severity?",
+    answer: "No. The connected APIs return a predicted class and confidence. They do not provide a validated disease-severity measurement.",
+  },
+  {
+    question: "Are previous results saved?",
+    answer: "Upload history stores result summaries in this browser's local storage. It does not store the original image files.",
   },
 ];
+
+const normalise = (value = "") =>
+  String(value).toUpperCase().replace(/[^A-Z0-9]/g, "");
+
+const isHealthyClass = (label = "") => normalise(label).includes("HEALTHY");
+
+function readHistory() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]");
+    return Array.isArray(saved) ? saved : [];
+  } catch {
+    return [];
+  }
+}
+
+/*
+ * The environment variable may contain either:
+ *   http://127.0.0.1:8000
+ * or the full endpoint:
+ *   http://127.0.0.1:8000/predict/coffee
+ * This function prevents the duplicated URL seen in the terminal log.
+ */
+function buildPredictionUrl(crop) {
+  const config = API_CONFIG[crop];
+  if (!config) throw new Error(`No API configuration found for ${crop}.`);
+
+  const base = String(config.url).trim().replace(/\/+$/, "");
+  const endpoint = config.endpoint;
+  const cleanBase = base.toLowerCase().endsWith(endpoint.toLowerCase())
+    ? base.slice(0, -endpoint.length).replace(/\/+$/, "")
+    : base;
+
+  return `${cleanBase}${endpoint}`;
+}
 
 function MultipleLeafAnalysis() {
   const [images, setImages] = useState([]);
@@ -71,6 +108,9 @@ function MultipleLeafAnalysis() {
   const [activeSection, setActiveSection] = useState("mla-upload");
   const [openFaq, setOpenFaq] = useState(0);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [history, setHistory] = useState(readHistory);
+  const [selectedDetails, setSelectedDetails] = useState(null);
 
   const inputRef = useRef(null);
   const idRef = useRef(0);
@@ -85,6 +125,14 @@ function MultipleLeafAnalysis() {
       imagesRef.current.forEach((image) => URL.revokeObjectURL(image.preview));
     };
   }, []);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(history.slice(0, 30)));
+    } catch {
+      // Browser storage may be unavailable or full.
+    }
+  }, [history]);
 
   const addImages = (fileList) => {
     const files = Array.from(fileList || []);
@@ -118,18 +166,33 @@ function MultipleLeafAnalysis() {
         id: ++idRef.current,
         file,
         preview: URL.createObjectURL(file),
+        crop: "",
+        status: "pending",
+        result: null,
+        apiError: "",
       }));
 
       if (newImages.length) {
-        setNotice(`${newImages.length} image(s) added. No AI analysis has been performed.`);
+        setNotice(
+          `${newImages.length} image(s) added. Select the crop for every image, then start analysis.`
+        );
       }
-
       if (rejected.length) setError(rejected.join(" "));
 
       return [...current, ...newImages];
     });
 
     if (inputRef.current) inputRef.current.value = "";
+  };
+
+  const updateCrop = (id, crop) => {
+    setImages((current) =>
+      current.map((image) =>
+        image.id === id
+          ? { ...image, crop, result: null, apiError: "", status: "pending" }
+          : image
+      )
+    );
   };
 
   const removeImage = (id) => {
@@ -147,40 +210,237 @@ function MultipleLeafAnalysis() {
     setImages([]);
     setError("");
     setNotice("All selected images cleared.");
+    setSelectedDetails(null);
     if (inputRef.current) inputRef.current.value = "";
   };
 
   const goToSection = (target) => {
     setActiveSection(target);
     setMobileSidebarOpen(false);
-
-    if (target === "mla-results" && images.length === 0) {
-      setNotice("Upload images before preparing your upload report.");
-    }
-
     document.getElementById(target)?.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
   };
 
+  const analyzeImages = async () => {
+    if (!images.length || isAnalyzing) return;
+
+    const unselected = images.filter((image) => !image.crop);
+    if (unselected.length) {
+      setError(
+        `Please select a crop for every image. ${unselected.length} image(s) still need a crop selection.`
+      );
+      return;
+    }
+
+    setError("");
+    setNotice("");
+    setIsAnalyzing(true);
+
+    const batch = [...images];
+
+    setImages((current) =>
+      current.map((image) => ({
+        ...image,
+        status: "processing",
+        result: null,
+        apiError: "",
+      }))
+    );
+
+    const successful = [];
+
+    await Promise.all(
+      batch.map(async (image) => {
+        try {
+          const requestUrl = buildPredictionUrl(image.crop);
+          const formData = new FormData();
+          formData.append("file", image.file);
+
+          const response = await fetch(requestUrl, {
+            method: "POST",
+            body: formData,
+          });
+
+          let payload;
+          try {
+            payload = await response.json();
+          } catch {
+            throw new Error(
+              `${image.crop} API returned an unreadable response (HTTP ${response.status}).`
+            );
+          }
+
+          if (!response.ok) {
+            const detail =
+              typeof payload?.detail === "string"
+                ? payload.detail
+                : payload?.message || `HTTP ${response.status}`;
+            throw new Error(detail);
+          }
+
+          if (
+            !payload?.success ||
+            !payload?.predicted_class ||
+            !Number.isFinite(Number(payload?.confidence))
+          ) {
+            throw new Error("The API response is missing prediction details.");
+          }
+
+          const result = {
+            crop: payload.crop || image.crop,
+            predictedClass: payload.predicted_class,
+            confidence: Number(payload.confidence),
+            probabilities: payload.probabilities || {},
+            warning: payload.warning || "",
+          };
+
+          successful.push({ image, result });
+
+          setImages((current) =>
+            current.map((item) =>
+              item.id === image.id
+                ? { ...item, status: "complete", result, apiError: "" }
+                : item
+            )
+          );
+        } catch (apiError) {
+          const message =
+            apiError?.message ||
+            "Prediction failed. Check that the selected crop API is running.";
+
+          setImages((current) =>
+            current.map((item) =>
+              item.id === image.id
+                ? { ...item, status: "error", result: null, apiError: message }
+                : item
+            )
+          );
+        }
+      })
+    );
+
+    const failed = batch.length - successful.length;
+
+    if (successful.length) {
+      setHistory((current) =>
+        [
+          {
+            id: Date.now(),
+            date: new Date().toISOString(),
+            total: batch.length,
+            successful: successful.length,
+            failed,
+            results: successful.map(({ image, result }) => ({
+              filename: image.file.name,
+              crop: result.crop,
+              predictedClass: result.predictedClass,
+              confidence: result.confidence,
+            })),
+          },
+          ...current,
+        ].slice(0, 30)
+      );
+    }
+
+    setNotice(
+      `Analysis finished: ${successful.length} successful, ${failed} failed. Review each result and confidence.`
+    );
+    setIsAnalyzing(false);
+    setActiveSection("mla-results");
+    document.getElementById("mla-results")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
+  const thresholdValue = threshold === "default" ? 50 : Number(threshold);
+
+  const completedImages = useMemo(
+    () => images.filter((image) => image.status === "complete" && image.result),
+    [images]
+  );
+
+  const visibleResults = useMemo(
+    () =>
+      completedImages.filter((image) => {
+        if (image.result.confidence < thresholdValue) return false;
+        if (diseasedOnly && isHealthyClass(image.result.predictedClass)) {
+          return false;
+        }
+        return true;
+      }),
+    [completedImages, thresholdValue, diseasedOnly]
+  );
+
+  const displayedImages = useMemo(() => {
+    const filtered = images.filter((image) => {
+      if (image.status !== "complete" || !image.result) return true;
+      if (image.result.confidence < thresholdValue) return false;
+      if (diseasedOnly && isHealthyClass(image.result.predictedClass)) {
+        return false;
+      }
+      return true;
+    });
+
+    return groupByCrop
+      ? [...filtered].sort((a, b) => a.crop.localeCompare(b.crop))
+      : filtered;
+  }, [images, thresholdValue, diseasedOnly, groupByCrop]);
+
+  const healthyCount = completedImages.filter((image) =>
+    isHealthyClass(image.result.predictedClass)
+  ).length;
+  const diseasedCount = completedImages.length - healthyCount;
+  const failedCount = images.filter((image) => image.status === "error").length;
+  const totalBytes = images.reduce((sum, image) => sum + image.file.size, 0);
+
+  const cropCounts = CROPS.map((crop) => ({
+    crop,
+    count: completedImages.filter(
+      (image) => image.result.crop.toLowerCase() === crop.toLowerCase()
+    ).length,
+  }));
+
   const downloadReport = () => {
     if (!images.length) {
-      setError("Upload at least one image before downloading the upload report.");
+      setError("Upload at least one image before downloading the report.");
       return;
     }
 
     const escapeCsv = (value) =>
-      `"${String(value).replace(/"/g, '""')}"`;
+      `"${String(value ?? "").replace(/"/g, '""')}"`;
 
     const rows = [
-      ["Image filename", "File size (bytes)", "Analysis status"],
-      ...images.map((image) => [
-        image.file.name,
-        image.file.size,
-        "Pending - AI model not connected",
-      ]),
+      [
+        "Image filename",
+        "Selected crop",
+        "Predicted crop",
+        "Predicted class",
+        "Confidence (%)",
+        "Status",
+        "Warning / Error",
+      ],
     ];
+
+    images.forEach((image) =>
+      rows.push([
+        image.file.name,
+        image.crop || "Not selected",
+        image.result?.crop || "",
+        image.result?.predictedClass || "",
+        image.result?.confidence ?? "",
+        image.status === "complete"
+          ? "Completed"
+          : image.status === "error"
+            ? "Failed"
+            : image.status === "processing"
+              ? "Processing"
+              : "Not analyzed",
+        image.result?.warning || image.apiError || "",
+      ])
+    );
 
     const csv = rows.map((row) => row.map(escapeCsv).join(",")).join("\r\n");
     const blob = new Blob(["\uFEFF" + csv], {
@@ -188,23 +448,25 @@ function MultipleLeafAnalysis() {
     });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
-
     link.href = url;
-    link.download = "kisanvision-multi-image-upload-report.csv";
+    link.download = "kisanvision-multi-image-analysis-report.csv";
     document.body.appendChild(link);
     link.click();
     link.remove();
     URL.revokeObjectURL(url);
-
-    setNotice("Upload report downloaded. It contains file details, not AI predictions.");
+    setNotice("Prediction report downloaded.");
     setError("");
   };
 
-  const totalBytes = images.reduce((sum, image) => sum + image.file.size, 0);
+  const openDetails = (image) => setSelectedDetails(image);
 
   return (
     <div className="mla-page">
-      <aside className={`mla-left-sidebar ${mobileSidebarOpen ? "mla-sidebar-open" : ""}`}>
+      <aside
+        className={`mla-left-sidebar ${
+          mobileSidebarOpen ? "mla-sidebar-open" : ""
+        }`}
+      >
         <div className="mla-sidebar-title">
           <FaSeedling />
           <strong>Multi-Image Analysis</strong>
@@ -215,14 +477,12 @@ function MultipleLeafAnalysis() {
             <button
               type="button"
               key={target}
-              className={activeSection === target ? "mla-side-link active" : "mla-side-link"}
-              onClick={() => {
-                if (target === "mla-history") {
-                  goToSection("mla-history");
-                } else {
-                  goToSection(target);
-                }
-              }}
+              className={
+                activeSection === target
+                  ? "mla-side-link active"
+                  : "mla-side-link"
+              }
+              onClick={() => goToSection(target)}
             >
               <Icon />
               <span>{label}</span>
@@ -255,18 +515,16 @@ function MultipleLeafAnalysis() {
           >
             <FaBars />
           </button>
-
           <div className="mla-heading-icon">
             <FaImages />
           </div>
-
           <div className="mla-heading-copy">
             <h1>Multi-Image Analysis</h1>
             <p>
-              Upload multiple leaf images to prepare disease, crop-type and health analysis.
+              Analyse multiple leaf images using the four crop-specific trained
+              models.
             </p>
           </div>
-
           <div className="mla-breadcrumb">Home&nbsp; › &nbsp;Multi-Image Analysis</div>
         </header>
 
@@ -274,7 +532,11 @@ function MultipleLeafAnalysis() {
           <div className="mla-alert mla-alert-error" role="alert">
             <FaExclamationTriangle />
             <span>{error}</span>
-            <button type="button" onClick={() => setError("")} aria-label="Dismiss error">
+            <button
+              type="button"
+              onClick={() => setError("")}
+              aria-label="Dismiss error"
+            >
               <FaTimes />
             </button>
           </div>
@@ -284,7 +546,11 @@ function MultipleLeafAnalysis() {
           <div className="mla-alert mla-alert-info" role="status">
             <FaInfoCircle />
             <span>{notice}</span>
-            <button type="button" onClick={() => setNotice("")} aria-label="Dismiss message">
+            <button
+              type="button"
+              onClick={() => setNotice("")}
+              aria-label="Dismiss message"
+            >
               <FaTimes />
             </button>
           </div>
@@ -303,16 +569,14 @@ function MultipleLeafAnalysis() {
               <FaCloudUploadAlt className="mla-cloud-icon" />
               <strong>Drag &amp; drop multiple leaf images here</strong>
               <span>or</span>
-
               <button
                 type="button"
                 className="mla-primary-button"
                 onClick={() => inputRef.current?.click()}
-                disabled={images.length >= MAX_IMAGES}
+                disabled={images.length >= MAX_IMAGES || isAnalyzing}
               >
                 <FaFileAlt /> Choose Files
               </button>
-
               <input
                 ref={inputRef}
                 type="file"
@@ -321,9 +585,8 @@ function MultipleLeafAnalysis() {
                 accept="image/jpeg,image/png,image/webp"
                 onChange={(event) => addImages(event.target.files)}
               />
-
               <small>
-                Supports: JPG, PNG, JPEG, WebP
+                Supports: JPG, PNG, WebP
                 <br />
                 (Max 20 images, each up to 5 MB)
               </small>
@@ -332,12 +595,14 @@ function MultipleLeafAnalysis() {
 
           <div className="mla-panel mla-uploaded-panel">
             <div className="mla-panel-heading">
-              <h2><FaImages /> Uploaded Images ({images.length})</h2>
+              <h2>
+                <FaImages /> Uploaded Images ({images.length})
+              </h2>
               <button
                 type="button"
                 className="mla-clear-button"
                 onClick={clearAll}
-                disabled={!images.length}
+                disabled={!images.length || isAnalyzing}
               >
                 Clear All
               </button>
@@ -348,10 +613,14 @@ function MultipleLeafAnalysis() {
                 {images.map((image, index) => (
                   <article className="mla-thumbnail" key={image.id}>
                     <div className="mla-thumbnail-image">
-                      <img src={image.preview} alt={`Uploaded leaf ${index + 1}`} />
+                      <img
+                        src={image.preview}
+                        alt={`Uploaded leaf ${index + 1}`}
+                      />
                       <button
                         type="button"
                         onClick={() => removeImage(image.id)}
+                        disabled={isAnalyzing}
                         aria-label={`Remove ${image.file.name}`}
                         title="Remove image"
                       >
@@ -359,6 +628,36 @@ function MultipleLeafAnalysis() {
                       </button>
                     </div>
                     <span title={image.file.name}>{image.file.name}</span>
+                    <label className="mla-crop-select-label">
+                      Crop
+                      <select
+                        value={image.crop}
+                        disabled={isAnalyzing}
+                        onChange={(event) =>
+                          updateCrop(image.id, event.target.value)
+                        }
+                      >
+                        <option value="">Select crop</option>
+                        {CROPS.map((crop) => (
+                          <option key={crop} value={crop}>
+                            {crop}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <small
+                      className={`mla-image-status mla-status-${image.status}`}
+                    >
+                      {image.status === "complete"
+                        ? "Analysis complete"
+                        : image.status === "processing"
+                          ? "Analyzing..."
+                          : image.status === "error"
+                            ? "Analysis failed"
+                            : image.crop
+                              ? "Ready"
+                              : "Select crop"}
+                    </small>
                   </article>
                 ))}
               </div>
@@ -371,8 +670,9 @@ function MultipleLeafAnalysis() {
           </div>
 
           <div className="mla-panel mla-settings-panel">
-            <h2><FaSeedling /> Analysis Settings <span>(Optional)</span></h2>
-
+            <h2>
+              <FaSeedling /> Analysis Settings <span>(Optional)</span>
+            </h2>
             <label className="mla-setting-row" htmlFor="mla-threshold">
               <span>Confidence Threshold</span>
               <span className="mla-select-wrap">
@@ -422,23 +722,19 @@ function MultipleLeafAnalysis() {
             <button
               type="button"
               className="mla-start-button"
-              disabled={!images.length}
-              onClick={() => {
-                setNotice(
-                  "Images are ready for review. Actual analysis is unavailable until the trained model is connected."
-                );
-                document.getElementById("mla-results")?.scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                });
-                setActiveSection("mla-results");
-              }}
+              disabled={
+                !images.length ||
+                isAnalyzing ||
+                images.some((image) => !image.crop)
+              }
+              onClick={analyzeImages}
             >
-              <FaSearch /> Start Analysis
+              <FaSearch />{" "}
+              {isAnalyzing ? "Analyzing Images..." : "Start Analysis"}
             </button>
-
             <p className="mla-settings-note">
-              Settings are saved in this page. Model-based filtering will work after AI integration.
+              Select the correct crop for every image. Each crop uses its own
+              prediction API. Filters affect displayed results, not predictions.
             </p>
           </div>
         </section>
@@ -447,7 +743,10 @@ function MultipleLeafAnalysis() {
           <div className="mla-results-column">
             <section className="mla-panel mla-results-panel" id="mla-results">
               <div className="mla-panel-heading mla-results-heading">
-                <h2><FaShieldAlt /> Analysis Results <span>({images.length} images)</span></h2>
+                <h2>
+                  <FaShieldAlt /> Analysis Results{" "}
+                  <span>({visibleResults.length} matching results)</span>
+                </h2>
                 <button
                   type="button"
                   className="mla-report-button"
@@ -471,47 +770,67 @@ function MultipleLeafAnalysis() {
                       <th>Action</th>
                     </tr>
                   </thead>
-
                   <tbody>
-                    {images.length ? images.map((image, index) => (
-                      <tr key={image.id}>
-                        <td>{index + 1}</td>
-                        <td>
-                          <img
-                            className="mla-table-thumb"
-                            src={image.preview}
-                            alt={`Uploaded leaf ${index + 1}`}
-                          />
-                        </td>
-                        <td>
-                          <span className="mla-pending-label">Pending</span>
-                          <small>Not identified</small>
-                        </td>
-                        <td>
-                          <span className="mla-pending-badge">Awaiting model</span>
-                        </td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td>
-                          <button
-                            type="button"
-                            className="mla-view-button"
-                            onClick={() => {
-                              setNotice(
-                                `Image: ${image.file.name}. Crop and disease predictions are not available yet.`
-                              );
-                            }}
-                          >
-                            View Details
-                          </button>
-                        </td>
-                      </tr>
-                    )) : (
+                    {displayedImages.length ? (
+                      displayedImages.map((image, index) => (
+                        <tr key={image.id}>
+                          <td>{index + 1}</td>
+                          <td>
+                            <img
+                              className="mla-table-thumb"
+                              src={image.preview}
+                              alt={image.file.name}
+                            />
+                          </td>
+                          <td>{image.crop || "Not selected"}</td>
+                          <td>
+                            {image.status === "complete" ? (
+                              <span
+                                className={
+                                  isHealthyClass(image.result.predictedClass)
+                                    ? "mla-pending-label"
+                                    : "mla-pending-badge"
+                                }
+                              >
+                                {image.result.predictedClass}
+                              </span>
+                            ) : image.status === "error" ? (
+                              <span className="mla-pending-badge">API error</span>
+                            ) : (
+                              <span className="mla-pending-label">
+                                {image.status === "processing"
+                                  ? "Processing"
+                                  : "Not analyzed"}
+                              </span>
+                            )}
+                            {image.apiError && <small>{image.apiError}</small>}
+                          </td>
+                          <td>
+                            {image.result
+                              ? `${image.result.confidence.toFixed(2)}%`
+                              : "—"}
+                          </td>
+                          <td>Not provided</td>
+                          <td>
+                            <button
+                              type="button"
+                              className="mla-view-button"
+                              onClick={() => openDetails(image)}
+                            >
+                              View Details
+                            </button>
+                          </td>
+                        </tr>
+                      ))
+                    ) : (
                       <tr>
                         <td colSpan="7" className="mla-table-empty">
                           <FaImages />
-                          <strong>No images to display</strong>
-                          <span>Upload leaf images to populate the review table.</span>
+                          <strong>No matching results</strong>
+                          <span>
+                            Upload images and run analysis, or adjust your
+                            filters.
+                          </span>
                         </td>
                       </tr>
                     )}
@@ -521,69 +840,99 @@ function MultipleLeafAnalysis() {
 
               <div className="mla-model-notice">
                 <FaInfoCircle />
-                These are uploaded-image records only. No crop, disease, confidence or severity prediction has been generated.
+                Confidence is the model's prediction score, not a confirmed
+                diagnosis. Severity is not supplied by these APIs.
               </div>
             </section>
 
             <section className="mla-panel mla-next-steps">
-              <h2><FaCheckCircle /> Next Steps</h2>
+              <h2>
+                <FaCheckCircle /> Next Steps
+              </h2>
               <div className="mla-next-grid">
-                <div><FaLeaf /><span>Review uploaded leaf photographs.</span></div>
-                <div><FaShieldAlt /><span>Connect and evaluate the trained model.</span></div>
-                <div><FaFileAlt /><span>Generate reports from verified results.</span></div>
-                <div><FaSearch /><span>Use expert guidance for crop treatment decisions.</span></div>
+                <div>
+                  <FaLeaf />
+                  <span>Review the predicted class and confidence for each image.</span>
+                </div>
+                <div>
+                  <FaShieldAlt />
+                  <span>Verify predictions with an agricultural expert.</span>
+                </div>
+                <div>
+                  <FaFileAlt />
+                  <span>Download the CSV report for your records.</span>
+                </div>
+                <div>
+                  <FaSearch />
+                  <span>Use crop-appropriate expert guidance before treatment.</span>
+                </div>
               </div>
             </section>
           </div>
 
           <aside className="mla-summary-column">
             <section className="mla-panel mla-summary-panel" id="mla-summary">
-              <h2><FaChartBar /> Summary</h2>
-
+              <h2>
+                <FaChartBar /> Summary
+              </h2>
               <div className="mla-summary-stats">
-                <div><FaImages /><span>Total Images</span><strong>{images.length}</strong></div>
-                <div><FaLeaf /><span>Healthy Leaves</span><strong>—</strong></div>
-                <div><FaExclamationTriangle /><span>Diseased Leaves</span><strong>—</strong></div>
+                <div>
+                  <FaImages />
+                  <span>Total Images</span>
+                  <strong>{images.length}</strong>
+                </div>
+                <div>
+                  <FaLeaf />
+                  <span>Healthy Leaves</span>
+                  <strong>{healthyCount}</strong>
+                </div>
+                <div>
+                  <FaExclamationTriangle />
+                  <span>Diseased Leaves</span>
+                  <strong>{diseasedCount}</strong>
+                </div>
               </div>
-
               <p className="mla-summary-note">
-                Healthy and diseased counts will be available after real predictions exist.
+                Completed predictions: {completedImages.length}. Failed
+                predictions: {failedCount}.
               </p>
-
               <div className="mla-crop-summary" id="mla-crops">
                 <h3>Crop-wise Breakdown</h3>
-                {supportedCrops.slice(10, 15).map((crop) => (
+                {cropCounts.map(({ crop, count }) => (
                   <div className="mla-crop-row" key={crop}>
                     <span>{crop}</span>
-                    <span className="mla-no-data">No results</span>
+                    <strong>{count}</strong>
                   </div>
                 ))}
-                <button
-                  type="button"
-                  className="mla-show-crops"
-                  onClick={() => goToSection("mla-crops")}
-                >
-                  Supported crop list <FaChevronDown />
-                </button>
-                <p className="mla-supported-note">
-                  The project targets 20 crops. Actual model support must be validated.
-                </p>
+                <h3 className="mla-supported-heading">Supported Crops</h3>
+                {CROPS.map((crop) => (
+                  <div className="mla-crop-row" key={crop}>
+                    <span>{crop}</span>
+                    <span className="mla-no-data">Available</span>
+                  </div>
+                ))}
               </div>
             </section>
 
             <section className="mla-panel mla-insights-panel">
-              <h2><FaChartBar /> Key Insights</h2>
+              <h2>
+                <FaChartBar /> Key Insights
+              </h2>
               <div className="mla-insight-item">
                 <FaInfoCircle />
                 <p>
                   {images.length
-                    ? `${images.length} image(s) uploaded and awaiting analysis.`
-                    : "Upload leaf images to begin preparing a session."}
+                    ? `${images.length} image(s) in this batch; ${completedImages.length} analyzed successfully.`
+                    : "Upload leaf images to begin."}
                 </p>
               </div>
               <div className="mla-insight-item">
                 <FaShieldAlt />
-                <p>No disease conclusions are available until the model is connected.</p>
+                <p>
+                  {failedCount
+                    ? `${failedCount} image(s) failed. Check their API error messages.`
+                    : "Review predictions before making crop-treatment decisions."}
+                </p>
               </div>
               <div className="mla-insight-item">
                 <FaCloudUploadAlt />
@@ -592,34 +941,89 @@ function MultipleLeafAnalysis() {
                 </p>
               </div>
               <p className="mla-insights-footnote">
-                {diseasedOnly ? "Diseased-only filter selected." : "All uploaded images are included in the review list."}
-                {" "}
-                {groupByCrop ? "Crop grouping is enabled for future results." : "Crop grouping is disabled."}
-                {" "}
-                Confidence threshold: {threshold === "default" ? "Default (50%)" : `${threshold}%`}.
+                {diseasedOnly
+                  ? "Showing diseased predictions only. "
+                  : "Healthy and diseased predictions are included. "}
+                {groupByCrop
+                  ? "Results are grouped by crop. "
+                  : "Crop grouping is off. "}
+                Confidence filter: {thresholdValue}%.
               </p>
             </section>
           </aside>
         </section>
 
         <section className="mla-panel mla-history-panel" id="mla-history">
-          <h2><FaHistory /> Upload History</h2>
-          <p>
-            Previous sessions are not stored permanently yet. The images listed above belong to the current page session.
-          </p>
+          <div className="mla-panel-heading">
+            <h2>
+              <FaHistory /> Upload History
+            </h2>
+            <button
+              type="button"
+              className="mla-clear-button"
+              onClick={() => {
+                setHistory([]);
+                setNotice("Upload history cleared from this browser.");
+              }}
+              disabled={!history.length}
+            >
+              Clear History
+            </button>
+          </div>
+          {history.length ? (
+            <div className="mla-table-scroll">
+              <table className="mla-results-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Total</th>
+                    <th>Successful</th>
+                    <th>Failed</th>
+                    <th>Prediction details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {history.map((entry) => (
+                    <tr key={entry.id}>
+                      <td>{new Date(entry.date).toLocaleString()}</td>
+                      <td>{entry.total}</td>
+                      <td>{entry.successful}</td>
+                      <td>{entry.failed}</td>
+                      <td>
+                        {entry.results
+                          .map(
+                            (result) =>
+                              `${result.filename}: ${result.crop} / ${result.predictedClass} (${result.confidence}%)`
+                          )
+                          .join("; ")}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p>No previous analysis sessions are saved in this browser yet.</p>
+          )}
         </section>
 
         <section className="mla-panel mla-faq-panel" id="mla-faqs">
-          <h2><FaQuestionCircle /> Frequently Asked Questions</h2>
+          <h2>
+            <FaQuestionCircle /> Frequently Asked Questions
+          </h2>
           {faqs.map((faq, index) => (
             <div className="mla-faq-item" key={faq.question}>
               <button
                 type="button"
-                onClick={() => setOpenFaq(openFaq === index ? -1 : index)}
+                onClick={() =>
+                  setOpenFaq(openFaq === index ? -1 : index)
+                }
                 aria-expanded={openFaq === index}
               >
                 {faq.question}
-                <FaChevronDown className={openFaq === index ? "rotated" : ""} />
+                <FaChevronDown
+                  className={openFaq === index ? "rotated" : ""}
+                />
               </button>
               {openFaq === index && <p>{faq.answer}</p>}
             </div>
@@ -628,9 +1032,142 @@ function MultipleLeafAnalysis() {
 
         <footer className="mla-footer">
           KisanVision AI · BAI586 academic mini-project
-          <span>Development build · AI predictions are not yet connected</span>
+          <span>Four crop-specific APIs · Predictions require verification</span>
         </footer>
       </div>
+
+      {selectedDetails && (
+        <div
+          className="mla-details-backdrop"
+          role="presentation"
+          onClick={() => setSelectedDetails(null)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 9999,
+            background: "rgba(0,0,0,0.55)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "20px",
+          }}
+        >
+          <section
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="mla-details-title"
+            onClick={(event) => event.stopPropagation()}
+            style={{
+              background: "#fff",
+              color: "#24352d",
+              width: "min(520px, 100%)",
+              maxHeight: "85vh",
+              overflowY: "auto",
+              borderRadius: "14px",
+              padding: "24px",
+              boxShadow: "0 18px 60px rgba(0,0,0,0.25)",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "12px",
+              }}
+            >
+              <h2 id="mla-details-title" style={{ margin: 0 }}>
+                Image Analysis Details
+              </h2>
+              <button
+                type="button"
+                onClick={() => setSelectedDetails(null)}
+                aria-label="Close details"
+                style={{
+                  border: 0,
+                  background: "transparent",
+                  fontSize: "22px",
+                  cursor: "pointer",
+                }}
+              >
+                <FaTimes />
+              </button>
+            </div>
+
+            <img
+              src={selectedDetails.preview}
+              alt={selectedDetails.file.name}
+              style={{
+                width: "100%",
+                maxHeight: "220px",
+                objectFit: "contain",
+                margin: "16px 0",
+                borderRadius: "8px",
+                background: "#f3f6f4",
+              }}
+            />
+
+            <p><strong>Filename:</strong> {selectedDetails.file.name}</p>
+            <p><strong>Selected crop:</strong> {selectedDetails.crop || "Not selected"}</p>
+            <p>
+              <strong>Status:</strong>{" "}
+              {selectedDetails.status === "complete"
+                ? "Completed"
+                : selectedDetails.status === "error"
+                  ? "Failed"
+                  : selectedDetails.status === "processing"
+                    ? "Processing"
+                    : "Not analyzed"}
+            </p>
+
+            {selectedDetails.result ? (
+              <>
+                <p><strong>Predicted class:</strong> {selectedDetails.result.predictedClass}</p>
+                <p><strong>Confidence:</strong> {selectedDetails.result.confidence.toFixed(2)}%</p>
+                {selectedDetails.result.warning && (
+                  <p><strong>Model warning:</strong> {selectedDetails.result.warning}</p>
+                )}
+                {selectedDetails.result.probabilities &&
+                  Object.keys(selectedDetails.result.probabilities).length > 0 && (
+                    <>
+                      <h3>Class probabilities</h3>
+                      {Object.entries(selectedDetails.result.probabilities).map(
+                        ([label, value]) => (
+                          <p key={label}>
+                            <strong>{label}:</strong> {Number(value).toFixed(2)}%
+                          </p>
+                        )
+                      )}
+                    </>
+                  )}
+                <p><strong>Severity:</strong> Not provided by the prediction API.</p>
+              </>
+            ) : (
+              <p style={{ color: "#a35b16" }}>
+                <strong>Details:</strong>{" "}
+                {selectedDetails.apiError ||
+                  "This image has not been analyzed yet."}
+              </p>
+            )}
+
+            <button
+              type="button"
+              onClick={() => setSelectedDetails(null)}
+              style={{
+                marginTop: "12px",
+                padding: "10px 18px",
+                border: 0,
+                borderRadius: "8px",
+                background: "#087653",
+                color: "#fff",
+                cursor: "pointer",
+              }}
+            >
+              Close
+            </button>
+          </section>
+        </div>
+      )}
     </div>
   );
 }
