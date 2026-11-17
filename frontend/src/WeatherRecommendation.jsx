@@ -12,9 +12,7 @@ import {
   FaThermometerHalf,
   FaLeaf,
   FaWater,
-  FaMountain,
   FaSearch,
-  FaHistory,
   FaQuestionCircle,
   FaInfoCircle,
   FaChevronDown,
@@ -23,18 +21,91 @@ import {
   FaCalendarAlt,
   FaLocationArrow,
   FaSpinner,
+  FaUmbrella,
+  FaChartLine,
 } from "react-icons/fa";
 import "./WeatherRecommendation.css";
 
+const STATES = [
+  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar",
+  "Chhattisgarh", "Goa", "Gujarat", "Haryana",
+  "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala",
+  "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya",
+  "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan",
+  "Sikkim", "Tamil Nadu", "Telangana", "Tripura",
+  "Uttar Pradesh", "Uttarakhand", "West Bengal",
+  "Andaman and Nicobar Islands", "Chandigarh",
+  "Dadra and Nagar Haveli and Daman and Diu",
+  "Delhi", "Jammu and Kashmir", "Ladakh",
+  "Lakshadweep", "Puducherry",
+];
+
+const CROPS = [
+  {
+    name: "Coffee",
+    description:
+      "Review local temperature and rainfall patterns before planning coffee cultivation.",
+    icon: "☕",
+  },
+  {
+    name: "Arecanut",
+    description:
+      "Consider rainfall, humidity and local water conditions for arecanut cultivation.",
+    icon: "🌴",
+  },
+  {
+    name: "Cardamom",
+    description:
+      "Check local humidity, rainfall and growing-region conditions for cardamom.",
+    icon: "🌿",
+  },
+  {
+    name: "Ginger",
+    description:
+      "Monitor rainfall and drainage conditions when planning ginger cultivation.",
+    icon: "🫚",
+  },
+];
+
+const FAQS = [
+  {
+    q: "How does weather-based crop guidance work?",
+    a: "The dashboard examines current weather and the upcoming forecast. It provides preliminary weather guidance for Coffee, Arecanut, Cardamom and Ginger. Weather alone cannot establish whether a crop is suitable for a farm.",
+  },
+  {
+    q: "Where does the weather data come from?",
+    a: "Weather information is retrieved from Open-Meteo. Location suggestions use OpenStreetMap. An internet connection is required.",
+  },
+  {
+    q: "Can I use my current location?",
+    a: "Yes. Select Use Live Location and allow your browser to access your location. The dashboard will retrieve weather for those coordinates.",
+  },
+  {
+    q: "Can I select a village manually?",
+    a: "Yes. Select a state and enter the district, taluk and village or nearby place. Location suggestions are provided using OpenStreetMap data.",
+  },
+  {
+    q: "Are crop recommendations guaranteed?",
+    a: "No. Short-term weather cannot guarantee crop suitability. Soil, elevation, crop variety, growing season, irrigation and local agricultural guidance must also be considered.",
+  },
+];
+
 const weatherCode = (code) => {
   if (code === 0) return { label: "Clear sky", icon: FaSun };
-  if ([1, 2].includes(code)) return { label: "Partly cloudy", icon: FaCloudSun };
+  if ([1, 2].includes(code))
+    return { label: "Partly cloudy", icon: FaCloudSun };
   if (code === 3) return { label: "Overcast", icon: FaCloud };
-  if ([45, 48].includes(code)) return { label: "Fog", icon: FaCloud };
-  if ([51, 53, 55, 56, 57].includes(code)) return { label: "Drizzle", icon: FaCloudRain };
-  if ([61, 63, 65, 66, 67, 80, 81, 82].includes(code)) return { label: "Rain", icon: FaCloudRain };
-  if ([71, 73, 75, 77, 85, 86].includes(code)) return { label: "Snow", icon: FaCloud };
-  if ([95, 96, 99].includes(code)) return { label: "Thunderstorm", icon: FaCloudRain };
+  if ([45, 48].includes(code))
+    return { label: "Fog", icon: FaCloud };
+  if ([51, 53, 55, 56, 57].includes(code))
+    return { label: "Drizzle", icon: FaCloudRain };
+  if ([61, 63, 65, 66, 67, 80, 81, 82].includes(code))
+    return { label: "Rain", icon: FaCloudRain };
+  if ([71, 73, 75, 77, 85, 86].includes(code))
+    return { label: "Snow", icon: FaCloud };
+  if ([95, 96, 99].includes(code))
+    return { label: "Thunderstorm", icon: FaCloudRain };
+
   return { label: "Weather unavailable", icon: FaCloudSun };
 };
 
@@ -42,138 +113,402 @@ const navItems = [
   { id: "overview", label: "Crop Recommendation", icon: FaSeedling },
   { id: "current-weather", label: "Current Weather", icon: FaCloudSun },
   { id: "forecast", label: "Forecast & Analysis", icon: FaCalendarAlt },
-  { id: "soil", label: "Soil Information", icon: FaMountain },
-  { id: "crop-requirements", label: "Crop Requirements", icon: FaLeaf },
-  { id: "saved", label: "Saved Recommendations", icon: FaHistory },
+  { id: "crop-requirements", label: "Crop Recommendations", icon: FaLeaf },
+  { id: "insights", label: "Key Weather Insights", icon: FaChartLine },
   { id: "faqs", label: "FAQs", icon: FaQuestionCircle },
 ];
 
-const faqs = [
-  {
-    q: "How does weather-aware crop recommendation work?",
-    a: "A reliable system combines local weather observations, forecast data, soil properties, water availability, crop requirements, and the local growing season. This interface currently retrieves weather data but does not yet calculate validated crop suitability.",
-  },
-  {
-    q: "Where does the weather information come from?",
-    a: "When you search for a location, the page uses Open-Meteo's geocoding and forecast APIs. An internet connection is required. The displayed values come from the API response, not from invented sample readings.",
-  },
-  {
-    q: "Does this page recommend a crop now?",
-    a: "Not yet. A validated recommendation engine, appropriate crop requirements, local agricultural guidance, and soil information must be connected before crop suitability can be calculated.",
-  },
-  {
-    q: "Why do I need to enter soil and water details?",
-    a: "Weather alone cannot determine the best crop. Soil type, soil pH, irrigation availability, land conditions, season, and local agricultural guidance also matter.",
-  },
-  {
-    q: "Can I save my recommendations?",
-    a: "Persistent saved recommendations are not implemented yet. This prototype does not claim to store records in a database.",
-  },
-];
+const formatDate = (date, options) =>
+  new Date(`${date}T12:00:00`).toLocaleDateString("en-IN", options);
 
 export default function WeatherRecommendation() {
-  const [location, setLocation] = useState("");
-  const [locationName, setLocationName] = useState("");
-  const [soilType, setSoilType] = useState("");
-  const [soilPH, setSoilPH] = useState("");
-  const [waterAvailability, setWaterAvailability] = useState("");
-  const [landType, setLandType] = useState("");
-  const [area, setArea] = useState("");
+  const [state, setState] = useState("Karnataka");
+  const [district, setDistrict] = useState("");
+  const [taluk, setTaluk] = useState("");
+  const [village, setVillage] = useState("");
+
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState([]);
+  const [locationName, setLocationName] = useState("");
+  const [coordinates, setCoordinates] = useState(null);
+
   const [loading, setLoading] = useState(false);
+  const [locationLoading, setLocationLoading] = useState(false);
   const [error, setError] = useState("");
+  const [searched, setSearched] = useState(false);
+
   const [activeSection, setActiveSection] = useState("overview");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState(0);
-  const [searched, setSearched] = useState(false);
+
+  const [suggestions, setSuggestions] = useState({
+    district: [],
+    taluk: [],
+    village: [],
+  });
+
+  const [suggestionLoading, setSuggestionLoading] = useState("");
 
   const navigateTo = (id) => {
     setActiveSection(id);
     setMobileMenuOpen(false);
+
     document.getElementById(`wr-${id}`)?.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
   };
 
-  const getWeather = async (event) => {
-    event.preventDefault();
+  // Get location suggestions from OpenStreetMap.
+  const getSuggestions = async (level, value) => {
+    if (!value.trim() || !state) {
+      setSuggestions((previous) => ({
+        ...previous,
+        [level]: [],
+      }));
+      return;
+    }
+
+    setSuggestionLoading(level);
+
+    try {
+      const query = [value, state, "India"].filter(Boolean).join(", ");
+
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=8&q=${encodeURIComponent(query)}`
+      );
+
+      if (!response.ok) throw new Error("Location suggestions unavailable.");
+
+      const results = await response.json();
+
+      const names = results
+        .map((item) => {
+          const address = item.address || {};
+
+          if (level === "district") {
+            return (
+              address.county ||
+              address.state_district ||
+              address.city_district ||
+              address.city ||
+              address.town
+            );
+          }
+
+          if (level === "taluk") {
+            return (
+              address.suburb ||
+              address.city_district ||
+              address.county ||
+              address.town ||
+              address.village
+            );
+          }
+
+          return (
+            address.village ||
+            address.hamlet ||
+            address.suburb ||
+            address.town ||
+            address.city
+          );
+        })
+        .filter(Boolean);
+
+      setSuggestions((previous) => ({
+        ...previous,
+        [level]: [...new Set(names)],
+      }));
+    } catch {
+      setSuggestions((previous) => ({
+        ...previous,
+        [level]: [],
+      }));
+    } finally {
+      setSuggestionLoading("");
+    }
+  };
+
+  // Get weather using latitude and longitude.
+  const loadWeather = async (latitude, longitude, name) => {
+    setLoading(true);
     setError("");
     setWeather(null);
     setForecast([]);
     setSearched(false);
 
-    const query = location.trim();
-    if (!query) {
-      setError("Enter a city, town, or village to look up its weather.");
-      return;
-    }
-
-    setLoading(true);
-
     try {
-      const geoResponse = await fetch(
-        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=1&language=en&format=json`
-      );
-
-      if (!geoResponse.ok) throw new Error("Location lookup failed. Try again.");
-
-      const geoData = await geoResponse.json();
-      const place = geoData.results?.[0];
-
-      if (!place) {
-        throw new Error("Location not found. Try a nearby town or city name.");
-      }
-
       const params = new URLSearchParams({
-        latitude: String(place.latitude),
-        longitude: String(place.longitude),
-        current: "temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,weather_code,wind_speed_10m",
-        daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum",
+        latitude: String(latitude),
+        longitude: String(longitude),
+        current:
+          "temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m",
+        daily:
+          "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum",
         timezone: "auto",
         forecast_days: "5",
       });
 
-      const weatherResponse = await fetch(
+      const response = await fetch(
         `https://api.open-meteo.com/v1/forecast?${params.toString()}`
       );
 
-      if (!weatherResponse.ok) {
-        throw new Error("Weather service is unavailable. Please try again later.");
+      if (!response.ok) {
+        throw new Error("Weather service is unavailable. Please try again.");
       }
 
-      const data = await weatherResponse.json();
+      const data = await response.json();
 
       if (!data.current || !data.daily) {
-        throw new Error("The weather service did not return complete data.");
+        throw new Error("Complete weather information was not returned.");
       }
 
-      setLocationName(
-        [place.name, place.admin1, place.country].filter(Boolean).join(", ")
-      );
       setWeather(data.current);
+      setLocationName(name);
+      setCoordinates({ latitude, longitude });
+
       setForecast(
         data.daily.time.map((date, index) => ({
           date,
           code: data.daily.weather_code?.[index],
           max: data.daily.temperature_2m_max?.[index],
           min: data.daily.temperature_2m_min?.[index],
-          rainChance: data.daily.precipitation_probability_max?.[index],
+          rainChance:
+            data.daily.precipitation_probability_max?.[index],
           rainfall: data.daily.precipitation_sum?.[index],
         }))
       );
+
       setSearched(true);
     } catch (err) {
-      setError(err.message || "Unable to retrieve weather data.");
+      setError(err.message || "Unable to retrieve weather information.");
     } finally {
       setLoading(false);
     }
   };
 
+  // Search a manually entered location.
+  const handleLocationSearch = async (event) => {
+    event.preventDefault();
+    setError("");
+
+    const placeQuery = village.trim() || taluk.trim() || district.trim();
+
+    if (!state || (!district && !taluk && !village)) {
+      setError("Select a state and enter a district, taluk or village.");
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      const response = await fetch(
+        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(placeQuery)}&count=10&language=en&format=json`
+      );
+
+      if (!response.ok) {
+        throw new Error("Could not search for this location.");
+      }
+
+      const data = await response.json();
+
+      const matches = (data.results || []).filter(
+        (item) => item.country_code?.toLowerCase() === "in"
+      );
+
+      const place =
+        matches.find(
+          (item) =>
+            !item.admin1 ||
+            item.admin1.toLowerCase() === state.toLowerCase()
+        ) || matches[0];
+
+      if (!place) {
+        throw new Error(
+          "Location not found. Try entering a nearby town or village name."
+        );
+      }
+
+      const name = [
+        village || place.name,
+        taluk,
+        district || place.admin2,
+        state,
+        "India",
+      ]
+        .filter(Boolean)
+        .join(", ");
+
+      await loadWeather(place.latitude, place.longitude, name);
+    } catch (err) {
+      setError(err.message || "Unable to find this location.");
+      setLoading(false);
+    }
+  };
+
+  // Browser live location.
+  const useLiveLocation = () => {
+    setError("");
+
+    if (!navigator.geolocation) {
+      setError("Your browser does not support live location.");
+      return;
+    }
+
+    setLocationLoading(true);
+
+    navigator.geolocation.getCurrentPosition(
+      async (position) => {
+        const { latitude, longitude } = position.coords;
+
+        try {
+          const response = await fetch(
+            `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${latitude}&lon=${longitude}&zoom=10&addressdetails=1`
+          );
+
+          const data = await response.json();
+          const address = data.address || {};
+
+          const foundState = address.state || "";
+          const foundDistrict =
+            address.state_district ||
+            address.county ||
+            address.city_district ||
+            address.city ||
+            "";
+          const foundTaluk = address.suburb || address.town || "";
+          const foundVillage =
+            address.village ||
+            address.hamlet ||
+            address.town ||
+            address.city ||
+            "";
+
+          if (foundState) {
+            setState(foundState);
+          }
+
+          setDistrict(foundDistrict);
+          setTaluk(foundTaluk);
+          setVillage(foundVillage);
+
+          const name =
+            data.display_name ||
+            `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`;
+
+          await loadWeather(latitude, longitude, name);
+        } catch {
+          await loadWeather(
+            latitude,
+            longitude,
+            `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`
+          );
+        } finally {
+          setLocationLoading(false);
+        }
+      },
+      (geoError) => {
+        const messages = {
+          1: "Location permission was denied. Allow location access in your browser.",
+          2: "Your current location could not be determined.",
+          3: "Location request timed out. Please try again.",
+        };
+
+        setError(messages[geoError.code] || "Unable to access live location.");
+        setLocationLoading(false);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 15000,
+        maximumAge: 300000,
+      }
+    );
+  };
+
   const currentCondition = weather
     ? weatherCode(weather.weather_code)
     : null;
+  const CurrentWeatherIcon = currentCondition?.icon;
+
+  const tomorrow = forecast[1];
+  const dayAfterTomorrow = forecast[2];
+
+  // Weather observations used to create general insights.
+  const getInsights = () => {
+    if (!weather || forecast.length === 0) return [];
+
+    const upcomingDays = forecast.slice(1, 5);
+    const totalRain = upcomingDays.reduce(
+      (sum, day) => sum + (Number(day.rainfall) || 0),
+      0
+    );
+
+    const averageTemperature =
+      upcomingDays.reduce(
+        (sum, day) => sum + (Number(day.max) || 0),
+        0
+      ) / Math.max(upcomingDays.length, 1);
+
+    const insights = [];
+
+    if (totalRain >= 20) {
+      insights.push({
+        icon: FaUmbrella,
+        text: `Rainfall of approximately ${totalRain.toFixed(1)} mm is forecast over the next four days.`,
+      });
+    } else {
+      insights.push({
+        icon: FaCloudSun,
+        text: "Limited rainfall is currently forecast over the next four days.",
+      });
+    }
+
+    if (averageTemperature >= 32) {
+      insights.push({
+        icon: FaThermometerHalf,
+        text: "Forecast daytime temperatures are relatively high. Monitor heat and water stress.",
+      });
+    } else if (averageTemperature <= 20) {
+      insights.push({
+        icon: FaThermometerHalf,
+        text: "Forecast daytime temperatures are relatively cool.",
+      });
+    } else {
+      insights.push({
+        icon: FaThermometerHalf,
+        text: "Forecast daytime temperatures are moderate.",
+      });
+    }
+
+    if (weather.relative_humidity_2m >= 80) {
+      insights.push({
+        icon: FaTint,
+        text: "Current humidity is high. Monitor crops for moisture-related disease risks.",
+      });
+    } else {
+      insights.push({
+        icon: FaTint,
+        text: "Current relative humidity is " +
+          `${weather.relative_humidity_2m}%.`,
+      });
+    }
+
+    const rainyDays = upcomingDays.filter(
+      (day) => Number(day.rainChance) >= 60
+    ).length;
+
+    insights.push({
+      icon: FaCloudRain,
+      text: rainyDays
+        ? `${rainyDays} upcoming day(s) have a rain probability of 60% or more.`
+        : "No upcoming day currently has a rain probability of 60% or more.",
+    });
+
+    return insights;
+  };
+
+  const insights = getInsights();
 
   return (
     <div className="wr-page">
@@ -193,11 +528,12 @@ export default function WeatherRecommendation() {
         </div>
 
         <div className="wr-heading-copy">
-          <span className="wr-eyebrow">KISANVISION AI / SMART FARMING</span>
+          <span className="wr-eyebrow">
+            KISANVISION AI / SMART FARMING
+          </span>
           <h1>Weather-Aware Crop Recommendation</h1>
           <p>
-            Explore local weather conditions and prepare for informed crop
-            planning.
+            Explore local weather conditions and weather-based crop guidance.
           </p>
         </div>
 
@@ -235,8 +571,8 @@ export default function WeatherRecommendation() {
           </nav>
 
           <div className="wr-sidebar-photo">
-            <strong>Plan Wisely</strong>
-            <span>Grow Sustainably</span>
+            <strong>Right Crop<br />Better Yield</strong>
+            <span>Sustainable Tomorrow</span>
           </div>
         </aside>
 
@@ -250,94 +586,137 @@ export default function WeatherRecommendation() {
         )}
 
         <main className="wr-main">
+          {/* LOCATION */}
           <section className="wr-card wr-location-card" id="wr-overview">
             <div className="wr-section-heading">
               <div>
-                <span className="wr-kicker">YOUR FARM DETAILS</span>
-                <h2><FaMapMarkerAlt /> Location & Soil Information</h2>
-                <p>Enter a location to retrieve weather from the weather service.</p>
+                <span className="wr-kicker">YOUR LOCATION</span>
+                <h2><FaMapMarkerAlt /> Select Your Location</h2>
+                <p>
+                  Choose your location manually or use your current location.
+                </p>
               </div>
             </div>
 
-            <form className="wr-location-form" onSubmit={getWeather}>
-              <label className="wr-field wr-location-field">
-                <span>City, town, or village</span>
-                <div className="wr-input-with-icon">
-                  <FaMapMarkerAlt />
-                  <input
-                    value={location}
-                    onChange={(event) => setLocation(event.target.value)}
-                    placeholder="e.g. Mysuru, Karnataka"
-                    autoComplete="off"
-                  />
-                </div>
-              </label>
-
+            <form
+              className="wr-location-form"
+              onSubmit={handleLocationSearch}
+            >
               <label className="wr-field">
-                <span>Soil type</span>
-                <select value={soilType} onChange={(event) => setSoilType(event.target.value)}>
-                  <option value="">Select soil type</option>
-                  <option value="Red soil">Red soil</option>
-                  <option value="Black soil">Black soil</option>
-                  <option value="Alluvial soil">Alluvial soil</option>
-                  <option value="Laterite soil">Laterite soil</option>
-                  <option value="Sandy soil">Sandy soil</option>
-                  <option value="Clay soil">Clay soil</option>
-                  <option value="Loamy soil">Loamy soil</option>
-                  <option value="Unknown">Not sure</option>
+                <span>State / Union Territory</span>
+                <select
+                  value={state}
+                  onChange={(event) => {
+                    setState(event.target.value);
+                    setDistrict("");
+                    setTaluk("");
+                    setVillage("");
+                    setSuggestions({
+                      district: [],
+                      taluk: [],
+                      village: [],
+                    });
+                  }}
+                  required
+                >
+                  <option value="">Select State / UT</option>
+                  {STATES.map((item) => (
+                    <option value={item} key={item}>{item}</option>
+                  ))}
                 </select>
               </label>
 
               <label className="wr-field">
-                <span>Soil pH (optional)</span>
+                <span>District</span>
                 <input
-                  type="number"
-                  min="0"
-                  max="14"
-                  step="0.1"
-                  value={soilPH}
-                  onChange={(event) => setSoilPH(event.target.value)}
-                  placeholder="e.g. 6.5"
+                  list="wr-district-options"
+                  value={district}
+                  onChange={(event) => {
+                    setDistrict(event.target.value);
+                    setTaluk("");
+                    setVillage("");
+                  }}
+                  onBlur={() => getSuggestions("district", district)}
+                  onKeyUp={() => getSuggestions("district", district)}
+                  placeholder="Enter or select district"
+                  autoComplete="off"
                 />
+                <datalist id="wr-district-options">
+                  {suggestions.district.map((item) => (
+                    <option value={item} key={item} />
+                  ))}
+                </datalist>
+                {suggestionLoading === "district" && (
+                  <small>Finding district suggestions...</small>
+                )}
               </label>
 
               <label className="wr-field">
-                <span>Water availability</span>
-                <select value={waterAvailability} onChange={(event) => setWaterAvailability(event.target.value)}>
-                  <option value="">Select availability</option>
-                  <option value="Rainfed">Rainfed</option>
-                  <option value="Limited irrigation">Limited irrigation</option>
-                  <option value="Reliable irrigation">Reliable irrigation</option>
-                  <option value="Seasonal water source">Seasonal water source</option>
-                </select>
-              </label>
-
-              <label className="wr-field">
-                <span>Land type</span>
-                <select value={landType} onChange={(event) => setLandType(event.target.value)}>
-                  <option value="">Select land type</option>
-                  <option value="Lowland">Lowland</option>
-                  <option value="Upland">Upland</option>
-                  <option value="Sloping land">Sloping land</option>
-                  <option value="Flat land">Flat land</option>
-                </select>
-              </label>
-
-              <label className="wr-field">
-                <span>Farm area (optional)</span>
+                <span>Taluk / Sub-district</span>
                 <input
-                  type="number"
-                  min="0"
-                  step="0.1"
-                  value={area}
-                  onChange={(event) => setArea(event.target.value)}
-                  placeholder="Area in acres"
+                  list="wr-taluk-options"
+                  value={taluk}
+                  onChange={(event) => {
+                    setTaluk(event.target.value);
+                    setVillage("");
+                  }}
+                  onBlur={() => getSuggestions("taluk", taluk)}
+                  onKeyUp={() => getSuggestions("taluk", taluk)}
+                  placeholder="Enter or select taluk"
+                  autoComplete="off"
                 />
+                <datalist id="wr-taluk-options">
+                  {suggestions.taluk.map((item) => (
+                    <option value={item} key={item} />
+                  ))}
+                </datalist>
+                {suggestionLoading === "taluk" && (
+                  <small>Finding taluk suggestions...</small>
+                )}
               </label>
 
-              <button className="wr-primary-button" type="submit" disabled={loading}>
+              <label className="wr-field">
+                <span>Village / Current Place</span>
+                <input
+                  list="wr-village-options"
+                  value={village}
+                  onChange={(event) => setVillage(event.target.value)}
+                  onBlur={() => getSuggestions("village", village)}
+                  onKeyUp={() => getSuggestions("village", village)}
+                  placeholder="Enter village or nearby place"
+                  autoComplete="off"
+                />
+                <datalist id="wr-village-options">
+                  {suggestions.village.map((item) => (
+                    <option value={item} key={item} />
+                  ))}
+                </datalist>
+                {suggestionLoading === "village" && (
+                  <small>Finding village suggestions...</small>
+                )}
+              </label>
+
+              <button
+                type="submit"
+                className="wr-primary-button"
+                disabled={loading || locationLoading}
+              >
                 {loading ? <FaSpinner className="wr-spin" /> : <FaSearch />}
-                {loading ? "Fetching weather..." : "Get Local Weather"}
+                {loading ? "Fetching weather..." : "Get Weather Data"}
+              </button>
+
+              <button
+                type="button"
+                className="wr-primary-button wr-location-button"
+                onClick={useLiveLocation}
+                disabled={loading || locationLoading}
+              >
+                {locationLoading ? (
+                  <FaSpinner className="wr-spin" />
+                ) : (
+                  <FaLocationArrow />
+                )}
+                {locationLoading ? "Detecting location..." : "Use Live Location"}
               </button>
             </form>
 
@@ -350,11 +729,12 @@ export default function WeatherRecommendation() {
 
             <p className="wr-data-note">
               <FaInfoCircle />
-              Weather is retrieved from Open-Meteo when you search. Soil details
-              are entered by you and are not laboratory measurements.
+              Location suggestions are provided by OpenStreetMap.
+              Weather data is retrieved from Open-Meteo.
             </p>
           </section>
 
+          {/* CURRENT WEATHER */}
           <section className="wr-section" id="wr-current-weather">
             <div className="wr-section-heading">
               <div>
@@ -363,17 +743,19 @@ export default function WeatherRecommendation() {
                 <p>
                   {searched
                     ? locationName
-                    : "Search for a location to view its current weather."}
+                    : "Select a location to view current weather."}
                 </p>
               </div>
-              {searched && <span className="wr-data-badge">API data</span>}
+              {searched && (
+                <span className="wr-data-badge">LIVE API DATA</span>
+              )}
             </div>
 
             {!weather ? (
               <div className="wr-empty-weather">
                 <FaCloudSun />
                 <strong>Weather data not loaded</strong>
-                <p>Enter a location above and select “Get Local Weather”.</p>
+                <p>Choose your location to view live weather information.</p>
               </div>
             ) : (
               <div className="wr-weather-grid">
@@ -382,166 +764,256 @@ export default function WeatherRecommendation() {
                     <FaMapMarkerAlt /> {locationName}
                   </div>
                   <div className="wr-current-summary">
-                    <currentCondition.icon />
+                    {CurrentWeatherIcon && <CurrentWeatherIcon />}
                     <div>
-                      <strong>{Math.round(weather.temperature_2m)}°C</strong>
+                      <strong>
+                        {Math.round(weather.temperature_2m)}°C
+                      </strong>
                       <span>{currentCondition.label}</span>
                     </div>
                   </div>
                   <p>
-                    Feels like {Math.round(weather.apparent_temperature)}°C
+                    Feels like{" "}
+                    {Math.round(weather.apparent_temperature)}°C
                   </p>
                 </article>
 
                 <article className="wr-metric-card">
                   <FaTint />
-                  <span>Relative humidity</span>
+                  <span>Humidity</span>
                   <strong>{weather.relative_humidity_2m}%</strong>
                 </article>
 
                 <article className="wr-metric-card">
                   <FaWind />
-                  <span>Wind speed</span>
+                  <span>Wind Speed</span>
                   <strong>{weather.wind_speed_10m} km/h</strong>
                 </article>
 
                 <article className="wr-metric-card">
                   <FaCloudRain />
-                  <span>Precipitation</span>
+                  <span>Rainfall</span>
                   <strong>{weather.precipitation} mm</strong>
                 </article>
               </div>
             )}
           </section>
 
+          {/* FORECAST */}
           <section className="wr-card" id="wr-forecast">
             <div className="wr-section-heading">
               <div>
                 <span className="wr-kicker">UPCOMING CONDITIONS</span>
                 <h2><FaCalendarAlt /> 5-Day Weather Forecast</h2>
-                <p>Forecast values are shown only after a successful API response.</p>
+                <p>Temperature, rainfall and rain probability.</p>
               </div>
             </div>
 
             {forecast.length === 0 ? (
               <div className="wr-inline-empty">
                 <FaCalendarAlt />
-                <span>Search for a location to load the five-day forecast.</span>
+                <span>Search for a location to load the forecast.</span>
               </div>
             ) : (
-              <div className="wr-forecast-grid">
-                {forecast.map((day) => {
-                  const condition = weatherCode(day.code);
-                  const WeatherIcon = condition.icon;
+              <>
+                <div className="wr-forecast-grid">
+                  {forecast.map((day, index) => {
+                    const condition = weatherCode(day.code);
+                    const WeatherIcon = condition.icon;
+
+                    return (
+                      <article className="wr-forecast-day" key={day.date}>
+                        <strong>
+                          {index === 0
+                            ? "Today"
+                            : formatDate(day.date, { weekday: "short" })}
+                        </strong>
+
+                        <span className="wr-forecast-date">
+                          {formatDate(day.date, {
+                            day: "numeric",
+                            month: "short",
+                          })}
+                        </span>
+
+                        <WeatherIcon />
+
+                        <span className="wr-forecast-condition">
+                          {condition.label}
+                        </span>
+
+                        <strong className="wr-forecast-temperatures">
+                          {day.max == null ? "—" : `${Math.round(day.max)}°`}
+                          {" / "}
+                          {day.min == null ? "—" : `${Math.round(day.min)}°`}
+                        </strong>
+
+                        <span className="wr-forecast-detail">
+                          <FaCloudRain />
+                          {day.rainChance == null ? "—" : `${day.rainChance}%`}
+                        </span>
+
+                        <span className="wr-forecast-detail">
+                          Rain: {day.rainfall == null ? "—" : `${day.rainfall} mm`}
+                        </span>
+                      </article>
+                    );
+                  })}
+                </div>
+
+                <div className="wr-requirement-grid">
+                  <div>
+                    <FaCalendarAlt />
+                    <strong>Tomorrow</strong>
+                    <span>
+                      {tomorrow
+                        ? `${Math.round(tomorrow.min)}°–${Math.round(tomorrow.max)}°C · Rain ${tomorrow.rainChance ?? "—"}%`
+                        : "Forecast unavailable"}
+                    </span>
+                  </div>
+                  <div>
+                    <FaCalendarAlt />
+                    <strong>Day After Tomorrow</strong>
+                    <span>
+                      {dayAfterTomorrow
+                        ? `${Math.round(dayAfterTomorrow.min)}°–${Math.round(dayAfterTomorrow.max)}°C · Rain ${dayAfterTomorrow.rainChance ?? "—"}%`
+                        : "Forecast unavailable"}
+                    </span>
+                  </div>
+                </div>
+              </>
+            )}
+
+            <p className="wr-footnote">
+              Forecasts can change. Check local agricultural advisories
+              before making farming decisions.
+            </p>
+          </section>
+
+          {/* WEATHER INSIGHTS */}
+          <section className="wr-card" id="wr-insights">
+            <div className="wr-section-heading">
+              <div>
+                <span className="wr-kicker">WEATHER ANALYSIS</span>
+                <h2><FaChartLine /> Key Weather Insights</h2>
+                <p>Insights calculated from the retrieved weather forecast.</p>
+              </div>
+            </div>
+
+            {insights.length === 0 ? (
+              <div className="wr-inline-empty">
+                <FaChartLine />
+                <span>Weather insights will appear after a location search.</span>
+              </div>
+            ) : (
+              <div className="wr-requirement-grid">
+                {insights.map((item, index) => {
+                  const InsightIcon = item.icon;
 
                   return (
-                    <article className="wr-forecast-day" key={day.date}>
-                      <strong>
-                        {new Date(`${day.date}T12:00:00`).toLocaleDateString(
-                          "en-IN",
-                          { weekday: "short" }
-                        )}
-                      </strong>
-                      <span className="wr-forecast-date">
-                        {new Date(`${day.date}T12:00:00`).toLocaleDateString(
-                          "en-IN",
-                          { day: "numeric", month: "short" }
-                        )}
-                      </span>
-                      <WeatherIcon />
-                      <span className="wr-forecast-condition">{condition.label}</span>
-                      <strong className="wr-forecast-temperatures">
-                        {day.max == null ? "—" : `${Math.round(day.max)}°`}
-                        {" / "}
-                        {day.min == null ? "—" : `${Math.round(day.min)}°`}
-                      </strong>
-                      <span className="wr-forecast-detail">
-                        <FaCloudRain /> {day.rainChance == null ? "—" : `${day.rainChance}%`}
-                      </span>
-                      <span className="wr-forecast-detail">
-                        Rain: {day.rainfall == null ? "—" : `${day.rainfall} mm`}
-                      </span>
-                    </article>
+                    <div key={index}>
+                      <InsightIcon />
+                      <span>{item.text}</span>
+                    </div>
                   );
                 })}
               </div>
             )}
-
-            <p className="wr-footnote">
-              Forecasts can change. Use local agricultural advisories before
-              making planting or irrigation decisions.
-            </p>
           </section>
 
-          <section className="wr-card" id="wr-soil">
-            <div className="wr-section-heading">
-              <div>
-                <span className="wr-kicker">FARM CONDITIONS</span>
-                <h2><FaMountain /> Soil Information</h2>
-                <p>Review the details you entered for this planning session.</p>
-              </div>
-            </div>
-
-            <div className="wr-soil-grid">
-              <div><FaMountain /><span>Soil type</span><strong>{soilType || "Not provided"}</strong></div>
-              <div><FaTint /><span>Soil pH</span><strong>{soilPH ? `${soilPH} (user entered)` : "Not provided"}</strong></div>
-              <div><FaWater /><span>Water availability</span><strong>{waterAvailability || "Not provided"}</strong></div>
-              <div><FaSeedling /><span>Land type</span><strong>{landType || "Not provided"}</strong></div>
-              <div><FaLeaf /><span>Farm area</span><strong>{area ? `${area} acres (user entered)` : "Not provided"}</strong></div>
-            </div>
-
-            <div className="wr-data-note">
-              <FaInfoCircle />
-              <span>
-                For accurate soil-based advice, use a soil-test report and
-                locally validated agronomic guidance. Selecting a soil type
-                here does not verify its properties.
-              </span>
-            </div>
-          </section>
-
+          {/* CROP RECOMMENDATIONS */}
           <section className="wr-card" id="wr-crop-requirements">
             <div className="wr-section-heading">
               <div>
-                <span className="wr-kicker">DECISION SUPPORT</span>
+                <span className="wr-kicker">CROP DECISION SUPPORT</span>
                 <h2><FaSeedling /> Recommended Crops</h2>
-                <p>Crop suitability results will appear after the recommendation engine is implemented.</p>
-              </div>
-            </div>
-
-            <div className="wr-recommendation-pending">
-              <div className="wr-pending-icon"><FaSeedling /></div>
-              <div>
-                <strong>Crop recommendation engine not connected</strong>
                 <p>
-                  No crops are ranked or presented as suitable yet. The next
-                  step is to integrate validated crop requirements, regional
-                  growing seasons, soil conditions, water needs, and weather
-                  rules.
+                  Weather-based information for your selected location.
                 </p>
               </div>
             </div>
 
-            <div className="wr-requirement-grid">
-              <div><FaCloudSun /><strong>Weather suitability</strong><span>Requires defined crop-specific thresholds.</span></div>
-              <div><FaMountain /><strong>Soil compatibility</strong><span>Requires verified soil and crop requirements.</span></div>
-              <div><FaWater /><strong>Water requirements</strong><span>Requires local irrigation and rainfall criteria.</span></div>
-            </div>
+            {!searched ? (
+              <div className="wr-inline-empty">
+                <FaSeedling />
+                <span>
+                  Select a location and load weather to view crop guidance.
+                </span>
+              </div>
+            ) : (
+              <>
+                <div className="wr-recommendation-pending">
+                  <div className="wr-pending-icon">
+                    <FaInfoCircle />
+                  </div>
+                  <div>
+                    <strong>Preliminary weather guidance</strong>
+                    <p>
+                      These crops are shown for weather-context review.
+                      This is not a validated crop suitability ranking.
+                      Check soil, elevation, variety and local growing
+                      conditions before choosing a crop.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="wr-crop-grid">
+                  {CROPS.map((crop) => (
+                    <article className="wr-crop-card" key={crop.name}>
+                      <div className="wr-crop-image-placeholder">
+                        <span>{crop.icon}</span>
+                      </div>
+                      <h3>{crop.name}</h3>
+                      <p>{crop.description}</p>
+                      <span className="wr-crop-status">
+                        Requires local verification
+                      </span>
+                    </article>
+                  ))}
+                </div>
+              </>
+            )}
           </section>
 
-          <section className="wr-card" id="wr-saved">
+          {/* ADDITIONAL RECOMMENDATIONS */}
+          <section className="wr-card">
             <div className="wr-section-heading">
               <div>
-                <span className="wr-kicker">YOUR RECORDS</span>
-                <h2><FaHistory /> Saved Recommendations</h2>
+                <span className="wr-kicker">FARMER GUIDANCE</span>
+                <h2><FaLeaf /> Additional Recommendations</h2>
               </div>
             </div>
-            <div className="wr-inline-empty">
-              <FaHistory />
-              <span>No saved recommendations. Persistent storage has not been implemented.</span>
+
+            <div className="wr-requirement-grid">
+              <div>
+                <FaTint />
+                <strong>Monitor rainfall</strong>
+                <span>Check actual rainfall before irrigation decisions.</span>
+              </div>
+              <div>
+                <FaWater />
+                <strong>Check drainage</strong>
+                <span>Prevent waterlogging during heavy rainfall.</span>
+              </div>
+              <div>
+                <FaSeedling />
+                <strong>Monitor crops</strong>
+                <span>Inspect crops regularly for pests and diseases.</span>
+              </div>
+              <div>
+                <FaCloudSun />
+                <strong>Check forecasts</strong>
+                <span>Review updated forecasts before field activities.</span>
+              </div>
+              <div>
+                <FaInfoCircle />
+                <strong>Local advice</strong>
+                <span>Follow local agricultural department advisories.</span>
+              </div>
             </div>
           </section>
 
+          {/* FAQ */}
           <section className="wr-card" id="wr-faqs">
             <div className="wr-section-heading">
               <div>
@@ -550,16 +1022,21 @@ export default function WeatherRecommendation() {
               </div>
             </div>
 
-            {faqs.map((item, index) => (
+            {FAQS.map((item, index) => (
               <div className="wr-faq" key={item.q}>
                 <button
                   type="button"
                   aria-expanded={expandedFaq === index}
-                  onClick={() => setExpandedFaq(expandedFaq === index ? -1 : index)}
+                  onClick={() =>
+                    setExpandedFaq(expandedFaq === index ? -1 : index)
+                  }
                 >
                   <span>{item.q}</span>
-                  <FaChevronDown className={expandedFaq === index ? "rotated" : ""} />
+                  <FaChevronDown
+                    className={expandedFaq === index ? "rotated" : ""}
+                  />
                 </button>
+
                 {expandedFaq === index && <p>{item.a}</p>}
               </div>
             ))}
@@ -567,7 +1044,7 @@ export default function WeatherRecommendation() {
 
           <footer className="wr-footer">
             <span>KisanVision AI · BAI586 academic mini-project</span>
-            <span>Weather: Open-Meteo · Crop recommendations: not yet connected</span>
+            <span>Weather: Open-Meteo · Location: OpenStreetMap</span>
           </footer>
         </main>
       </div>
