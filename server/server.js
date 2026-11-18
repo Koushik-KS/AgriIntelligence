@@ -13,9 +13,11 @@ import predictionHistoryRoutes from "./routes/predictionHistory.js";
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
+
 const CLIENT_ORIGIN =
   process.env.CLIENT_ORIGIN || "http://localhost:5173";
 
+// Validate required environment variables
 if (!process.env.MONGODB_URI) {
   throw new Error("MONGODB_URI is missing from server/.env");
 }
@@ -26,9 +28,11 @@ if (!process.env.JWT_SECRET || process.env.JWT_SECRET.length < 32) {
   );
 }
 
+// Security middleware
 app.disable("x-powered-by");
 app.use(helmet());
 
+// CORS configuration
 app.use(
   cors({
     origin: CLIENT_ORIGIN,
@@ -36,9 +40,11 @@ app.use(
   })
 );
 
+// Request middleware
 app.use(express.json({ limit: "10kb" }));
 app.use(cookieParser());
 
+// Health check
 app.get("/api/health", (_req, res) => {
   res.json({
     success: true,
@@ -46,6 +52,7 @@ app.get("/api/health", (_req, res) => {
   });
 });
 
+// Authentication rate limiter
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   limit: 100,
@@ -57,13 +64,12 @@ const authLimiter = rateLimit({
   },
 });
 
+// API routes
 app.use("/api/auth", authLimiter, authRoutes);
-
 app.use("/api/research", coffeeResearchRoutes);
-
-// Prediction History routes
 app.use("/api/history", predictionHistoryRoutes);
 
+// 404 handler
 app.use((req, res) => {
   res.status(404).json({
     success: false,
@@ -71,6 +77,7 @@ app.use((req, res) => {
   });
 });
 
+// Global error handler
 app.use((err, _req, res, _next) => {
   console.error("Server error:", err.message);
 
@@ -94,21 +101,22 @@ app.use((err, _req, res, _next) => {
   });
 });
 
+// Start server and connect MongoDB
 async function startServer() {
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
       serverSelectionTimeoutMS: 10000,
     });
 
-    console.log("✅ Connected to MongoDB Atlas");
+    console.log("Connected to MongoDB Atlas");
 
     app.listen(PORT, () => {
       console.log(
-        `✅ KisanVision AI auth server running at http://localhost:${PORT}`
+        `KisanVision AI authentication server running on port ${PORT}`
       );
     });
   } catch (error) {
-    console.error("❌ Startup failed:", error.message);
+    console.error("Startup failed:", error.message);
     process.exit(1);
   }
 }
