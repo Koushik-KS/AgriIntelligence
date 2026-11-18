@@ -11,12 +11,14 @@ from PIL import Image, UnidentifiedImageError
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
+
 # ---------------- PATHS ----------------
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "outputs"
 
 MODEL_PATH = OUTPUT_DIR / "coffee_best_updated.keras"
 LABELS_PATH = OUTPUT_DIR / "coffee_class_names.json"
+
 
 # ---------------- SETTINGS ----------------
 IMAGE_SIZE = (160, 160)
@@ -31,11 +33,13 @@ ALLOWED_IMAGE_FORMATS = {"JPEG", "PNG", "WEBP"}
 
 app = FastAPI(title="KisanVision AI - Coffee Prediction API")
 
+# ---------------- CORS ----------------
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://miniproject1-eta-one.vercel.app",
     ],
     allow_credentials=False,
     allow_methods=["GET", "POST", "OPTIONS"],
