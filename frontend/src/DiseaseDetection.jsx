@@ -11,40 +11,41 @@ import {
 import "./DiseaseDetection.css";
 
 // --------------------------------------------------
-// API CONFIGURATION
+// API CONFIGURATION - PRODUCTION (RENDER)
 // --------------------------------------------------
 
 const API_CONFIG = {
   Coffee: {
     prediction: import.meta.env.VITE_COFFEE_API_URL ||
-      "http://127.0.0.1:8000/predict/coffee",
-    health: "http://127.0.0.1:8000/health",
+      "https://kisanvision-coffee-api.onrender.com/predict/coffee",
+    health: "https://kisanvision-coffee-api.onrender.com/health",
   },
   Arecanut: {
     prediction: import.meta.env.VITE_ARECANUT_API_URL ||
-      "http://127.0.0.1:8001/predict/arecanut",
-    health: "http://127.0.0.1:8001/health",
+      "https://kisanvision-arecanut-api.onrender.com/predict/arecanut",
+    health: "https://kisanvision-arecanut-api.onrender.com/health",
   },
   Cardamom: {
     prediction: import.meta.env.VITE_CARDAMOM_API_URL ||
-      "http://127.0.0.1:8002/predict/cardamom",
-    health: "http://127.0.0.1:8002/health",
+      "https://kisanvision-cardamom-api.onrender.com/predict/cardamom",
+    health: "https://kisanvision-cardamom-api.onrender.com/health",
   },
   Ginger: {
     prediction: import.meta.env.VITE_GINGER_API_URL ||
-      "http://127.0.0.1:8003/predict/ginger",
-    health: "http://127.0.0.1:8003/health",
+      "https://kisanvision-ginger-api.onrender.com/predict/ginger",
+    health: "https://kisanvision-ginger-api.onrender.com/health",
   },
 };
 
 const COFFEE_RESEARCH_URL =
   import.meta.env.VITE_COFFEE_RESEARCH_URL ||
-  "http://localhost:5000/api/research/coffee";
+  "https://kisanvision-node-api.onrender.com/api/research/coffee";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp"];
 const HISTORY_API_URL =
-  import.meta.env.VITE_AUTH_API_URL || "http://localhost:5000/api";
+  import.meta.env.VITE_AUTH_API_URL ||
+  "https://kisanvision-node-api.onrender.com/api";
 
 const CROPS = [
   { id: "Coffee", scientific: "Coffea spp.", connected: true },
