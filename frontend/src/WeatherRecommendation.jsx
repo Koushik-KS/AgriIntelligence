@@ -26,6 +26,13 @@ import {
 } from "react-icons/fa";
 import "./WeatherRecommendation.css";
 
+// Weather and location data are fetched directly from these public services.
+// This component does not require a Render backend URL.
+const OPEN_METEO_FORECAST_URL = "https://api.open-meteo.com/v1/forecast";
+const OPEN_METEO_GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search";
+const OPEN_STREET_MAP_SEARCH_URL = "https://nominatim.openstreetmap.org/search";
+const OPEN_STREET_MAP_REVERSE_URL = "https://nominatim.openstreetmap.org/reverse";
+
 const STATES = [
   "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar",
   "Chhattisgarh", "Goa", "Gujarat", "Haryana",
@@ -175,7 +182,7 @@ export default function WeatherRecommendation() {
       const query = [value, state, "India"].filter(Boolean).join(", ");
 
       const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=8&q=${encodeURIComponent(query)}`
+        `${OPEN_STREET_MAP_SEARCH_URL}?format=jsonv2&addressdetails=1&limit=8&q=${encodeURIComponent(query)}`
       );
 
       if (!response.ok) throw new Error("Location suggestions unavailable.");
@@ -251,7 +258,7 @@ export default function WeatherRecommendation() {
       });
 
       const response = await fetch(
-        `https://api.open-meteo.com/v1/forecast?${params.toString()}`
+        `${OPEN_METEO_FORECAST_URL}?${params.toString()}`
       );
 
       if (!response.ok) {
@@ -304,7 +311,7 @@ export default function WeatherRecommendation() {
 
     try {
       const response = await fetch(
-        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(placeQuery)}&count=10&language=en&format=json`
+        `${OPEN_METEO_GEOCODING_URL}?name=${encodeURIComponent(placeQuery)}&count=10&language=en&format=json`
       );
 
       if (!response.ok) {
@@ -364,7 +371,7 @@ export default function WeatherRecommendation() {
 
         try {
           const response = await fetch(
-            `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${latitude}&lon=${longitude}&zoom=10&addressdetails=1`
+            `${OPEN_STREET_MAP_REVERSE_URL}?format=jsonv2&lat=${latitude}&lon=${longitude}&zoom=10&addressdetails=1`
           );
 
           const data = await response.json();

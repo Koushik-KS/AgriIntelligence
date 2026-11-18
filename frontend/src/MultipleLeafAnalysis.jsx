@@ -15,23 +15,22 @@ const CROPS = ["Coffee", "Arecanut", "Cardamom", "Ginger"];
 
 const API_CONFIG = {
   Coffee: {
-    url: import.meta.env.VITE_COFFEE_API_URL || "http://127.0.0.1:8000",
+    url: import.meta.env.VITE_COFFEE_API_URL || "https://kisanvision-coffee-api.onrender.com",
     endpoint: "/predict/coffee",
   },
   Arecanut: {
-    url: import.meta.env.VITE_ARECANUT_API_URL || "http://127.0.0.1:8001",
+    url: import.meta.env.VITE_ARECANUT_API_URL || "https://kisanvision-arecanut-api.onrender.com",
     endpoint: "/predict/arecanut",
   },
   Cardamom: {
-    url: import.meta.env.VITE_CARDAMOM_API_URL || "http://127.0.0.1:8002",
+    url: import.meta.env.VITE_CARDAMOM_API_URL || "https://kisanvision-cardamom-api.onrender.com",
     endpoint: "/predict/cardamom",
   },
   Ginger: {
-    url: import.meta.env.VITE_GINGER_API_URL || "http://127.0.0.1:8003",
+    url: import.meta.env.VITE_GINGER_API_URL || "https://kisanvision-ginger-api.onrender.com",
     endpoint: "/predict/ginger",
   },
 };
-
 const menuItems = [
   { label: "Analyze Multiple Leaves", icon: FaImages, target: "mla-upload" },
   { label: "Supported Crops", icon: FaSeedling, target: "mla-crops" },

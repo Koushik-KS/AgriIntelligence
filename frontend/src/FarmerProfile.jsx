@@ -9,8 +9,10 @@ import {
 import "./FarmerProfile.css";
 
 // Change this value only if your backend uses a different API address.
-const API_BASE =
-  import.meta.env.VITE_AUTH_API_URL || "http://localhost:5000/api";
+const API_BASE = (
+  import.meta.env.VITE_AUTH_API_URL ||
+  "https://kisanvision-node-api.onrender.com/api"
+).replace(/\/+$/, "");
 
 const cropOptions = ["Coffee", "Arecanut", "Ginger", "Cardamom"];
 

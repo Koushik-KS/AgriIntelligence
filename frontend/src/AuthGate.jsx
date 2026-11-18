@@ -12,10 +12,13 @@ import { useSearchParams } from "react-router-dom";
 import App from "./App";
 import "./Auth.css";
 
+// Backend API configuration
 const API_URL = (
-  import.meta.env.VITE_API_URL || "http://localhost:5000"
+  import.meta.env.VITE_API_URL ||
+  "https://kisanvision-node-api.onrender.com"
 ).replace(/\/$/, "");
 
+// Common authentication request
 async function authRequest(path, options = {}) {
   const response = await fetch(`${API_URL}/api/auth${path}`, {
     ...options,
@@ -37,25 +40,32 @@ async function authRequest(path, options = {}) {
 
 export default function AuthGate() {
   const [searchParams, setSearchParams] = useSearchParams();
+
   const resetToken = searchParams.get("token");
-  const isResetRoute = window.location.pathname === "/reset-password";
+  const isResetRoute =
+    window.location.pathname === "/reset-password";
 
   const [user, setUser] = useState(null);
   const [checking, setChecking] = useState(true);
   const [mode, setMode] = useState("login");
+
   const [form, setForm] = useState({
     fullName: "",
     email: "",
     phone: "",
     password: "",
   });
+
   const [resetPassword, setResetPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+
   const [message, setMessage] = useState("");
   const [notice, setNotice] = useState("");
+
   const [busy, setBusy] = useState(false);
   const [resetComplete, setResetComplete] = useState(false);
 
+  // Check existing login session
   useEffect(() => {
     let active = true;
 
@@ -82,18 +92,25 @@ export default function AuthGate() {
     }));
   }
 
+  // Login and registration
   async function handleSubmit(event) {
     event.preventDefault();
+
     setMessage("");
     setNotice("");
     setBusy(true);
 
     try {
-      const path = mode === "register" ? "/register" : "/login";
+      const path =
+        mode === "register" ? "/register" : "/login";
+
       const payload =
         mode === "register"
           ? form
-          : { email: form.email, password: form.password };
+          : {
+              email: form.email,
+              password: form.password,
+            };
 
       const data = await authRequest(path, {
         method: "POST",
@@ -108,8 +125,10 @@ export default function AuthGate() {
     }
   }
 
+  // Forgot password
   async function handleForgotPassword(event) {
     event.preventDefault();
+
     setMessage("");
     setNotice("");
     setBusy(true);
@@ -117,8 +136,11 @@ export default function AuthGate() {
     try {
       const data = await authRequest("/forgot-password", {
         method: "POST",
-        body: JSON.stringify({ email: form.email }),
+        body: JSON.stringify({
+          email: form.email,
+        }),
       });
+
       setNotice(data.message);
     } catch (error) {
       setMessage(error.message);
@@ -127,13 +149,17 @@ export default function AuthGate() {
     }
   }
 
+  // Reset password
   async function handleResetPassword(event) {
     event.preventDefault();
+
     setMessage("");
     setNotice("");
 
     if (!resetToken) {
-      setMessage("This reset link is missing its token. Request a new link.");
+      setMessage(
+        "This reset link is missing its token. Request a new link."
+      );
       return;
     }
 
@@ -155,8 +181,10 @@ export default function AuthGate() {
 
       setResetComplete(true);
       setNotice(data.message);
+
       setResetPassword("");
       setConfirmPassword("");
+
       setSearchParams({});
     } catch (error) {
       setMessage(error.message);
@@ -165,11 +193,15 @@ export default function AuthGate() {
     }
   }
 
+  // Logout
   async function handleLogout() {
     try {
-      await authRequest("/logout", { method: "POST" });
+      await authRequest("/logout", {
+        method: "POST",
+      });
     } finally {
       setUser(null);
+
       setForm({
         fullName: "",
         email: "",
@@ -180,9 +212,14 @@ export default function AuthGate() {
   }
 
   if (checking) {
-    return <div className="auth-loading">Checking your KisanVision AI session…</div>;
+    return (
+      <div className="auth-loading">
+        Checking your KisanVision AI session…
+      </div>
+    );
   }
 
+  // Logged-in user dashboard
   if (user && !isResetRoute) {
     return (
       <>
@@ -190,21 +227,28 @@ export default function AuthGate() {
           <span>
             Signed in as <strong>{user.fullName}</strong>
           </span>
-          <button type="button" onClick={handleLogout}>
+
+          <button
+            type="button"
+            onClick={handleLogout}
+          >
             <FiLogOut /> Sign out
           </button>
         </div>
+
         <App />
       </>
     );
   }
 
+  // Password reset page
   if (isResetRoute) {
     return (
       <main className="auth-page">
         <section className="auth-card">
           <div className="auth-brand">
             <div className="auth-logo">K</div>
+
             <div>
               <h1>KisanVision AI</h1>
               <p>Secure password recovery</p>
@@ -214,8 +258,13 @@ export default function AuthGate() {
           {resetComplete ? (
             <>
               <FiCheckCircle size={36} color="#166534" />
+
               <h2>Password updated</h2>
-              <p className="auth-subtitle">{notice}</p>
+
+              <p className="auth-subtitle">
+                {notice}
+              </p>
+
               <button
                 className="auth-submit"
                 type="button"
@@ -230,16 +279,25 @@ export default function AuthGate() {
           ) : (
             <>
               <h2>Choose a new password</h2>
+
               <p className="auth-subtitle">
                 Your reset link is valid for 15 minutes and can be used once.
               </p>
 
-              {message && <div className="auth-message" role="alert">{message}</div>}
+              {message && (
+                <div className="auth-message" role="alert">
+                  {message}
+                </div>
+              )}
 
               <form onSubmit={handleResetPassword}>
-                <label htmlFor="newPassword">New password</label>
+                <label htmlFor="newPassword">
+                  New password
+                </label>
+
                 <div className="auth-input-wrap">
                   <FiLock />
+
                   <input
                     id="newPassword"
                     type="password"
@@ -247,14 +305,20 @@ export default function AuthGate() {
                     minLength={8}
                     maxLength={72}
                     value={resetPassword}
-                    onChange={(event) => setResetPassword(event.target.value)}
+                    onChange={(event) =>
+                      setResetPassword(event.target.value)
+                    }
                     required
                   />
                 </div>
 
-                <label htmlFor="confirmPassword">Confirm new password</label>
+                <label htmlFor="confirmPassword">
+                  Confirm new password
+                </label>
+
                 <div className="auth-input-wrap">
                   <FiLock />
+
                   <input
                     id="confirmPassword"
                     type="password"
@@ -262,13 +326,21 @@ export default function AuthGate() {
                     minLength={8}
                     maxLength={72}
                     value={confirmPassword}
-                    onChange={(event) => setConfirmPassword(event.target.value)}
+                    onChange={(event) =>
+                      setConfirmPassword(event.target.value)
+                    }
                     required
                   />
                 </div>
 
-                <button className="auth-submit" disabled={busy} type="submit">
-                  {busy ? "Updating password…" : "Update password"}
+                <button
+                  className="auth-submit"
+                  disabled={busy}
+                  type="submit"
+                >
+                  {busy
+                    ? "Updating password…"
+                    : "Update password"}
                 </button>
               </form>
             </>
@@ -278,11 +350,13 @@ export default function AuthGate() {
     );
   }
 
+  // Login, signup and forgot-password pages
   return (
     <main className="auth-page">
       <section className="auth-card">
         <div className="auth-brand">
           <div className="auth-logo">K</div>
+
           <div>
             <h1>KisanVision AI</h1>
             <p>Intelligent Crop Health Assessment</p>
@@ -292,17 +366,31 @@ export default function AuthGate() {
         {mode === "forgot" ? (
           <>
             <h2>Forgot your password?</h2>
+
             <p className="auth-subtitle">
               Enter your registered email to request a reset link.
             </p>
 
-            {message && <div className="auth-message" role="alert">{message}</div>}
-            {notice && <div className="auth-notice" role="status">{notice}</div>}
+            {message && (
+              <div className="auth-message" role="alert">
+                {message}
+              </div>
+            )}
+
+            {notice && (
+              <div className="auth-notice" role="status">
+                {notice}
+              </div>
+            )}
 
             <form onSubmit={handleForgotPassword}>
-              <label htmlFor="forgotEmail">Email address</label>
+              <label htmlFor="forgotEmail">
+                Email address
+              </label>
+
               <div className="auth-input-wrap">
                 <FiMail />
+
                 <input
                   id="forgotEmail"
                   type="email"
@@ -310,13 +398,20 @@ export default function AuthGate() {
                   placeholder="you@example.com"
                   value={form.email}
                   onChange={(event) =>
-                    setForm((current) => ({ ...current, email: event.target.value }))
+                    setForm((current) => ({
+                      ...current,
+                      email: event.target.value,
+                    }))
                   }
                   required
                 />
               </div>
 
-              <button className="auth-submit" type="submit" disabled={busy}>
+              <button
+                className="auth-submit"
+                type="submit"
+                disabled={busy}
+              >
                 {busy ? "Sending…" : "Send reset link"}
               </button>
             </form>
@@ -335,7 +430,12 @@ export default function AuthGate() {
           </>
         ) : (
           <>
-            <h2>{mode === "register" ? "Create your account" : "Welcome back"}</h2>
+            <h2>
+              {mode === "register"
+                ? "Create your account"
+                : "Welcome back"}
+            </h2>
+
             <p className="auth-subtitle">
               Sign in to access your crop assessment dashboard.
             </p>
@@ -352,6 +452,7 @@ export default function AuthGate() {
               >
                 Sign in
               </button>
+
               <button
                 type="button"
                 className={mode === "register" ? "active" : ""}
@@ -365,14 +466,22 @@ export default function AuthGate() {
               </button>
             </div>
 
-            {message && <div className="auth-message" role="alert">{message}</div>}
+            {message && (
+              <div className="auth-message" role="alert">
+                {message}
+              </div>
+            )}
 
             <form onSubmit={handleSubmit}>
               {mode === "register" && (
                 <>
-                  <label htmlFor="fullName">Full name</label>
+                  <label htmlFor="fullName">
+                    Full name
+                  </label>
+
                   <div className="auth-input-wrap">
                     <FiUser />
+
                     <input
                       id="fullName"
                       name="fullName"
@@ -386,7 +495,10 @@ export default function AuthGate() {
                     />
                   </div>
 
-                  <label htmlFor="phone">Phone number (optional)</label>
+                  <label htmlFor="phone">
+                    Phone number (optional)
+                  </label>
+
                   <input
                     id="phone"
                     name="phone"
@@ -400,9 +512,13 @@ export default function AuthGate() {
                 </>
               )}
 
-              <label htmlFor="email">Email address</label>
+              <label htmlFor="email">
+                Email address
+              </label>
+
               <div className="auth-input-wrap">
                 <FiMail />
+
                 <input
                   id="email"
                   name="email"
@@ -416,18 +532,32 @@ export default function AuthGate() {
                 />
               </div>
 
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password">
+                Password
+              </label>
+
               <div className="auth-input-wrap">
                 <FiLock />
+
                 <input
                   id="password"
                   name="password"
                   type="password"
-                  autoComplete={mode === "register" ? "new-password" : "current-password"}
-                  placeholder={mode === "register" ? "At least 8 characters" : "Enter your password"}
+                  autoComplete={
+                    mode === "register"
+                      ? "new-password"
+                      : "current-password"
+                  }
+                  placeholder={
+                    mode === "register"
+                      ? "At least 8 characters"
+                      : "Enter your password"
+                  }
                   value={form.password}
                   onChange={updateField}
-                  minLength={mode === "register" ? 8 : undefined}
+                  minLength={
+                    mode === "register" ? 8 : undefined
+                  }
                   maxLength={72}
                   required
                 />
@@ -447,8 +577,16 @@ export default function AuthGate() {
                 </button>
               )}
 
-              <button className="auth-submit" type="submit" disabled={busy}>
-                {busy ? "Please wait…" : mode === "register" ? "Create account" : "Sign in securely"}
+              <button
+                className="auth-submit"
+                type="submit"
+                disabled={busy}
+              >
+                {busy
+                  ? "Please wait…"
+                  : mode === "register"
+                    ? "Create account"
+                    : "Sign in securely"}
               </button>
             </form>
 

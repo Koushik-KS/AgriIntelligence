@@ -18,9 +18,14 @@ import {
 } from "react-icons/fa";
 import "./PredictionHistory.css";
 
-const HISTORY_API_URL =
-  (import.meta.env.VITE_AUTH_API_URL || "http://localhost:5000/api") +
-  "/history";
+const HISTORY_API_URL = `${
+  (
+    import.meta.env.VITE_AUTH_API_URL ||
+    "https://kisanvision-node-api.onrender.com/api"
+  ).replace(/\/+$/, "")
+}/history`;
+
+
 
 const historyNavigation = [
   { label: "All Analyses", icon: FaHistory, value: "All" },
