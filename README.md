@@ -263,7 +263,7 @@ Configure backend secrets and database credentials securely in Render. Never com
 **Koushik KS Shetty**
 
 - GitHub: https://github.com/Koushik-KS
-- Repository: https://github.com/Koushik-KS/Miniproject
+- Repository: https://github.com/Koushik-KS/AgriIntelligence.git
 - Project: KisanVision AI
 
 ## Project Objective
