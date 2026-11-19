@@ -10,30 +10,22 @@ import {
 
 import "./DiseaseDetection.css";
 
-// --------------------------------------------------
-// API CONFIGURATION - PRODUCTION (RENDER)
-// --------------------------------------------------
-
 const API_CONFIG = {
   Coffee: {
-    prediction: import.meta.env.VITE_COFFEE_API_URL ||
-      "https://kisanvision-coffee-api.onrender.com/predict/coffee",
-    health: "https://kisanvision-coffee-api.onrender.com/health",
+    prediction: `${(import.meta.env.VITE_COFFEE_API_URL || "https://kisanvision-coffee-api.onrender.com").replace(/\/+$/, "")}/predict/coffee`,
+    health: `${(import.meta.env.VITE_COFFEE_API_URL || "https://kisanvision-coffee-api.onrender.com").replace(/\/+$/, "")}/health`,
   },
   Arecanut: {
-    prediction: import.meta.env.VITE_ARECANUT_API_URL ||
-      "https://kisanvision-arecanut-api.onrender.com/predict/arecanut",
-    health: "https://kisanvision-arecanut-api.onrender.com/health",
+    prediction: `${(import.meta.env.VITE_ARECANUT_API_URL || "https://kisanvision-arecanut-api.onrender.com").replace(/\/+$/, "")}/predict/arecanut`,
+    health: `${(import.meta.env.VITE_ARECANUT_API_URL || "https://kisanvision-arecanut-api.onrender.com").replace(/\/+$/, "")}/health`,
   },
   Cardamom: {
-    prediction: import.meta.env.VITE_CARDAMOM_API_URL ||
-      "https://kisanvision-cardamom-api.onrender.com/predict/cardamom",
-    health: "https://kisanvision-cardamom-api.onrender.com/health",
+    prediction: `${(import.meta.env.VITE_CARDAMOM_API_URL || "https://kisanvision-cardamom-api.onrender.com").replace(/\/+$/, "")}/predict/cardamom`,
+    health: `${(import.meta.env.VITE_CARDAMOM_API_URL || "https://kisanvision-cardamom-api.onrender.com").replace(/\/+$/, "")}/health`,
   },
   Ginger: {
-    prediction: import.meta.env.VITE_GINGER_API_URL ||
-      "https://kisanvision-ginger-api.onrender.com/predict/ginger",
-    health: "https://kisanvision-ginger-api.onrender.com/health",
+    prediction: `${(import.meta.env.VITE_GINGER_API_URL || "https://kisanvision-ginger-api.onrender.com").replace(/\/+$/, "")}/predict/ginger`,
+    health: `${(import.meta.env.VITE_GINGER_API_URL || "https://kisanvision-ginger-api.onrender.com").replace(/\/+$/, "")}/health`,
   },
 };
 
